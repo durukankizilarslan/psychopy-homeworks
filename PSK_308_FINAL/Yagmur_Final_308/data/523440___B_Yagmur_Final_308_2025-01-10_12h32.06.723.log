@@ -1,0 +1,37 @@
+11.2436 	INFO 	Loaded monitor calibration from ['2024_12_12 23:48']
+12.1067 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022DF99DB7F0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022DF99DB790>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022DF9ADAF70>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='deg', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.1067 	EXP 	window1: backgroundImage = ''
+12.1067 	EXP 	window1: backgroundFit = 'none'
+12.2189 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.2190 	EXP 	window1: recordFrameIntervals = False
+12.3913 	EXP 	window1: recordFrameIntervals = True
+12.5755 	EXP 	Screen (0) actual frame rate measured at 59.77Hz
+12.5756 	EXP 	window1: recordFrameIntervals = False
+14.7551 	INFO 	keyboard.Keyboard is using iohub backend.
+14.7551 	INFO 	keyboard.Keyboard is using iohub backend.
+14.7552 	INFO 	keyboard.Keyboard is using iohub backend.
+14.7552 	EXP 	Yagmur_Final_308: status = STARTED
+14.8275 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.7, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='deg', win=Window(...), wrapWidth=15.0)
+14.8314 	EXP 	Created fixationITI = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='fixationITI', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128.0, units='deg', win=Window(...))
+14.8363 	EXP 	Created fixationITI_continue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='fixationITI_continue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128.0, units='deg', win=Window(...))
+14.8374 	EXP 	Created target = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='target', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='deg', win=Window(...), wrapWidth=15.0)
+14.8407 	EXP 	Created cue = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cue', opacity=1, ori=1.0, pos=array([ 0., -2.]), size=array([1.5, 1.5]), units='deg', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.8452 	EXP 	Created fixationITI_continue_feedback = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='fixationITI_continue_feedback', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128.0, units='deg', win=Window(...))
+14.8461 	EXP 	Created text_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='text_feedback', opacity=1, ori=0.0, pos=array([0., 2.]), rgb=UNKNOWN, text='', units='deg', win=Window(...), wrapWidth=15.0)
+14.8583 	EXP 	Created text_thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0000000000000004, italic=False, languageStyle='LTR', name='text_thanks', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='deg', win=Window(...), wrapWidth=15.0)
+0.0044 	INFO 	Keyboard events cleared
+0.0042 	EXP 	text: autoDraw = True
+1.3165 	EXP 	Imported GroupB.xlsx as conditions, 2 conditions, 1 params
+1.3169 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'imagePath': 'images/gun.png', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.3478 	EXP 	Imported conditionsPosner.xlsx as conditions, 120 conditions, 7 params
+1.3487 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'word': 'death', 'color': 'red', 'cueSide': 'right', 'cueOri': 90, 'targetX': 7, 'corrAns': 'right', 'valid': 1, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.3794 	DATA 	Keypress: space
+1.3836 	EXP 	text: autoDraw = False
+1.3836 	EXP 	fixationITI: image = 'images/gun.png'
+1.3836 	EXP 	fixationITI: autoDraw = True
+2.1679 	DATA 	Keypress: escape
+2.2493 	EXP 	Yagmur_Final_308: status = STOPPED
+2.2648 	EXP 	fixationITI: autoDraw = False
+2.2649 	EXP 	Yagmur_Final_308: status = STOPPED
+2.3438 	INFO 	saved data to 'C:\\Users\\duruk\\Desktop\\Odev\\PSK_308_FINAL\\Yagmur_Final_308\\data/523440___B_Yagmur_Final_308_2025-01-10_12h32.06.723.csv'
+2.3456 	INFO 	saved data to C:\Users\duruk\Desktop\Odev\PSK_308_FINAL\Yagmur_Final_308\data/523440___B_Yagmur_Final_308_2025-01-10_12h32.06.723.psydat
