@@ -1,0 +1,16 @@
+7.9537 	INFO 	Loaded monitor calibration from ['2024_12_12 23:48']
+9.3375 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002292C1BC8B0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002292C1BC850>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002292C309F40>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.3376 	EXP 	window1: backgroundImage = ''
+9.3376 	EXP 	window1: backgroundFit = 'none'
+9.4819 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.4819 	EXP 	window1: recordFrameIntervals = False
+9.6402 	EXP 	window1: recordFrameIntervals = True
+9.8238 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+9.8239 	EXP 	window1: recordFrameIntervals = False
+12.9760 	INFO 	keyboard.Keyboard is using iohub backend.
+12.9760 	INFO 	keyboard.Keyboard is using iohub backend.
+12.9761 	INFO 	keyboard.Keyboard is using iohub backend.
+12.9761 	EXP 	glasgowFaceRecognition-Yagmur: status = STARTED
+13.1762 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+38.7204 	INFO 	saved data to C:\Users\duruk\Desktop\Odev\StroopOdev\glasgowFaceRecognition\glasgowFaceRecognition-Yagmur\data/109806___glasgowFaceRecognition-Yagmur_2024-12-26_22h46.20.267.psydat
+38.7241 	INFO 	saved data to 'C:\\Users\\duruk\\Desktop\\Odev\\StroopOdev\\glasgowFaceRecognition\\glasgowFaceRecognition-Yagmur\\data/109806___glasgowFaceRecognition-Yagmur_2024-12-26_22h46.20.267.csv'

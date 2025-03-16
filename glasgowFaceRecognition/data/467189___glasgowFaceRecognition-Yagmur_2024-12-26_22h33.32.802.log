@@ -1,0 +1,246 @@
+7.9216 	INFO 	Loaded monitor calibration from ['2024_12_12 23:48']
+9.1558 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C0E4D8C940>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C0E4D8C8E0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001C0E4ED8FD0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.1559 	EXP 	window1: backgroundImage = ''
+9.1559 	EXP 	window1: backgroundFit = 'none'
+9.2534 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.2535 	EXP 	window1: recordFrameIntervals = False
+9.4226 	EXP 	window1: recordFrameIntervals = True
+9.6059 	EXP 	Screen (0) actual frame rate measured at 60.06Hz
+9.6059 	EXP 	window1: recordFrameIntervals = False
+11.8287 	INFO 	keyboard.Keyboard is using iohub backend.
+11.8287 	INFO 	keyboard.Keyboard is using iohub backend.
+11.8288 	INFO 	keyboard.Keyboard is using iohub backend.
+11.8288 	EXP 	glasgowFaceRecognition-Yagmur: status = STARTED
+11.8989 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.9024 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+12.4300 	EXP 	Created same_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='same_text', opacity=1, ori=0.0, pos=array([-0.9, -0.9]), rgb=UNKNOWN, text='SAME', units='height', win=Window(...), wrapWidth=1)
+12.6601 	EXP 	Created different_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='different_text', opacity=1, ori=0.0, pos=array([ 0.2, -0.8]), rgb=UNKNOWN, text='DIFFERENT', units='height', win=Window(...), wrapWidth=1)
+12.6634 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'bottom'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([-0.2, -0.8]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+12.6775 	EXP 	Created thank_you_message = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thank_you_message', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0050 	INFO 	Keyboard events cleared
+0.0048 	EXP 	text: autoDraw = True
+0.7428 	EXP 	Imported conditions.xlsx as conditions, 80 conditions, 4 params
+0.7435 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'imageFile': 'same/020_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.7996 	DATA 	Keypress: space
+0.8059 	INFO 	Keyboard events cleared
+0.8055 	EXP 	text: autoDraw = False
+0.8055 	EXP 	image: image = 'same/020_C2_DV.jpg'
+0.8055 	EXP 	image: autoDraw = True
+0.8055 	EXP 	same_text: autoDraw = True
+0.8055 	EXP 	different_text: autoDraw = True
+0.8055 	EXP 	polygon: autoDraw = True
+1.8109 	EXP 	polygon: autoDraw = False
+3.1795 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'imageFile': 'same/025_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+3.1915 	DATA 	Keypress: left
+3.1967 	INFO 	Keyboard events cleared
+3.1964 	EXP 	image: autoDraw = False
+3.1964 	EXP 	same_text: autoDraw = False
+3.1964 	EXP 	different_text: autoDraw = False
+3.1964 	EXP 	polygon: autoDraw = False
+3.1964 	EXP 	image: image = 'same/025_C2_DV.jpg'
+3.1964 	EXP 	image: autoDraw = True
+3.1964 	EXP 	same_text: autoDraw = True
+3.1964 	EXP 	different_text: autoDraw = True
+3.1964 	EXP 	polygon: autoDraw = True
+4.2111 	EXP 	polygon: autoDraw = False
+4.6294 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'imageFile': 'same/068_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+4.6456 	DATA 	Keypress: left
+4.6504 	INFO 	Keyboard events cleared
+4.6500 	EXP 	image: autoDraw = False
+4.6500 	EXP 	same_text: autoDraw = False
+4.6500 	EXP 	different_text: autoDraw = False
+4.6500 	EXP 	polygon: autoDraw = False
+4.6500 	EXP 	image: image = 'same/068_C2_DV.jpg'
+4.6500 	EXP 	image: autoDraw = True
+4.6500 	EXP 	same_text: autoDraw = True
+4.6500 	EXP 	different_text: autoDraw = True
+4.6500 	EXP 	polygon: autoDraw = True
+5.3789 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'imageFile': 'same/069_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+5.3917 	DATA 	Keypress: right
+5.3965 	INFO 	Keyboard events cleared
+5.3961 	EXP 	image: autoDraw = False
+5.3961 	EXP 	same_text: autoDraw = False
+5.3961 	EXP 	different_text: autoDraw = False
+5.3961 	EXP 	polygon: autoDraw = False
+5.3961 	EXP 	image: image = 'same/069_C2_DV.jpg'
+5.3961 	EXP 	image: autoDraw = True
+5.3961 	EXP 	same_text: autoDraw = True
+5.3961 	EXP 	different_text: autoDraw = True
+5.3961 	EXP 	polygon: autoDraw = True
+5.7789 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'imageFile': 'same/074_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+5.7900 	DATA 	Keypress: left
+5.7966 	INFO 	Keyboard events cleared
+5.7963 	EXP 	image: autoDraw = False
+5.7963 	EXP 	same_text: autoDraw = False
+5.7963 	EXP 	different_text: autoDraw = False
+5.7963 	EXP 	polygon: autoDraw = False
+5.7963 	EXP 	image: image = 'same/074_C2_DV.jpg'
+5.7963 	EXP 	image: autoDraw = True
+5.7963 	EXP 	same_text: autoDraw = True
+5.7963 	EXP 	different_text: autoDraw = True
+5.7963 	EXP 	polygon: autoDraw = True
+6.2786 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'imageFile': 'same/075_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+6.2921 	DATA 	Keypress: left
+6.2967 	INFO 	Keyboard events cleared
+6.2964 	EXP 	image: autoDraw = False
+6.2964 	EXP 	same_text: autoDraw = False
+6.2964 	EXP 	different_text: autoDraw = False
+6.2964 	EXP 	polygon: autoDraw = False
+6.2964 	EXP 	image: image = 'same/075_DV_C2.jpg'
+6.2964 	EXP 	image: autoDraw = True
+6.2964 	EXP 	same_text: autoDraw = True
+6.2964 	EXP 	different_text: autoDraw = True
+6.2964 	EXP 	polygon: autoDraw = True
+6.6285 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'imageFile': 'same/081_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+6.6409 	DATA 	Keypress: left
+6.6463 	INFO 	Keyboard events cleared
+6.6459 	EXP 	image: autoDraw = False
+6.6459 	EXP 	same_text: autoDraw = False
+6.6459 	EXP 	different_text: autoDraw = False
+6.6459 	EXP 	polygon: autoDraw = False
+6.6459 	EXP 	image: image = 'same/081_C2_DV.jpg'
+6.6459 	EXP 	image: autoDraw = True
+6.6459 	EXP 	same_text: autoDraw = True
+6.6459 	EXP 	different_text: autoDraw = True
+6.6459 	EXP 	polygon: autoDraw = True
+6.9284 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'imageFile': 'same/085_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+6.9393 	DATA 	Keypress: left
+6.9461 	INFO 	Keyboard events cleared
+6.9457 	EXP 	image: autoDraw = False
+6.9457 	EXP 	same_text: autoDraw = False
+6.9457 	EXP 	different_text: autoDraw = False
+6.9457 	EXP 	polygon: autoDraw = False
+6.9457 	EXP 	image: image = 'same/085_C2_DV.jpg'
+6.9457 	EXP 	image: autoDraw = True
+6.9457 	EXP 	same_text: autoDraw = True
+6.9457 	EXP 	different_text: autoDraw = True
+6.9457 	EXP 	polygon: autoDraw = True
+7.3456 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'imageFile': 'same/092_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+7.3577 	DATA 	Keypress: left
+7.3629 	INFO 	Keyboard events cleared
+7.3626 	EXP 	image: autoDraw = False
+7.3626 	EXP 	same_text: autoDraw = False
+7.3626 	EXP 	different_text: autoDraw = False
+7.3626 	EXP 	polygon: autoDraw = False
+7.3626 	EXP 	image: image = 'same/092_C2_DV.jpg'
+7.3626 	EXP 	image: autoDraw = True
+7.3626 	EXP 	same_text: autoDraw = True
+7.3626 	EXP 	different_text: autoDraw = True
+7.3626 	EXP 	polygon: autoDraw = True
+7.5790 	DATA 	Keypress: left
+7.5951 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'imageFile': 'same/102_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+7.6128 	INFO 	Keyboard events cleared
+7.6124 	EXP 	image: autoDraw = False
+7.6124 	EXP 	same_text: autoDraw = False
+7.6124 	EXP 	different_text: autoDraw = False
+7.6124 	EXP 	polygon: autoDraw = False
+7.6124 	EXP 	image: image = 'same/102_C2_DV.jpg'
+7.6124 	EXP 	image: autoDraw = True
+7.6124 	EXP 	same_text: autoDraw = True
+7.6124 	EXP 	different_text: autoDraw = True
+7.6124 	EXP 	polygon: autoDraw = True
+7.8949 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'imageFile': 'same/108_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+7.9062 	DATA 	Keypress: left
+7.9129 	INFO 	Keyboard events cleared
+7.9125 	EXP 	image: autoDraw = False
+7.9125 	EXP 	same_text: autoDraw = False
+7.9125 	EXP 	different_text: autoDraw = False
+7.9125 	EXP 	polygon: autoDraw = False
+7.9125 	EXP 	image: image = 'same/108_DV_C2.jpg'
+7.9125 	EXP 	image: autoDraw = True
+7.9125 	EXP 	same_text: autoDraw = True
+7.9125 	EXP 	different_text: autoDraw = True
+7.9125 	EXP 	polygon: autoDraw = True
+8.4949 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'imageFile': 'same/115_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+8.5080 	DATA 	Keypress: left
+8.5131 	INFO 	Keyboard events cleared
+8.5127 	EXP 	image: autoDraw = False
+8.5127 	EXP 	same_text: autoDraw = False
+8.5127 	EXP 	different_text: autoDraw = False
+8.5127 	EXP 	polygon: autoDraw = False
+8.5127 	EXP 	image: image = 'same/115_C2_DV.jpg'
+8.5127 	EXP 	image: autoDraw = True
+8.5127 	EXP 	same_text: autoDraw = True
+8.5127 	EXP 	different_text: autoDraw = True
+8.5127 	EXP 	polygon: autoDraw = True
+8.7449 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'imageFile': 'same/120_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+8.7559 	DATA 	Keypress: left
+8.7629 	INFO 	Keyboard events cleared
+8.7625 	EXP 	image: autoDraw = False
+8.7625 	EXP 	same_text: autoDraw = False
+8.7625 	EXP 	different_text: autoDraw = False
+8.7625 	EXP 	polygon: autoDraw = False
+8.7625 	EXP 	image: image = 'same/120_DV_C2.jpg'
+8.7625 	EXP 	image: autoDraw = True
+8.7625 	EXP 	same_text: autoDraw = True
+8.7625 	EXP 	different_text: autoDraw = True
+8.7625 	EXP 	polygon: autoDraw = True
+8.9450 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'imageFile': 'same/129_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+8.9560 	DATA 	Keypress: left
+8.9626 	INFO 	Keyboard events cleared
+8.9623 	EXP 	image: autoDraw = False
+8.9623 	EXP 	same_text: autoDraw = False
+8.9623 	EXP 	different_text: autoDraw = False
+8.9623 	EXP 	polygon: autoDraw = False
+8.9623 	EXP 	image: image = 'same/129_C2_DV.jpg'
+8.9623 	EXP 	image: autoDraw = True
+8.9623 	EXP 	same_text: autoDraw = True
+8.9623 	EXP 	different_text: autoDraw = True
+8.9623 	EXP 	polygon: autoDraw = True
+9.1782 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'imageFile': 'same/136_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+9.1911 	DATA 	Keypress: left
+9.1961 	INFO 	Keyboard events cleared
+9.1957 	EXP 	image: autoDraw = False
+9.1957 	EXP 	same_text: autoDraw = False
+9.1957 	EXP 	different_text: autoDraw = False
+9.1957 	EXP 	polygon: autoDraw = False
+9.1957 	EXP 	image: image = 'same/136_C2_DV.jpg'
+9.1957 	EXP 	image: autoDraw = True
+9.1957 	EXP 	same_text: autoDraw = True
+9.1957 	EXP 	different_text: autoDraw = True
+9.1957 	EXP 	polygon: autoDraw = True
+9.7284 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'imageFile': 'same/139_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+9.7430 	DATA 	Keypress: left
+9.7476 	INFO 	Keyboard events cleared
+9.7472 	EXP 	image: autoDraw = False
+9.7472 	EXP 	same_text: autoDraw = False
+9.7472 	EXP 	different_text: autoDraw = False
+9.7472 	EXP 	polygon: autoDraw = False
+9.7472 	EXP 	image: image = 'same/139_DV_C2.jpg'
+9.7472 	EXP 	image: autoDraw = True
+9.7472 	EXP 	same_text: autoDraw = True
+9.7472 	EXP 	different_text: autoDraw = True
+9.7472 	EXP 	polygon: autoDraw = True
+10.0448 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'imageFile': 'same/168_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+10.0568 	DATA 	Keypress: left
+10.0623 	INFO 	Keyboard events cleared
+10.0620 	EXP 	image: autoDraw = False
+10.0620 	EXP 	same_text: autoDraw = False
+10.0620 	EXP 	different_text: autoDraw = False
+10.0620 	EXP 	polygon: autoDraw = False
+10.0620 	EXP 	image: image = 'same/168_C2_DV.jpg'
+10.0620 	EXP 	image: autoDraw = True
+10.0620 	EXP 	same_text: autoDraw = True
+10.0620 	EXP 	different_text: autoDraw = True
+10.0620 	EXP 	polygon: autoDraw = True
+10.2789 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'imageFile': 'same/170_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+10.2963 	DATA 	Keypress: left
+10.3008 	INFO 	Keyboard events cleared
+10.3004 	EXP 	image: autoDraw = False
+10.3004 	EXP 	same_text: autoDraw = False
+10.3004 	EXP 	different_text: autoDraw = False
+10.3004 	EXP 	polygon: autoDraw = False
+10.3004 	EXP 	image: image = 'same/170_DV_C2.jpg'
+10.3004 	EXP 	image: autoDraw = True
+10.3004 	EXP 	same_text: autoDraw = True
+10.3004 	EXP 	different_text: autoDraw = True
+10.3004 	EXP 	polygon: autoDraw = True
+10.5283 	DATA 	Keypress: escape
+10.6443 	EXP 	glasgowFaceRecognition-Yagmur: status = STOPPED
+10.6594 	EXP 	image: autoDraw = False
+10.6594 	EXP 	same_text: autoDraw = False
+10.6594 	EXP 	different_text: autoDraw = False
+10.6594 	EXP 	polygon: autoDraw = False
+10.6595 	EXP 	glasgowFaceRecognition-Yagmur: status = STOPPED
+10.7520 	INFO 	saved data to 'C:\\Users\\duruk\\Desktop\\Odev\\StroopOdev\\glasgowFaceRecognition\\glasgowFaceRecognition-Yagmur\\data/467189___glasgowFaceRecognition-Yagmur_2024-12-26_22h33.32.802.csv'
+10.7537 	INFO 	saved data to C:\Users\duruk\Desktop\Odev\StroopOdev\glasgowFaceRecognition\glasgowFaceRecognition-Yagmur\data/467189___glasgowFaceRecognition-Yagmur_2024-12-26_22h33.32.802.psydat

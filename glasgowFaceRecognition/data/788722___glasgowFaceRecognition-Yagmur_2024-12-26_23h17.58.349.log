@@ -1,0 +1,43 @@
+9.8802 	INFO 	Loaded monitor calibration from ['2024_12_12 23:48']
+10.7530 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002230C9DD8B0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002230C9DD850>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002230CAEBF40>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.7530 	EXP 	window1: backgroundImage = ''
+10.7531 	EXP 	window1: backgroundFit = 'none'
+10.8634 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.8634 	EXP 	window1: recordFrameIntervals = False
+11.0292 	EXP 	window1: recordFrameIntervals = True
+11.2127 	EXP 	Screen (0) actual frame rate measured at 60.03Hz
+11.2128 	EXP 	window1: recordFrameIntervals = False
+13.6624 	INFO 	keyboard.Keyboard is using iohub backend.
+13.6625 	INFO 	keyboard.Keyboard is using iohub backend.
+13.6625 	INFO 	keyboard.Keyboard is using iohub backend.
+13.6626 	EXP 	glasgowFaceRecognition-Yagmur: status = STARTED
+13.7341 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+13.7385 	EXP 	Created same_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='same_text', opacity=1, ori=0.0, pos=array([-0.35, -0.8 ]), rgb=UNKNOWN, text='SAME', units='norm', win=Window(...), wrapWidth=1)
+13.7434 	EXP 	Created different_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='different_text', opacity=1, ori=0.0, pos=array([ 0.4, -0.8]), rgb=UNKNOWN, text='DIFFERENT', units='norm', win=Window(...), wrapWidth=1)
+13.7473 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.7, 0.7]), texRes=128.0, units='norm', win=Window(...))
+13.7508 	EXP 	Created arrow_left = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='arrow_left', opacity=1, ori=270.0, pos=array([-0.2, -0.8]), size=array([0.1, 0.1]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.7525 	EXP 	Created arrow_right = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='arrow_right', opacity=1, ori=90.0, pos=array([ 0.2, -0.8]), size=array([0.1, 0.1]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.7622 	EXP 	Created thank_you_message = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thank_you_message', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+0.0046 	INFO 	Keyboard events cleared
+0.0044 	EXP 	text: autoDraw = True
+3.1876 	EXP 	Imported conditions.xlsx as conditions, 80 conditions, 4 params
+3.1884 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'imageFile': 'same/020_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+3.2417 	DATA 	Keypress: space
+3.2486 	INFO 	Keyboard events cleared
+3.2483 	EXP 	text: autoDraw = False
+3.2483 	EXP 	image: image = 'same/020_C2_DV.jpg'
+3.2483 	EXP 	same_text: autoDraw = True
+3.2483 	EXP 	different_text: autoDraw = True
+3.2483 	EXP 	image: autoDraw = True
+3.2483 	EXP 	arrow_left: autoDraw = True
+3.2483 	EXP 	arrow_right: autoDraw = True
+10.4845 	DATA 	Keypress: escape
+10.6164 	EXP 	glasgowFaceRecognition-Yagmur: status = STOPPED
+10.6314 	EXP 	same_text: autoDraw = False
+10.6314 	EXP 	different_text: autoDraw = False
+10.6314 	EXP 	image: autoDraw = False
+10.6314 	EXP 	arrow_left: autoDraw = False
+10.6314 	EXP 	arrow_right: autoDraw = False
+10.6315 	EXP 	glasgowFaceRecognition-Yagmur: status = STOPPED
+10.7088 	INFO 	saved data to 'C:\\Users\\duruk\\Desktop\\Odev\\StroopOdev\\glasgowFaceRecognition\\glasgowFaceRecognition-Yagmur\\data/788722___glasgowFaceRecognition-Yagmur_2024-12-26_23h17.58.349.csv'
+10.7104 	INFO 	saved data to C:\Users\duruk\Desktop\Odev\StroopOdev\glasgowFaceRecognition\glasgowFaceRecognition-Yagmur\data/788722___glasgowFaceRecognition-Yagmur_2024-12-26_23h17.58.349.psydat

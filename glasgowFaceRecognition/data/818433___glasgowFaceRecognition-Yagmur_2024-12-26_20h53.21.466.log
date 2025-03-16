@@ -1,0 +1,29 @@
+113.1920 	INFO 	Loaded monitor calibration from ['2024_12_12 23:48']
+114.8817 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026A722DA8B0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026A722DA850>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026A723D7F40>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+114.8817 	EXP 	window1: backgroundImage = ''
+114.8817 	EXP 	window1: backgroundFit = 'none'
+115.0205 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+115.0205 	EXP 	window1: recordFrameIntervals = False
+115.1957 	EXP 	window1: recordFrameIntervals = True
+115.3795 	EXP 	Screen (0) actual frame rate measured at 59.90Hz
+115.3796 	EXP 	window1: recordFrameIntervals = False
+118.8390 	INFO 	keyboard.Keyboard is using iohub backend.
+118.8391 	INFO 	keyboard.Keyboard is using iohub backend.
+118.8391 	EXP 	glasgowFaceRecognition-Yagmur: status = STARTED
+119.1556 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+119.1648 	EXP 	Created thank_you_message = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thank_you_message', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0065 	INFO 	Keyboard events cleared
+0.0063 	EXP 	text: autoDraw = True
+31.6430 	DATA 	Keypress: space
+31.6462 	EXP 	text: autoDraw = False
+31.6462 	EXP 	thank_you_message: autoDraw = True
+34.1612 	DATA 	Keypress: h
+34.3611 	DATA 	Keypress: k
+34.3777 	DATA 	Keypress: l
+34.7950 	DATA 	Keypress: space
+35.5445 	DATA 	Keypress: space
+35.7945 	DATA 	Keypress: space
+36.6595 	EXP 	thank_you_message: autoDraw = False
+36.6595 	EXP 	glasgowFaceRecognition-Yagmur: status = STOPPED
+36.6609 	INFO 	saved data to 'C:\\Users\\duruk\\Desktop\\Odev\\StroopOdev\\glasgowFaceRecognition\\glasgowFaceRecognition-Yagmur\\data/818433___glasgowFaceRecognition-Yagmur_2024-12-26_20h53.21.466.csv'
+36.6614 	INFO 	saved data to C:\Users\duruk\Desktop\Odev\StroopOdev\glasgowFaceRecognition\glasgowFaceRecognition-Yagmur\data/818433___glasgowFaceRecognition-Yagmur_2024-12-26_20h53.21.466.psydat

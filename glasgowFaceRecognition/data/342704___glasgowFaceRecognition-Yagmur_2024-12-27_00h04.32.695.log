@@ -1,0 +1,2630 @@
+5.5860 	INFO 	Loaded monitor calibration from ['2024_12_12 23:48']
+6.4620 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023D70D508E0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023D70D50880>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000023D70E4DF70>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.4621 	EXP 	window1: backgroundImage = ''
+6.4621 	EXP 	window1: backgroundFit = 'none'
+6.5747 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.5747 	EXP 	window1: recordFrameIntervals = False
+6.7381 	EXP 	window1: recordFrameIntervals = True
+6.9216 	EXP 	Screen (0) actual frame rate measured at 59.99Hz
+6.9217 	EXP 	window1: recordFrameIntervals = False
+9.2441 	INFO 	keyboard.Keyboard is using iohub backend.
+9.2441 	INFO 	keyboard.Keyboard is using iohub backend.
+9.2442 	INFO 	keyboard.Keyboard is using iohub backend.
+9.2442 	EXP 	glasgowFaceRecognition-Yagmur: status = STARTED
+9.3157 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+9.3205 	EXP 	Created same_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='same_text', opacity=1, ori=0.0, pos=array([-0.35, -0.8 ]), rgb=UNKNOWN, text='SAME', units='norm', win=Window(...), wrapWidth=1)
+9.3253 	EXP 	Created different_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='different_text', opacity=1, ori=0.0, pos=array([ 0.42, -0.8 ]), rgb=UNKNOWN, text='DIFFERENT', units='norm', win=Window(...), wrapWidth=1)
+9.3293 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.7, 0.7]), texRes=128.0, units='norm', win=Window(...))
+9.3330 	EXP 	Created arrow_left = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='arrow_left', opacity=1, ori=270.0, pos=array([-0.2, -0.8]), size=array([0.1, 0.1]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.3347 	EXP 	Created arrow_right = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='arrow_right', opacity=1, ori=90.0, pos=array([ 0.2, -0.8]), size=array([0.1, 0.1]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.3355 	EXP 	Created textCorr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textCorr', opacity=1, ori=0.0, pos=array([ 0. , -0.5]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+9.3376 	EXP 	Created same_text_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='same_text_cont', opacity=1, ori=0.0, pos=array([-0.35, -0.8 ]), rgb=UNKNOWN, text='SAME', units='norm', win=Window(...), wrapWidth=1)
+9.3403 	EXP 	Created different_text_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='different_text_cont', opacity=1, ori=0.0, pos=array([ 0.42, -0.8 ]), rgb=UNKNOWN, text='DIFFERENT', units='norm', win=Window(...), wrapWidth=1)
+9.3461 	EXP 	Created image_cont = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_cont', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.7, 0.7]), texRes=128.0, units='norm', win=Window(...))
+9.3476 	EXP 	Created arrow_left_cont = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='arrow_left_cont', opacity=1, ori=270.0, pos=array([-0.2, -0.8]), size=array([0.1, 0.1]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.3493 	EXP 	Created arrow_right_cont = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='arrow_right_cont', opacity=1, ori=90.0, pos=array([ 0.2, -0.8]), size=array([0.1, 0.1]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.3562 	EXP 	Created thank_you_message = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thank_you_message', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+0.0045 	INFO 	Keyboard events cleared
+0.0044 	EXP 	text: autoDraw = True
+2.7300 	EXP 	Imported conditions.xlsx as conditions, 80 conditions, 4 params
+2.7308 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'imageFile': 'same/020_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.7865 	DATA 	Keypress: space
+2.7935 	INFO 	Keyboard events cleared
+2.7932 	EXP 	text: autoDraw = False
+2.7932 	EXP 	image: image = 'same/020_C2_DV.jpg'
+2.7932 	EXP 	same_text: autoDraw = True
+2.7932 	EXP 	different_text: autoDraw = True
+2.7932 	EXP 	image: autoDraw = True
+2.7932 	EXP 	arrow_left: autoDraw = True
+2.7932 	EXP 	arrow_right: autoDraw = True
+5.5672 	DATA 	Keypress: left
+5.6003 	EXP 	same_text: autoDraw = False
+5.6003 	EXP 	different_text: autoDraw = False
+5.6003 	EXP 	image: autoDraw = False
+5.6003 	EXP 	arrow_left: autoDraw = False
+5.6003 	EXP 	arrow_right: autoDraw = False
+5.6003 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+5.6003 	EXP 	textCorr: height = 0.05
+5.6003 	EXP 	textCorr: height = 0.05
+5.6003 	EXP 	textCorr: height = 0.05
+5.6003 	EXP 	textCorr: text = 'Correct response!'
+5.6003 	EXP 	image_cont: image = 'same/020_C2_DV.jpg'
+5.6003 	EXP 	textCorr: autoDraw = True
+5.6003 	EXP 	same_text_cont: autoDraw = True
+5.6003 	EXP 	different_text_cont: autoDraw = True
+5.6003 	EXP 	image_cont: autoDraw = True
+5.6003 	EXP 	arrow_left_cont: autoDraw = True
+5.6003 	EXP 	arrow_right_cont: autoDraw = True
+5.7819 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'imageFile': 'same/025_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+5.8011 	INFO 	Keyboard events cleared
+5.8007 	EXP 	textCorr: autoDraw = False
+5.8007 	EXP 	same_text_cont: autoDraw = False
+5.8007 	EXP 	different_text_cont: autoDraw = False
+5.8007 	EXP 	image_cont: autoDraw = False
+5.8007 	EXP 	arrow_left_cont: autoDraw = False
+5.8007 	EXP 	arrow_right_cont: autoDraw = False
+5.8007 	EXP 	image: image = 'same/025_C2_DV.jpg'
+5.8007 	EXP 	same_text: autoDraw = True
+5.8007 	EXP 	different_text: autoDraw = True
+5.8007 	EXP 	image: autoDraw = True
+5.8007 	EXP 	arrow_left: autoDraw = True
+5.8007 	EXP 	arrow_right: autoDraw = True
+6.2497 	DATA 	Keypress: left
+6.2679 	EXP 	same_text: autoDraw = False
+6.2679 	EXP 	different_text: autoDraw = False
+6.2679 	EXP 	image: autoDraw = False
+6.2679 	EXP 	arrow_left: autoDraw = False
+6.2679 	EXP 	arrow_right: autoDraw = False
+6.2679 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+6.2679 	EXP 	textCorr: text = 'Correct response!'
+6.2679 	EXP 	image_cont: image = 'same/025_C2_DV.jpg'
+6.2679 	EXP 	textCorr: autoDraw = True
+6.2679 	EXP 	same_text_cont: autoDraw = True
+6.2679 	EXP 	different_text_cont: autoDraw = True
+6.2679 	EXP 	image_cont: autoDraw = True
+6.2679 	EXP 	arrow_left_cont: autoDraw = True
+6.2679 	EXP 	arrow_right_cont: autoDraw = True
+6.4650 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'imageFile': 'same/068_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+6.4842 	INFO 	Keyboard events cleared
+6.4838 	EXP 	textCorr: autoDraw = False
+6.4838 	EXP 	same_text_cont: autoDraw = False
+6.4838 	EXP 	different_text_cont: autoDraw = False
+6.4838 	EXP 	image_cont: autoDraw = False
+6.4838 	EXP 	arrow_left_cont: autoDraw = False
+6.4838 	EXP 	arrow_right_cont: autoDraw = False
+6.4838 	EXP 	image: image = 'same/068_C2_DV.jpg'
+6.4838 	EXP 	same_text: autoDraw = True
+6.4838 	EXP 	different_text: autoDraw = True
+6.4838 	EXP 	image: autoDraw = True
+6.4838 	EXP 	arrow_left: autoDraw = True
+6.4838 	EXP 	arrow_right: autoDraw = True
+6.7826 	DATA 	Keypress: left
+6.8001 	EXP 	same_text: autoDraw = False
+6.8001 	EXP 	different_text: autoDraw = False
+6.8001 	EXP 	image: autoDraw = False
+6.8001 	EXP 	arrow_left: autoDraw = False
+6.8001 	EXP 	arrow_right: autoDraw = False
+6.8001 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+6.8001 	EXP 	textCorr: text = 'Correct response!'
+6.8001 	EXP 	image_cont: image = 'same/068_C2_DV.jpg'
+6.8001 	EXP 	textCorr: autoDraw = True
+6.8001 	EXP 	same_text_cont: autoDraw = True
+6.8001 	EXP 	different_text_cont: autoDraw = True
+6.8001 	EXP 	image_cont: autoDraw = True
+6.8001 	EXP 	arrow_left_cont: autoDraw = True
+6.8001 	EXP 	arrow_right_cont: autoDraw = True
+6.9982 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'imageFile': 'same/069_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+7.0177 	INFO 	Keyboard events cleared
+7.0173 	EXP 	textCorr: autoDraw = False
+7.0173 	EXP 	same_text_cont: autoDraw = False
+7.0173 	EXP 	different_text_cont: autoDraw = False
+7.0173 	EXP 	image_cont: autoDraw = False
+7.0173 	EXP 	arrow_left_cont: autoDraw = False
+7.0173 	EXP 	arrow_right_cont: autoDraw = False
+7.0173 	EXP 	image: image = 'same/069_C2_DV.jpg'
+7.0173 	EXP 	same_text: autoDraw = True
+7.0173 	EXP 	different_text: autoDraw = True
+7.0173 	EXP 	image: autoDraw = True
+7.0173 	EXP 	arrow_left: autoDraw = True
+7.0173 	EXP 	arrow_right: autoDraw = True
+7.2823 	DATA 	Keypress: left
+7.3004 	EXP 	same_text: autoDraw = False
+7.3004 	EXP 	different_text: autoDraw = False
+7.3004 	EXP 	image: autoDraw = False
+7.3004 	EXP 	arrow_left: autoDraw = False
+7.3004 	EXP 	arrow_right: autoDraw = False
+7.3004 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+7.3004 	EXP 	textCorr: text = 'Correct response!'
+7.3004 	EXP 	image_cont: image = 'same/069_C2_DV.jpg'
+7.3004 	EXP 	textCorr: autoDraw = True
+7.3004 	EXP 	same_text_cont: autoDraw = True
+7.3004 	EXP 	different_text_cont: autoDraw = True
+7.3004 	EXP 	image_cont: autoDraw = True
+7.3004 	EXP 	arrow_left_cont: autoDraw = True
+7.3004 	EXP 	arrow_right_cont: autoDraw = True
+7.4982 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'imageFile': 'same/074_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+7.5184 	INFO 	Keyboard events cleared
+7.5180 	EXP 	textCorr: autoDraw = False
+7.5180 	EXP 	same_text_cont: autoDraw = False
+7.5180 	EXP 	different_text_cont: autoDraw = False
+7.5180 	EXP 	image_cont: autoDraw = False
+7.5180 	EXP 	arrow_left_cont: autoDraw = False
+7.5180 	EXP 	arrow_right_cont: autoDraw = False
+7.5180 	EXP 	image: image = 'same/074_C2_DV.jpg'
+7.5180 	EXP 	same_text: autoDraw = True
+7.5180 	EXP 	different_text: autoDraw = True
+7.5180 	EXP 	image: autoDraw = True
+7.5180 	EXP 	arrow_left: autoDraw = True
+7.5180 	EXP 	arrow_right: autoDraw = True
+7.7836 	DATA 	Keypress: left
+7.8090 	EXP 	same_text: autoDraw = False
+7.8090 	EXP 	different_text: autoDraw = False
+7.8090 	EXP 	image: autoDraw = False
+7.8090 	EXP 	arrow_left: autoDraw = False
+7.8090 	EXP 	arrow_right: autoDraw = False
+7.8090 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+7.8090 	EXP 	textCorr: text = 'Correct response!'
+7.8090 	EXP 	image_cont: image = 'same/074_C2_DV.jpg'
+7.8090 	EXP 	textCorr: autoDraw = True
+7.8090 	EXP 	same_text_cont: autoDraw = True
+7.8090 	EXP 	different_text_cont: autoDraw = True
+7.8090 	EXP 	image_cont: autoDraw = True
+7.8090 	EXP 	arrow_left_cont: autoDraw = True
+7.8090 	EXP 	arrow_right_cont: autoDraw = True
+7.9984 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'imageFile': 'same/075_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+8.0177 	INFO 	Keyboard events cleared
+8.0174 	EXP 	textCorr: autoDraw = False
+8.0174 	EXP 	same_text_cont: autoDraw = False
+8.0174 	EXP 	different_text_cont: autoDraw = False
+8.0174 	EXP 	image_cont: autoDraw = False
+8.0174 	EXP 	arrow_left_cont: autoDraw = False
+8.0174 	EXP 	arrow_right_cont: autoDraw = False
+8.0174 	EXP 	image: image = 'same/075_DV_C2.jpg'
+8.0174 	EXP 	same_text: autoDraw = True
+8.0174 	EXP 	different_text: autoDraw = True
+8.0174 	EXP 	image: autoDraw = True
+8.0174 	EXP 	arrow_left: autoDraw = True
+8.0174 	EXP 	arrow_right: autoDraw = True
+8.2489 	DATA 	Keypress: left
+8.2670 	EXP 	same_text: autoDraw = False
+8.2670 	EXP 	different_text: autoDraw = False
+8.2670 	EXP 	image: autoDraw = False
+8.2670 	EXP 	arrow_left: autoDraw = False
+8.2670 	EXP 	arrow_right: autoDraw = False
+8.2670 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+8.2670 	EXP 	textCorr: text = 'Correct response!'
+8.2670 	EXP 	image_cont: image = 'same/075_DV_C2.jpg'
+8.2670 	EXP 	textCorr: autoDraw = True
+8.2670 	EXP 	same_text_cont: autoDraw = True
+8.2670 	EXP 	different_text_cont: autoDraw = True
+8.2670 	EXP 	image_cont: autoDraw = True
+8.2670 	EXP 	arrow_left_cont: autoDraw = True
+8.2670 	EXP 	arrow_right_cont: autoDraw = True
+8.4648 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'imageFile': 'same/081_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+8.4839 	INFO 	Keyboard events cleared
+8.4834 	EXP 	textCorr: autoDraw = False
+8.4834 	EXP 	same_text_cont: autoDraw = False
+8.4834 	EXP 	different_text_cont: autoDraw = False
+8.4834 	EXP 	image_cont: autoDraw = False
+8.4834 	EXP 	arrow_left_cont: autoDraw = False
+8.4834 	EXP 	arrow_right_cont: autoDraw = False
+8.4834 	EXP 	image: image = 'same/081_C2_DV.jpg'
+8.4834 	EXP 	same_text: autoDraw = True
+8.4834 	EXP 	different_text: autoDraw = True
+8.4834 	EXP 	image: autoDraw = True
+8.4834 	EXP 	arrow_left: autoDraw = True
+8.4834 	EXP 	arrow_right: autoDraw = True
+8.7158 	DATA 	Keypress: left
+8.7356 	EXP 	same_text: autoDraw = False
+8.7356 	EXP 	different_text: autoDraw = False
+8.7356 	EXP 	image: autoDraw = False
+8.7356 	EXP 	arrow_left: autoDraw = False
+8.7356 	EXP 	arrow_right: autoDraw = False
+8.7356 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+8.7356 	EXP 	textCorr: text = 'Correct response!'
+8.7356 	EXP 	image_cont: image = 'same/081_C2_DV.jpg'
+8.7356 	EXP 	textCorr: autoDraw = True
+8.7356 	EXP 	same_text_cont: autoDraw = True
+8.7356 	EXP 	different_text_cont: autoDraw = True
+8.7356 	EXP 	image_cont: autoDraw = True
+8.7356 	EXP 	arrow_left_cont: autoDraw = True
+8.7356 	EXP 	arrow_right_cont: autoDraw = True
+8.9312 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'imageFile': 'same/085_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+8.9507 	INFO 	Keyboard events cleared
+8.9503 	EXP 	textCorr: autoDraw = False
+8.9503 	EXP 	same_text_cont: autoDraw = False
+8.9503 	EXP 	different_text_cont: autoDraw = False
+8.9503 	EXP 	image_cont: autoDraw = False
+8.9503 	EXP 	arrow_left_cont: autoDraw = False
+8.9503 	EXP 	arrow_right_cont: autoDraw = False
+8.9503 	EXP 	image: image = 'same/085_C2_DV.jpg'
+8.9503 	EXP 	same_text: autoDraw = True
+8.9503 	EXP 	different_text: autoDraw = True
+8.9503 	EXP 	image: autoDraw = True
+8.9503 	EXP 	arrow_left: autoDraw = True
+8.9503 	EXP 	arrow_right: autoDraw = True
+9.1323 	DATA 	Keypress: left
+9.1499 	EXP 	same_text: autoDraw = False
+9.1499 	EXP 	different_text: autoDraw = False
+9.1499 	EXP 	image: autoDraw = False
+9.1499 	EXP 	arrow_left: autoDraw = False
+9.1499 	EXP 	arrow_right: autoDraw = False
+9.1499 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+9.1499 	EXP 	textCorr: text = 'Correct response!'
+9.1499 	EXP 	image_cont: image = 'same/085_C2_DV.jpg'
+9.1499 	EXP 	textCorr: autoDraw = True
+9.1499 	EXP 	same_text_cont: autoDraw = True
+9.1499 	EXP 	different_text_cont: autoDraw = True
+9.1499 	EXP 	image_cont: autoDraw = True
+9.1499 	EXP 	arrow_left_cont: autoDraw = True
+9.1499 	EXP 	arrow_right_cont: autoDraw = True
+9.3478 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'imageFile': 'same/092_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+9.3672 	INFO 	Keyboard events cleared
+9.3669 	EXP 	textCorr: autoDraw = False
+9.3669 	EXP 	same_text_cont: autoDraw = False
+9.3669 	EXP 	different_text_cont: autoDraw = False
+9.3669 	EXP 	image_cont: autoDraw = False
+9.3669 	EXP 	arrow_left_cont: autoDraw = False
+9.3669 	EXP 	arrow_right_cont: autoDraw = False
+9.3669 	EXP 	image: image = 'same/092_C2_DV.jpg'
+9.3669 	EXP 	same_text: autoDraw = True
+9.3669 	EXP 	different_text: autoDraw = True
+9.3669 	EXP 	image: autoDraw = True
+9.3669 	EXP 	arrow_left: autoDraw = True
+9.3669 	EXP 	arrow_right: autoDraw = True
+9.5820 	DATA 	Keypress: left
+9.6000 	EXP 	same_text: autoDraw = False
+9.6000 	EXP 	different_text: autoDraw = False
+9.6000 	EXP 	image: autoDraw = False
+9.6000 	EXP 	arrow_left: autoDraw = False
+9.6000 	EXP 	arrow_right: autoDraw = False
+9.6000 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+9.6000 	EXP 	textCorr: text = 'Correct response!'
+9.6000 	EXP 	image_cont: image = 'same/092_C2_DV.jpg'
+9.6000 	EXP 	textCorr: autoDraw = True
+9.6000 	EXP 	same_text_cont: autoDraw = True
+9.6000 	EXP 	different_text_cont: autoDraw = True
+9.6000 	EXP 	image_cont: autoDraw = True
+9.6000 	EXP 	arrow_left_cont: autoDraw = True
+9.6000 	EXP 	arrow_right_cont: autoDraw = True
+9.7978 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'imageFile': 'same/102_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+9.8171 	INFO 	Keyboard events cleared
+9.8167 	EXP 	textCorr: autoDraw = False
+9.8167 	EXP 	same_text_cont: autoDraw = False
+9.8167 	EXP 	different_text_cont: autoDraw = False
+9.8167 	EXP 	image_cont: autoDraw = False
+9.8167 	EXP 	arrow_left_cont: autoDraw = False
+9.8167 	EXP 	arrow_right_cont: autoDraw = False
+9.8167 	EXP 	image: image = 'same/102_C2_DV.jpg'
+9.8167 	EXP 	same_text: autoDraw = True
+9.8167 	EXP 	different_text: autoDraw = True
+9.8167 	EXP 	image: autoDraw = True
+9.8167 	EXP 	arrow_left: autoDraw = True
+9.8167 	EXP 	arrow_right: autoDraw = True
+10.0322 	DATA 	Keypress: left
+10.0497 	EXP 	same_text: autoDraw = False
+10.0497 	EXP 	different_text: autoDraw = False
+10.0497 	EXP 	image: autoDraw = False
+10.0497 	EXP 	arrow_left: autoDraw = False
+10.0497 	EXP 	arrow_right: autoDraw = False
+10.0497 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+10.0497 	EXP 	textCorr: text = 'Correct response!'
+10.0497 	EXP 	image_cont: image = 'same/102_C2_DV.jpg'
+10.0497 	EXP 	textCorr: autoDraw = True
+10.0497 	EXP 	same_text_cont: autoDraw = True
+10.0497 	EXP 	different_text_cont: autoDraw = True
+10.0497 	EXP 	image_cont: autoDraw = True
+10.0497 	EXP 	arrow_left_cont: autoDraw = True
+10.0497 	EXP 	arrow_right_cont: autoDraw = True
+10.2479 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'imageFile': 'same/108_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+10.2670 	INFO 	Keyboard events cleared
+10.2667 	EXP 	textCorr: autoDraw = False
+10.2667 	EXP 	same_text_cont: autoDraw = False
+10.2667 	EXP 	different_text_cont: autoDraw = False
+10.2667 	EXP 	image_cont: autoDraw = False
+10.2667 	EXP 	arrow_left_cont: autoDraw = False
+10.2667 	EXP 	arrow_right_cont: autoDraw = False
+10.2667 	EXP 	image: image = 'same/108_DV_C2.jpg'
+10.2667 	EXP 	same_text: autoDraw = True
+10.2667 	EXP 	different_text: autoDraw = True
+10.2667 	EXP 	image: autoDraw = True
+10.2667 	EXP 	arrow_left: autoDraw = True
+10.2667 	EXP 	arrow_right: autoDraw = True
+10.4154 	DATA 	Keypress: left
+10.4330 	EXP 	same_text: autoDraw = False
+10.4330 	EXP 	different_text: autoDraw = False
+10.4330 	EXP 	image: autoDraw = False
+10.4330 	EXP 	arrow_left: autoDraw = False
+10.4330 	EXP 	arrow_right: autoDraw = False
+10.4330 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+10.4330 	EXP 	textCorr: text = 'Correct response!'
+10.4330 	EXP 	image_cont: image = 'same/108_DV_C2.jpg'
+10.4330 	EXP 	textCorr: autoDraw = True
+10.4330 	EXP 	same_text_cont: autoDraw = True
+10.4330 	EXP 	different_text_cont: autoDraw = True
+10.4330 	EXP 	image_cont: autoDraw = True
+10.4330 	EXP 	arrow_left_cont: autoDraw = True
+10.4330 	EXP 	arrow_right_cont: autoDraw = True
+10.6311 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'imageFile': 'same/115_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+10.6502 	INFO 	Keyboard events cleared
+10.6498 	EXP 	textCorr: autoDraw = False
+10.6498 	EXP 	same_text_cont: autoDraw = False
+10.6498 	EXP 	different_text_cont: autoDraw = False
+10.6498 	EXP 	image_cont: autoDraw = False
+10.6498 	EXP 	arrow_left_cont: autoDraw = False
+10.6498 	EXP 	arrow_right_cont: autoDraw = False
+10.6498 	EXP 	image: image = 'same/115_C2_DV.jpg'
+10.6498 	EXP 	same_text: autoDraw = True
+10.6498 	EXP 	different_text: autoDraw = True
+10.6498 	EXP 	image: autoDraw = True
+10.6498 	EXP 	arrow_left: autoDraw = True
+10.6498 	EXP 	arrow_right: autoDraw = True
+10.8319 	DATA 	Keypress: left
+10.8522 	EXP 	same_text: autoDraw = False
+10.8522 	EXP 	different_text: autoDraw = False
+10.8522 	EXP 	image: autoDraw = False
+10.8522 	EXP 	arrow_left: autoDraw = False
+10.8522 	EXP 	arrow_right: autoDraw = False
+10.8522 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+10.8522 	EXP 	textCorr: text = 'Correct response!'
+10.8522 	EXP 	image_cont: image = 'same/115_C2_DV.jpg'
+10.8522 	EXP 	textCorr: autoDraw = True
+10.8522 	EXP 	same_text_cont: autoDraw = True
+10.8522 	EXP 	different_text_cont: autoDraw = True
+10.8522 	EXP 	image_cont: autoDraw = True
+10.8522 	EXP 	arrow_left_cont: autoDraw = True
+10.8522 	EXP 	arrow_right_cont: autoDraw = True
+11.0478 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'imageFile': 'same/120_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+11.0674 	INFO 	Keyboard events cleared
+11.0671 	EXP 	textCorr: autoDraw = False
+11.0671 	EXP 	same_text_cont: autoDraw = False
+11.0671 	EXP 	different_text_cont: autoDraw = False
+11.0671 	EXP 	image_cont: autoDraw = False
+11.0671 	EXP 	arrow_left_cont: autoDraw = False
+11.0671 	EXP 	arrow_right_cont: autoDraw = False
+11.0671 	EXP 	image: image = 'same/120_DV_C2.jpg'
+11.0671 	EXP 	same_text: autoDraw = True
+11.0671 	EXP 	different_text: autoDraw = True
+11.0671 	EXP 	image: autoDraw = True
+11.0671 	EXP 	arrow_left: autoDraw = True
+11.0671 	EXP 	arrow_right: autoDraw = True
+11.2151 	DATA 	Keypress: left
+11.2331 	EXP 	same_text: autoDraw = False
+11.2331 	EXP 	different_text: autoDraw = False
+11.2331 	EXP 	image: autoDraw = False
+11.2331 	EXP 	arrow_left: autoDraw = False
+11.2331 	EXP 	arrow_right: autoDraw = False
+11.2331 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+11.2331 	EXP 	textCorr: text = 'Correct response!'
+11.2331 	EXP 	image_cont: image = 'same/120_DV_C2.jpg'
+11.2331 	EXP 	textCorr: autoDraw = True
+11.2331 	EXP 	same_text_cont: autoDraw = True
+11.2331 	EXP 	different_text_cont: autoDraw = True
+11.2331 	EXP 	image_cont: autoDraw = True
+11.2331 	EXP 	arrow_left_cont: autoDraw = True
+11.2331 	EXP 	arrow_right_cont: autoDraw = True
+11.4309 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'imageFile': 'same/129_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+11.4504 	INFO 	Keyboard events cleared
+11.4501 	EXP 	textCorr: autoDraw = False
+11.4501 	EXP 	same_text_cont: autoDraw = False
+11.4501 	EXP 	different_text_cont: autoDraw = False
+11.4501 	EXP 	image_cont: autoDraw = False
+11.4501 	EXP 	arrow_left_cont: autoDraw = False
+11.4501 	EXP 	arrow_right_cont: autoDraw = False
+11.4501 	EXP 	image: image = 'same/129_C2_DV.jpg'
+11.4501 	EXP 	same_text: autoDraw = True
+11.4501 	EXP 	different_text: autoDraw = True
+11.4501 	EXP 	image: autoDraw = True
+11.4501 	EXP 	arrow_left: autoDraw = True
+11.4501 	EXP 	arrow_right: autoDraw = True
+11.6151 	DATA 	Keypress: left
+11.6330 	EXP 	same_text: autoDraw = False
+11.6330 	EXP 	different_text: autoDraw = False
+11.6330 	EXP 	image: autoDraw = False
+11.6330 	EXP 	arrow_left: autoDraw = False
+11.6330 	EXP 	arrow_right: autoDraw = False
+11.6330 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+11.6330 	EXP 	textCorr: text = 'Correct response!'
+11.6330 	EXP 	image_cont: image = 'same/129_C2_DV.jpg'
+11.6330 	EXP 	textCorr: autoDraw = True
+11.6330 	EXP 	same_text_cont: autoDraw = True
+11.6330 	EXP 	different_text_cont: autoDraw = True
+11.6330 	EXP 	image_cont: autoDraw = True
+11.6330 	EXP 	arrow_left_cont: autoDraw = True
+11.6330 	EXP 	arrow_right_cont: autoDraw = True
+11.8310 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'imageFile': 'same/136_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+11.8528 	INFO 	Keyboard events cleared
+11.8524 	EXP 	textCorr: autoDraw = False
+11.8524 	EXP 	same_text_cont: autoDraw = False
+11.8524 	EXP 	different_text_cont: autoDraw = False
+11.8524 	EXP 	image_cont: autoDraw = False
+11.8524 	EXP 	arrow_left_cont: autoDraw = False
+11.8524 	EXP 	arrow_right_cont: autoDraw = False
+11.8524 	EXP 	image: image = 'same/136_C2_DV.jpg'
+11.8524 	EXP 	same_text: autoDraw = True
+11.8524 	EXP 	different_text: autoDraw = True
+11.8524 	EXP 	image: autoDraw = True
+11.8524 	EXP 	arrow_left: autoDraw = True
+11.8524 	EXP 	arrow_right: autoDraw = True
+11.9985 	DATA 	Keypress: left
+12.0166 	EXP 	same_text: autoDraw = False
+12.0166 	EXP 	different_text: autoDraw = False
+12.0166 	EXP 	image: autoDraw = False
+12.0166 	EXP 	arrow_left: autoDraw = False
+12.0166 	EXP 	arrow_right: autoDraw = False
+12.0166 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+12.0166 	EXP 	textCorr: text = 'Correct response!'
+12.0166 	EXP 	image_cont: image = 'same/136_C2_DV.jpg'
+12.0166 	EXP 	textCorr: autoDraw = True
+12.0166 	EXP 	same_text_cont: autoDraw = True
+12.0166 	EXP 	different_text_cont: autoDraw = True
+12.0166 	EXP 	image_cont: autoDraw = True
+12.0166 	EXP 	arrow_left_cont: autoDraw = True
+12.0166 	EXP 	arrow_right_cont: autoDraw = True
+12.2144 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'imageFile': 'same/139_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+12.2336 	INFO 	Keyboard events cleared
+12.2332 	EXP 	textCorr: autoDraw = False
+12.2332 	EXP 	same_text_cont: autoDraw = False
+12.2332 	EXP 	different_text_cont: autoDraw = False
+12.2332 	EXP 	image_cont: autoDraw = False
+12.2332 	EXP 	arrow_left_cont: autoDraw = False
+12.2332 	EXP 	arrow_right_cont: autoDraw = False
+12.2332 	EXP 	image: image = 'same/139_DV_C2.jpg'
+12.2332 	EXP 	same_text: autoDraw = True
+12.2332 	EXP 	different_text: autoDraw = True
+12.2332 	EXP 	image: autoDraw = True
+12.2332 	EXP 	arrow_left: autoDraw = True
+12.2332 	EXP 	arrow_right: autoDraw = True
+12.3820 	DATA 	Keypress: left
+12.3997 	EXP 	same_text: autoDraw = False
+12.3997 	EXP 	different_text: autoDraw = False
+12.3997 	EXP 	image: autoDraw = False
+12.3997 	EXP 	arrow_left: autoDraw = False
+12.3997 	EXP 	arrow_right: autoDraw = False
+12.3997 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+12.3997 	EXP 	textCorr: text = 'Correct response!'
+12.3997 	EXP 	image_cont: image = 'same/139_DV_C2.jpg'
+12.3997 	EXP 	textCorr: autoDraw = True
+12.3997 	EXP 	same_text_cont: autoDraw = True
+12.3997 	EXP 	different_text_cont: autoDraw = True
+12.3997 	EXP 	image_cont: autoDraw = True
+12.3997 	EXP 	arrow_left_cont: autoDraw = True
+12.3997 	EXP 	arrow_right_cont: autoDraw = True
+12.5976 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'imageFile': 'same/168_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+12.6166 	INFO 	Keyboard events cleared
+12.6163 	EXP 	textCorr: autoDraw = False
+12.6163 	EXP 	same_text_cont: autoDraw = False
+12.6163 	EXP 	different_text_cont: autoDraw = False
+12.6163 	EXP 	image_cont: autoDraw = False
+12.6163 	EXP 	arrow_left_cont: autoDraw = False
+12.6163 	EXP 	arrow_right_cont: autoDraw = False
+12.6163 	EXP 	image: image = 'same/168_C2_DV.jpg'
+12.6163 	EXP 	same_text: autoDraw = True
+12.6163 	EXP 	different_text: autoDraw = True
+12.6163 	EXP 	image: autoDraw = True
+12.6163 	EXP 	arrow_left: autoDraw = True
+12.6163 	EXP 	arrow_right: autoDraw = True
+12.7658 	DATA 	Keypress: left
+12.7994 	EXP 	same_text: autoDraw = False
+12.7994 	EXP 	different_text: autoDraw = False
+12.7994 	EXP 	image: autoDraw = False
+12.7994 	EXP 	arrow_left: autoDraw = False
+12.7994 	EXP 	arrow_right: autoDraw = False
+12.7994 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+12.7994 	EXP 	textCorr: text = 'Correct response!'
+12.7994 	EXP 	image_cont: image = 'same/168_C2_DV.jpg'
+12.7994 	EXP 	textCorr: autoDraw = True
+12.7994 	EXP 	same_text_cont: autoDraw = True
+12.7994 	EXP 	different_text_cont: autoDraw = True
+12.7994 	EXP 	image_cont: autoDraw = True
+12.7994 	EXP 	arrow_left_cont: autoDraw = True
+12.7994 	EXP 	arrow_right_cont: autoDraw = True
+12.9976 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'imageFile': 'same/170_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+13.0166 	INFO 	Keyboard events cleared
+13.0163 	EXP 	textCorr: autoDraw = False
+13.0163 	EXP 	same_text_cont: autoDraw = False
+13.0163 	EXP 	different_text_cont: autoDraw = False
+13.0163 	EXP 	image_cont: autoDraw = False
+13.0163 	EXP 	arrow_left_cont: autoDraw = False
+13.0163 	EXP 	arrow_right_cont: autoDraw = False
+13.0163 	EXP 	image: image = 'same/170_DV_C2.jpg'
+13.0163 	EXP 	same_text: autoDraw = True
+13.0163 	EXP 	different_text: autoDraw = True
+13.0163 	EXP 	image: autoDraw = True
+13.0163 	EXP 	arrow_left: autoDraw = True
+13.0163 	EXP 	arrow_right: autoDraw = True
+13.1659 	DATA 	Keypress: left
+13.1829 	EXP 	same_text: autoDraw = False
+13.1829 	EXP 	different_text: autoDraw = False
+13.1829 	EXP 	image: autoDraw = False
+13.1829 	EXP 	arrow_left: autoDraw = False
+13.1829 	EXP 	arrow_right: autoDraw = False
+13.1829 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+13.1829 	EXP 	textCorr: text = 'Correct response!'
+13.1829 	EXP 	image_cont: image = 'same/170_DV_C2.jpg'
+13.1829 	EXP 	textCorr: autoDraw = True
+13.1829 	EXP 	same_text_cont: autoDraw = True
+13.1829 	EXP 	different_text_cont: autoDraw = True
+13.1829 	EXP 	image_cont: autoDraw = True
+13.1829 	EXP 	arrow_left_cont: autoDraw = True
+13.1829 	EXP 	arrow_right_cont: autoDraw = True
+13.3808 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'imageFile': 'same/235_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+13.4000 	INFO 	Keyboard events cleared
+13.3995 	EXP 	textCorr: autoDraw = False
+13.3995 	EXP 	same_text_cont: autoDraw = False
+13.3995 	EXP 	different_text_cont: autoDraw = False
+13.3995 	EXP 	image_cont: autoDraw = False
+13.3995 	EXP 	arrow_left_cont: autoDraw = False
+13.3995 	EXP 	arrow_right_cont: autoDraw = False
+13.3995 	EXP 	image: image = 'same/235_C2_DV.jpg'
+13.3995 	EXP 	same_text: autoDraw = True
+13.3995 	EXP 	different_text: autoDraw = True
+13.3995 	EXP 	image: autoDraw = True
+13.3995 	EXP 	arrow_left: autoDraw = True
+13.3995 	EXP 	arrow_right: autoDraw = True
+13.6149 	DATA 	Keypress: left
+13.6329 	EXP 	same_text: autoDraw = False
+13.6329 	EXP 	different_text: autoDraw = False
+13.6329 	EXP 	image: autoDraw = False
+13.6329 	EXP 	arrow_left: autoDraw = False
+13.6329 	EXP 	arrow_right: autoDraw = False
+13.6329 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+13.6329 	EXP 	textCorr: text = 'Correct response!'
+13.6329 	EXP 	image_cont: image = 'same/235_C2_DV.jpg'
+13.6329 	EXP 	textCorr: autoDraw = True
+13.6329 	EXP 	same_text_cont: autoDraw = True
+13.6329 	EXP 	different_text_cont: autoDraw = True
+13.6329 	EXP 	image_cont: autoDraw = True
+13.6329 	EXP 	arrow_left_cont: autoDraw = True
+13.6329 	EXP 	arrow_right_cont: autoDraw = True
+13.8306 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'imageFile': 'same/303_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+13.8510 	INFO 	Keyboard events cleared
+13.8507 	EXP 	textCorr: autoDraw = False
+13.8507 	EXP 	same_text_cont: autoDraw = False
+13.8507 	EXP 	different_text_cont: autoDraw = False
+13.8507 	EXP 	image_cont: autoDraw = False
+13.8507 	EXP 	arrow_left_cont: autoDraw = False
+13.8507 	EXP 	arrow_right_cont: autoDraw = False
+13.8507 	EXP 	image: image = 'same/303_DV_C2.jpg'
+13.8507 	EXP 	same_text: autoDraw = True
+13.8507 	EXP 	different_text: autoDraw = True
+13.8507 	EXP 	image: autoDraw = True
+13.8507 	EXP 	arrow_left: autoDraw = True
+13.8507 	EXP 	arrow_right: autoDraw = True
+14.0148 	DATA 	Keypress: left
+14.0327 	EXP 	same_text: autoDraw = False
+14.0327 	EXP 	different_text: autoDraw = False
+14.0327 	EXP 	image: autoDraw = False
+14.0327 	EXP 	arrow_left: autoDraw = False
+14.0327 	EXP 	arrow_right: autoDraw = False
+14.0327 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+14.0327 	EXP 	textCorr: text = 'Correct response!'
+14.0327 	EXP 	image_cont: image = 'same/303_DV_C2.jpg'
+14.0327 	EXP 	textCorr: autoDraw = True
+14.0327 	EXP 	same_text_cont: autoDraw = True
+14.0327 	EXP 	different_text_cont: autoDraw = True
+14.0327 	EXP 	image_cont: autoDraw = True
+14.0327 	EXP 	arrow_left_cont: autoDraw = True
+14.0327 	EXP 	arrow_right_cont: autoDraw = True
+14.2305 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'imageFile': 'different/013_235_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+14.2496 	INFO 	Keyboard events cleared
+14.2492 	EXP 	textCorr: autoDraw = False
+14.2492 	EXP 	same_text_cont: autoDraw = False
+14.2492 	EXP 	different_text_cont: autoDraw = False
+14.2492 	EXP 	image_cont: autoDraw = False
+14.2492 	EXP 	arrow_left_cont: autoDraw = False
+14.2492 	EXP 	arrow_right_cont: autoDraw = False
+14.2492 	EXP 	image: image = 'different/013_235_R.jpg'
+14.2492 	EXP 	same_text: autoDraw = True
+14.2492 	EXP 	different_text: autoDraw = True
+14.2492 	EXP 	image: autoDraw = True
+14.2492 	EXP 	arrow_left: autoDraw = True
+14.2492 	EXP 	arrow_right: autoDraw = True
+14.3812 	DATA 	Keypress: left
+14.4031 	EXP 	same_text: autoDraw = False
+14.4031 	EXP 	different_text: autoDraw = False
+14.4031 	EXP 	image: autoDraw = False
+14.4031 	EXP 	arrow_left: autoDraw = False
+14.4031 	EXP 	arrow_right: autoDraw = False
+14.4031 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+14.4031 	EXP 	textCorr: height = 0.05
+14.4031 	EXP 	textCorr: height = 0.05
+14.4031 	EXP 	textCorr: height = 0.05
+14.4031 	EXP 	textCorr: text = ' Wrong response. Try again!'
+14.4031 	EXP 	image_cont: image = 'different/013_235_R.jpg'
+14.4031 	EXP 	textCorr: autoDraw = True
+14.4031 	EXP 	same_text_cont: autoDraw = True
+14.4031 	EXP 	different_text_cont: autoDraw = True
+14.4031 	EXP 	image_cont: autoDraw = True
+14.4031 	EXP 	arrow_left_cont: autoDraw = True
+14.4031 	EXP 	arrow_right_cont: autoDraw = True
+14.5967 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'imageFile': 'different/019_074_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+14.6136 	INFO 	Keyboard events cleared
+14.6132 	EXP 	textCorr: autoDraw = False
+14.6132 	EXP 	same_text_cont: autoDraw = False
+14.6132 	EXP 	different_text_cont: autoDraw = False
+14.6132 	EXP 	image_cont: autoDraw = False
+14.6132 	EXP 	arrow_left_cont: autoDraw = False
+14.6132 	EXP 	arrow_right_cont: autoDraw = False
+14.6132 	EXP 	image: image = 'different/019_074_L.jpg'
+14.6132 	EXP 	same_text: autoDraw = True
+14.6132 	EXP 	different_text: autoDraw = True
+14.6132 	EXP 	image: autoDraw = True
+14.6132 	EXP 	arrow_left: autoDraw = True
+14.6132 	EXP 	arrow_right: autoDraw = True
+15.0143 	DATA 	Keypress: left
+15.0301 	EXP 	same_text: autoDraw = False
+15.0301 	EXP 	different_text: autoDraw = False
+15.0301 	EXP 	image: autoDraw = False
+15.0301 	EXP 	arrow_left: autoDraw = False
+15.0301 	EXP 	arrow_right: autoDraw = False
+15.0301 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+15.0301 	EXP 	textCorr: text = ' Wrong response. Try again!'
+15.0301 	EXP 	image_cont: image = 'different/019_074_L.jpg'
+15.0301 	EXP 	textCorr: autoDraw = True
+15.0301 	EXP 	same_text_cont: autoDraw = True
+15.0301 	EXP 	different_text_cont: autoDraw = True
+15.0301 	EXP 	image_cont: autoDraw = True
+15.0301 	EXP 	arrow_left_cont: autoDraw = True
+15.0301 	EXP 	arrow_right_cont: autoDraw = True
+15.2139 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'imageFile': 'different/025_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+15.2304 	INFO 	Keyboard events cleared
+15.2300 	EXP 	textCorr: autoDraw = False
+15.2300 	EXP 	same_text_cont: autoDraw = False
+15.2300 	EXP 	different_text_cont: autoDraw = False
+15.2300 	EXP 	image_cont: autoDraw = False
+15.2300 	EXP 	arrow_left_cont: autoDraw = False
+15.2300 	EXP 	arrow_right_cont: autoDraw = False
+15.2300 	EXP 	textCorr: autoDraw = False
+15.2300 	EXP 	same_text_cont: autoDraw = False
+15.2300 	EXP 	different_text_cont: autoDraw = False
+15.2300 	EXP 	image_cont: autoDraw = False
+15.2300 	EXP 	arrow_left_cont: autoDraw = False
+15.2300 	EXP 	arrow_right_cont: autoDraw = False
+15.2300 	EXP 	image: image = 'different/025_235_L.jpg'
+15.2300 	EXP 	same_text: autoDraw = True
+15.2300 	EXP 	different_text: autoDraw = True
+15.2300 	EXP 	image: autoDraw = True
+15.2300 	EXP 	arrow_left: autoDraw = True
+15.2300 	EXP 	arrow_right: autoDraw = True
+15.4000 	DATA 	Keypress: left
+15.4153 	EXP 	same_text: autoDraw = False
+15.4153 	EXP 	different_text: autoDraw = False
+15.4153 	EXP 	image: autoDraw = False
+15.4153 	EXP 	arrow_left: autoDraw = False
+15.4153 	EXP 	arrow_right: autoDraw = False
+15.4153 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+15.4153 	EXP 	textCorr: text = ' Wrong response. Try again!'
+15.4153 	EXP 	image_cont: image = 'different/025_235_L.jpg'
+15.4153 	EXP 	textCorr: autoDraw = True
+15.4153 	EXP 	same_text_cont: autoDraw = True
+15.4153 	EXP 	different_text_cont: autoDraw = True
+15.4153 	EXP 	image_cont: autoDraw = True
+15.4153 	EXP 	arrow_left_cont: autoDraw = True
+15.4153 	EXP 	arrow_right_cont: autoDraw = True
+15.6134 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'imageFile': 'different/049_218_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+15.6304 	INFO 	Keyboard events cleared
+15.6301 	EXP 	textCorr: autoDraw = False
+15.6301 	EXP 	same_text_cont: autoDraw = False
+15.6301 	EXP 	different_text_cont: autoDraw = False
+15.6301 	EXP 	image_cont: autoDraw = False
+15.6301 	EXP 	arrow_left_cont: autoDraw = False
+15.6301 	EXP 	arrow_right_cont: autoDraw = False
+15.6301 	EXP 	image: image = 'different/049_218_L.jpg'
+15.6301 	EXP 	same_text: autoDraw = True
+15.6301 	EXP 	different_text: autoDraw = True
+15.6301 	EXP 	image: autoDraw = True
+15.6301 	EXP 	arrow_left: autoDraw = True
+15.6301 	EXP 	arrow_right: autoDraw = True
+15.7309 	DATA 	Keypress: left
+15.7468 	EXP 	same_text: autoDraw = False
+15.7468 	EXP 	different_text: autoDraw = False
+15.7468 	EXP 	image: autoDraw = False
+15.7468 	EXP 	arrow_left: autoDraw = False
+15.7468 	EXP 	arrow_right: autoDraw = False
+15.7468 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+15.7468 	EXP 	textCorr: text = ' Wrong response. Try again!'
+15.7468 	EXP 	image_cont: image = 'different/049_218_L.jpg'
+15.7468 	EXP 	textCorr: autoDraw = True
+15.7468 	EXP 	same_text_cont: autoDraw = True
+15.7468 	EXP 	different_text_cont: autoDraw = True
+15.7468 	EXP 	image_cont: autoDraw = True
+15.7468 	EXP 	arrow_left_cont: autoDraw = True
+15.7468 	EXP 	arrow_right_cont: autoDraw = True
+15.9306 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'imageFile': 'different/076_109_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+15.9468 	INFO 	Keyboard events cleared
+15.9465 	EXP 	textCorr: autoDraw = False
+15.9465 	EXP 	same_text_cont: autoDraw = False
+15.9465 	EXP 	different_text_cont: autoDraw = False
+15.9465 	EXP 	image_cont: autoDraw = False
+15.9465 	EXP 	arrow_left_cont: autoDraw = False
+15.9465 	EXP 	arrow_right_cont: autoDraw = False
+15.9465 	EXP 	textCorr: autoDraw = False
+15.9465 	EXP 	same_text_cont: autoDraw = False
+15.9465 	EXP 	different_text_cont: autoDraw = False
+15.9465 	EXP 	image_cont: autoDraw = False
+15.9465 	EXP 	arrow_left_cont: autoDraw = False
+15.9465 	EXP 	arrow_right_cont: autoDraw = False
+15.9465 	EXP 	image: image = 'different/076_109_R.jpg'
+15.9465 	EXP 	same_text: autoDraw = True
+15.9465 	EXP 	different_text: autoDraw = True
+15.9465 	EXP 	image: autoDraw = True
+15.9465 	EXP 	arrow_left: autoDraw = True
+15.9465 	EXP 	arrow_right: autoDraw = True
+16.0640 	DATA 	Keypress: left
+16.0801 	EXP 	same_text: autoDraw = False
+16.0801 	EXP 	different_text: autoDraw = False
+16.0801 	EXP 	image: autoDraw = False
+16.0801 	EXP 	arrow_left: autoDraw = False
+16.0801 	EXP 	arrow_right: autoDraw = False
+16.0801 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+16.0801 	EXP 	textCorr: text = ' Wrong response. Try again!'
+16.0801 	EXP 	image_cont: image = 'different/076_109_R.jpg'
+16.0801 	EXP 	textCorr: autoDraw = True
+16.0801 	EXP 	same_text_cont: autoDraw = True
+16.0801 	EXP 	different_text_cont: autoDraw = True
+16.0801 	EXP 	image_cont: autoDraw = True
+16.0801 	EXP 	arrow_left_cont: autoDraw = True
+16.0801 	EXP 	arrow_right_cont: autoDraw = True
+16.2638 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'imageFile': 'different/077_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+16.2801 	INFO 	Keyboard events cleared
+16.2798 	EXP 	textCorr: autoDraw = False
+16.2798 	EXP 	same_text_cont: autoDraw = False
+16.2798 	EXP 	different_text_cont: autoDraw = False
+16.2798 	EXP 	image_cont: autoDraw = False
+16.2798 	EXP 	arrow_left_cont: autoDraw = False
+16.2798 	EXP 	arrow_right_cont: autoDraw = False
+16.2798 	EXP 	textCorr: autoDraw = False
+16.2798 	EXP 	same_text_cont: autoDraw = False
+16.2798 	EXP 	different_text_cont: autoDraw = False
+16.2798 	EXP 	image_cont: autoDraw = False
+16.2798 	EXP 	arrow_left_cont: autoDraw = False
+16.2798 	EXP 	arrow_right_cont: autoDraw = False
+16.2798 	EXP 	image: image = 'different/077_133_R.jpg'
+16.2798 	EXP 	same_text: autoDraw = True
+16.2798 	EXP 	different_text: autoDraw = True
+16.2798 	EXP 	image: autoDraw = True
+16.2798 	EXP 	arrow_left: autoDraw = True
+16.2798 	EXP 	arrow_right: autoDraw = True
+16.3141 	DATA 	Keypress: right
+16.3299 	EXP 	same_text: autoDraw = False
+16.3299 	EXP 	different_text: autoDraw = False
+16.3299 	EXP 	image: autoDraw = False
+16.3299 	EXP 	arrow_left: autoDraw = False
+16.3299 	EXP 	arrow_right: autoDraw = False
+16.3299 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+16.3299 	EXP 	textCorr: height = 0.05
+16.3299 	EXP 	textCorr: height = 0.05
+16.3299 	EXP 	textCorr: height = 0.05
+16.3299 	EXP 	textCorr: text = 'Correct response!'
+16.3299 	EXP 	image_cont: image = 'different/077_133_R.jpg'
+16.3299 	EXP 	textCorr: autoDraw = True
+16.3299 	EXP 	same_text_cont: autoDraw = True
+16.3299 	EXP 	different_text_cont: autoDraw = True
+16.3299 	EXP 	image_cont: autoDraw = True
+16.3299 	EXP 	arrow_left_cont: autoDraw = True
+16.3299 	EXP 	arrow_right_cont: autoDraw = True
+16.5134 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'imageFile': 'different/091_283_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+16.5302 	INFO 	Keyboard events cleared
+16.5298 	EXP 	textCorr: autoDraw = False
+16.5298 	EXP 	same_text_cont: autoDraw = False
+16.5298 	EXP 	different_text_cont: autoDraw = False
+16.5298 	EXP 	image_cont: autoDraw = False
+16.5298 	EXP 	arrow_left_cont: autoDraw = False
+16.5298 	EXP 	arrow_right_cont: autoDraw = False
+16.5298 	EXP 	textCorr: autoDraw = False
+16.5298 	EXP 	same_text_cont: autoDraw = False
+16.5298 	EXP 	different_text_cont: autoDraw = False
+16.5298 	EXP 	image_cont: autoDraw = False
+16.5298 	EXP 	arrow_left_cont: autoDraw = False
+16.5298 	EXP 	arrow_right_cont: autoDraw = False
+16.5298 	EXP 	image: image = 'different/091_283_R.jpg'
+16.5298 	EXP 	same_text: autoDraw = True
+16.5298 	EXP 	different_text: autoDraw = True
+16.5298 	EXP 	image: autoDraw = True
+16.5298 	EXP 	arrow_left: autoDraw = True
+16.5298 	EXP 	arrow_right: autoDraw = True
+16.6139 	DATA 	Keypress: right
+16.6296 	EXP 	same_text: autoDraw = False
+16.6296 	EXP 	different_text: autoDraw = False
+16.6296 	EXP 	image: autoDraw = False
+16.6296 	EXP 	arrow_left: autoDraw = False
+16.6296 	EXP 	arrow_right: autoDraw = False
+16.6296 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+16.6296 	EXP 	textCorr: text = 'Correct response!'
+16.6296 	EXP 	image_cont: image = 'different/091_283_R.jpg'
+16.6296 	EXP 	textCorr: autoDraw = True
+16.6296 	EXP 	same_text_cont: autoDraw = True
+16.6296 	EXP 	different_text_cont: autoDraw = True
+16.6296 	EXP 	image_cont: autoDraw = True
+16.6296 	EXP 	arrow_left_cont: autoDraw = True
+16.6296 	EXP 	arrow_right_cont: autoDraw = True
+16.8137 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'imageFile': 'different/092_283_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+16.8238 	DATA 	Keypress: right
+16.8302 	INFO 	Keyboard events cleared
+16.8298 	EXP 	textCorr: autoDraw = False
+16.8298 	EXP 	same_text_cont: autoDraw = False
+16.8298 	EXP 	different_text_cont: autoDraw = False
+16.8298 	EXP 	image_cont: autoDraw = False
+16.8298 	EXP 	arrow_left_cont: autoDraw = False
+16.8298 	EXP 	arrow_right_cont: autoDraw = False
+16.8298 	EXP 	textCorr: autoDraw = False
+16.8298 	EXP 	same_text_cont: autoDraw = False
+16.8298 	EXP 	different_text_cont: autoDraw = False
+16.8298 	EXP 	image_cont: autoDraw = False
+16.8298 	EXP 	arrow_left_cont: autoDraw = False
+16.8298 	EXP 	arrow_right_cont: autoDraw = False
+16.8298 	EXP 	image: image = 'different/092_283_L.jpg'
+16.8298 	EXP 	same_text: autoDraw = True
+16.8298 	EXP 	different_text: autoDraw = True
+16.8298 	EXP 	image: autoDraw = True
+16.8298 	EXP 	arrow_left: autoDraw = True
+16.8298 	EXP 	arrow_right: autoDraw = True
+17.0472 	DATA 	Keypress: right
+17.0631 	EXP 	same_text: autoDraw = False
+17.0631 	EXP 	different_text: autoDraw = False
+17.0631 	EXP 	image: autoDraw = False
+17.0631 	EXP 	arrow_left: autoDraw = False
+17.0631 	EXP 	arrow_right: autoDraw = False
+17.0631 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+17.0631 	EXP 	textCorr: text = 'Correct response!'
+17.0631 	EXP 	image_cont: image = 'different/092_283_L.jpg'
+17.0631 	EXP 	textCorr: autoDraw = True
+17.0631 	EXP 	same_text_cont: autoDraw = True
+17.0631 	EXP 	different_text_cont: autoDraw = True
+17.0631 	EXP 	image_cont: autoDraw = True
+17.0631 	EXP 	arrow_left_cont: autoDraw = True
+17.0631 	EXP 	arrow_right_cont: autoDraw = True
+17.2151 	DATA 	Keypress: right
+17.2469 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'imageFile': 'different/102_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+17.2634 	INFO 	Keyboard events cleared
+17.2631 	EXP 	textCorr: autoDraw = False
+17.2631 	EXP 	same_text_cont: autoDraw = False
+17.2631 	EXP 	different_text_cont: autoDraw = False
+17.2631 	EXP 	image_cont: autoDraw = False
+17.2631 	EXP 	arrow_left_cont: autoDraw = False
+17.2631 	EXP 	arrow_right_cont: autoDraw = False
+17.2631 	EXP 	textCorr: autoDraw = False
+17.2631 	EXP 	same_text_cont: autoDraw = False
+17.2631 	EXP 	different_text_cont: autoDraw = False
+17.2631 	EXP 	image_cont: autoDraw = False
+17.2631 	EXP 	arrow_left_cont: autoDraw = False
+17.2631 	EXP 	arrow_right_cont: autoDraw = False
+17.2631 	EXP 	image: image = 'different/102_224_R.jpg'
+17.2631 	EXP 	same_text: autoDraw = True
+17.2631 	EXP 	different_text: autoDraw = True
+17.2631 	EXP 	image: autoDraw = True
+17.2631 	EXP 	arrow_left: autoDraw = True
+17.2631 	EXP 	arrow_right: autoDraw = True
+17.4306 	DATA 	Keypress: right
+17.4461 	EXP 	same_text: autoDraw = False
+17.4461 	EXP 	different_text: autoDraw = False
+17.4461 	EXP 	image: autoDraw = False
+17.4461 	EXP 	arrow_left: autoDraw = False
+17.4461 	EXP 	arrow_right: autoDraw = False
+17.4461 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+17.4461 	EXP 	textCorr: text = 'Correct response!'
+17.4461 	EXP 	image_cont: image = 'different/102_224_R.jpg'
+17.4461 	EXP 	textCorr: autoDraw = True
+17.4461 	EXP 	same_text_cont: autoDraw = True
+17.4461 	EXP 	different_text_cont: autoDraw = True
+17.4461 	EXP 	image_cont: autoDraw = True
+17.4461 	EXP 	arrow_left_cont: autoDraw = True
+17.4461 	EXP 	arrow_right_cont: autoDraw = True
+17.6301 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'imageFile': 'different/106_224_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+17.6404 	DATA 	Keypress: right
+17.6467 	INFO 	Keyboard events cleared
+17.6463 	EXP 	textCorr: autoDraw = False
+17.6463 	EXP 	same_text_cont: autoDraw = False
+17.6463 	EXP 	different_text_cont: autoDraw = False
+17.6463 	EXP 	image_cont: autoDraw = False
+17.6463 	EXP 	arrow_left_cont: autoDraw = False
+17.6463 	EXP 	arrow_right_cont: autoDraw = False
+17.6463 	EXP 	textCorr: autoDraw = False
+17.6463 	EXP 	same_text_cont: autoDraw = False
+17.6463 	EXP 	different_text_cont: autoDraw = False
+17.6463 	EXP 	image_cont: autoDraw = False
+17.6463 	EXP 	arrow_left_cont: autoDraw = False
+17.6463 	EXP 	arrow_right_cont: autoDraw = False
+17.6463 	EXP 	image: image = 'different/106_224_L.jpg'
+17.6463 	EXP 	same_text: autoDraw = True
+17.6463 	EXP 	different_text: autoDraw = True
+17.6463 	EXP 	image: autoDraw = True
+17.6463 	EXP 	arrow_left: autoDraw = True
+17.6463 	EXP 	arrow_right: autoDraw = True
+17.8304 	DATA 	Keypress: right
+17.8462 	EXP 	same_text: autoDraw = False
+17.8462 	EXP 	different_text: autoDraw = False
+17.8462 	EXP 	image: autoDraw = False
+17.8462 	EXP 	arrow_left: autoDraw = False
+17.8462 	EXP 	arrow_right: autoDraw = False
+17.8462 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+17.8462 	EXP 	textCorr: text = 'Correct response!'
+17.8462 	EXP 	image_cont: image = 'different/106_224_L.jpg'
+17.8462 	EXP 	textCorr: autoDraw = True
+17.8462 	EXP 	same_text_cont: autoDraw = True
+17.8462 	EXP 	different_text_cont: autoDraw = True
+17.8462 	EXP 	image_cont: autoDraw = True
+17.8462 	EXP 	arrow_left_cont: autoDraw = True
+17.8462 	EXP 	arrow_right_cont: autoDraw = True
+18.0300 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'imageFile': 'different/116_067_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+18.0400 	DATA 	Keypress: right
+18.0467 	INFO 	Keyboard events cleared
+18.0463 	EXP 	textCorr: autoDraw = False
+18.0463 	EXP 	same_text_cont: autoDraw = False
+18.0463 	EXP 	different_text_cont: autoDraw = False
+18.0463 	EXP 	image_cont: autoDraw = False
+18.0463 	EXP 	arrow_left_cont: autoDraw = False
+18.0463 	EXP 	arrow_right_cont: autoDraw = False
+18.0463 	EXP 	textCorr: autoDraw = False
+18.0463 	EXP 	same_text_cont: autoDraw = False
+18.0463 	EXP 	different_text_cont: autoDraw = False
+18.0463 	EXP 	image_cont: autoDraw = False
+18.0463 	EXP 	arrow_left_cont: autoDraw = False
+18.0463 	EXP 	arrow_right_cont: autoDraw = False
+18.0463 	EXP 	image: image = 'different/116_067_R.jpg'
+18.0463 	EXP 	same_text: autoDraw = True
+18.0463 	EXP 	different_text: autoDraw = True
+18.0463 	EXP 	image: autoDraw = True
+18.0463 	EXP 	arrow_left: autoDraw = True
+18.0463 	EXP 	arrow_right: autoDraw = True
+18.2136 	DATA 	Keypress: right
+18.2297 	EXP 	same_text: autoDraw = False
+18.2297 	EXP 	different_text: autoDraw = False
+18.2297 	EXP 	image: autoDraw = False
+18.2297 	EXP 	arrow_left: autoDraw = False
+18.2297 	EXP 	arrow_right: autoDraw = False
+18.2297 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+18.2297 	EXP 	textCorr: text = 'Correct response!'
+18.2297 	EXP 	image_cont: image = 'different/116_067_R.jpg'
+18.2297 	EXP 	textCorr: autoDraw = True
+18.2297 	EXP 	same_text_cont: autoDraw = True
+18.2297 	EXP 	different_text_cont: autoDraw = True
+18.2297 	EXP 	image_cont: autoDraw = True
+18.2297 	EXP 	arrow_left_cont: autoDraw = True
+18.2297 	EXP 	arrow_right_cont: autoDraw = True
+18.4133 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'imageFile': 'different/120_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+18.4230 	DATA 	Keypress: right
+18.4297 	INFO 	Keyboard events cleared
+18.4293 	EXP 	textCorr: autoDraw = False
+18.4293 	EXP 	same_text_cont: autoDraw = False
+18.4293 	EXP 	different_text_cont: autoDraw = False
+18.4293 	EXP 	image_cont: autoDraw = False
+18.4293 	EXP 	arrow_left_cont: autoDraw = False
+18.4293 	EXP 	arrow_right_cont: autoDraw = False
+18.4293 	EXP 	textCorr: autoDraw = False
+18.4293 	EXP 	same_text_cont: autoDraw = False
+18.4293 	EXP 	different_text_cont: autoDraw = False
+18.4293 	EXP 	image_cont: autoDraw = False
+18.4293 	EXP 	arrow_left_cont: autoDraw = False
+18.4293 	EXP 	arrow_right_cont: autoDraw = False
+18.4293 	EXP 	image: image = 'different/120_133_R.jpg'
+18.4293 	EXP 	same_text: autoDraw = True
+18.4293 	EXP 	different_text: autoDraw = True
+18.4293 	EXP 	image: autoDraw = True
+18.4293 	EXP 	arrow_left: autoDraw = True
+18.4293 	EXP 	arrow_right: autoDraw = True
+18.6139 	DATA 	Keypress: right
+18.6294 	EXP 	same_text: autoDraw = False
+18.6294 	EXP 	different_text: autoDraw = False
+18.6294 	EXP 	image: autoDraw = False
+18.6294 	EXP 	arrow_left: autoDraw = False
+18.6294 	EXP 	arrow_right: autoDraw = False
+18.6294 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+18.6294 	EXP 	textCorr: text = 'Correct response!'
+18.6294 	EXP 	image_cont: image = 'different/120_133_R.jpg'
+18.6294 	EXP 	textCorr: autoDraw = True
+18.6294 	EXP 	same_text_cont: autoDraw = True
+18.6294 	EXP 	different_text_cont: autoDraw = True
+18.6294 	EXP 	image_cont: autoDraw = True
+18.6294 	EXP 	arrow_left_cont: autoDraw = True
+18.6294 	EXP 	arrow_right_cont: autoDraw = True
+18.7977 	DATA 	Keypress: right
+18.8135 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'imageFile': 'different/132_210_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+18.8297 	INFO 	Keyboard events cleared
+18.8293 	EXP 	textCorr: autoDraw = False
+18.8293 	EXP 	same_text_cont: autoDraw = False
+18.8293 	EXP 	different_text_cont: autoDraw = False
+18.8293 	EXP 	image_cont: autoDraw = False
+18.8293 	EXP 	arrow_left_cont: autoDraw = False
+18.8293 	EXP 	arrow_right_cont: autoDraw = False
+18.8293 	EXP 	textCorr: autoDraw = False
+18.8293 	EXP 	same_text_cont: autoDraw = False
+18.8293 	EXP 	different_text_cont: autoDraw = False
+18.8293 	EXP 	image_cont: autoDraw = False
+18.8293 	EXP 	arrow_left_cont: autoDraw = False
+18.8293 	EXP 	arrow_right_cont: autoDraw = False
+18.8293 	EXP 	image: image = 'different/132_210_R.jpg'
+18.8293 	EXP 	same_text: autoDraw = True
+18.8293 	EXP 	different_text: autoDraw = True
+18.8293 	EXP 	image: autoDraw = True
+18.8293 	EXP 	arrow_left: autoDraw = True
+18.8293 	EXP 	arrow_right: autoDraw = True
+19.0138 	DATA 	Keypress: right
+19.0294 	EXP 	same_text: autoDraw = False
+19.0294 	EXP 	different_text: autoDraw = False
+19.0294 	EXP 	image: autoDraw = False
+19.0294 	EXP 	arrow_left: autoDraw = False
+19.0294 	EXP 	arrow_right: autoDraw = False
+19.0294 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+19.0294 	EXP 	textCorr: text = 'Correct response!'
+19.0294 	EXP 	image_cont: image = 'different/132_210_R.jpg'
+19.0294 	EXP 	textCorr: autoDraw = True
+19.0294 	EXP 	same_text_cont: autoDraw = True
+19.0294 	EXP 	different_text_cont: autoDraw = True
+19.0294 	EXP 	image_cont: autoDraw = True
+19.0294 	EXP 	arrow_left_cont: autoDraw = True
+19.0294 	EXP 	arrow_right_cont: autoDraw = True
+19.2131 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'imageFile': 'different/143_254_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+19.2233 	DATA 	Keypress: right
+19.2299 	INFO 	Keyboard events cleared
+19.2295 	EXP 	textCorr: autoDraw = False
+19.2295 	EXP 	same_text_cont: autoDraw = False
+19.2295 	EXP 	different_text_cont: autoDraw = False
+19.2295 	EXP 	image_cont: autoDraw = False
+19.2295 	EXP 	arrow_left_cont: autoDraw = False
+19.2295 	EXP 	arrow_right_cont: autoDraw = False
+19.2295 	EXP 	textCorr: autoDraw = False
+19.2295 	EXP 	same_text_cont: autoDraw = False
+19.2295 	EXP 	different_text_cont: autoDraw = False
+19.2295 	EXP 	image_cont: autoDraw = False
+19.2295 	EXP 	arrow_left_cont: autoDraw = False
+19.2295 	EXP 	arrow_right_cont: autoDraw = False
+19.2295 	EXP 	image: image = 'different/143_254_R.jpg'
+19.2295 	EXP 	same_text: autoDraw = True
+19.2295 	EXP 	different_text: autoDraw = True
+19.2295 	EXP 	image: autoDraw = True
+19.2295 	EXP 	arrow_left: autoDraw = True
+19.2295 	EXP 	arrow_right: autoDraw = True
+19.4305 	DATA 	Keypress: right
+19.4459 	EXP 	same_text: autoDraw = False
+19.4459 	EXP 	different_text: autoDraw = False
+19.4459 	EXP 	image: autoDraw = False
+19.4459 	EXP 	arrow_left: autoDraw = False
+19.4459 	EXP 	arrow_right: autoDraw = False
+19.4459 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+19.4459 	EXP 	textCorr: text = 'Correct response!'
+19.4459 	EXP 	image_cont: image = 'different/143_254_R.jpg'
+19.4459 	EXP 	textCorr: autoDraw = True
+19.4459 	EXP 	same_text_cont: autoDraw = True
+19.4459 	EXP 	different_text_cont: autoDraw = True
+19.4459 	EXP 	image_cont: autoDraw = True
+19.4459 	EXP 	arrow_left_cont: autoDraw = True
+19.4459 	EXP 	arrow_right_cont: autoDraw = True
+19.6299 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'imageFile': 'different/209_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+19.6465 	INFO 	Keyboard events cleared
+19.6461 	EXP 	textCorr: autoDraw = False
+19.6461 	EXP 	same_text_cont: autoDraw = False
+19.6461 	EXP 	different_text_cont: autoDraw = False
+19.6461 	EXP 	image_cont: autoDraw = False
+19.6461 	EXP 	arrow_left_cont: autoDraw = False
+19.6461 	EXP 	arrow_right_cont: autoDraw = False
+19.6461 	EXP 	textCorr: autoDraw = False
+19.6461 	EXP 	same_text_cont: autoDraw = False
+19.6461 	EXP 	different_text_cont: autoDraw = False
+19.6461 	EXP 	image_cont: autoDraw = False
+19.6461 	EXP 	arrow_left_cont: autoDraw = False
+19.6461 	EXP 	arrow_right_cont: autoDraw = False
+19.6461 	EXP 	image: image = 'different/209_224_R.jpg'
+19.6461 	EXP 	same_text: autoDraw = True
+19.6461 	EXP 	different_text: autoDraw = True
+19.6461 	EXP 	image: autoDraw = True
+19.6461 	EXP 	arrow_left: autoDraw = True
+19.6461 	EXP 	arrow_right: autoDraw = True
+19.6805 	DATA 	Keypress: right
+19.6962 	EXP 	same_text: autoDraw = False
+19.6962 	EXP 	different_text: autoDraw = False
+19.6962 	EXP 	image: autoDraw = False
+19.6962 	EXP 	arrow_left: autoDraw = False
+19.6962 	EXP 	arrow_right: autoDraw = False
+19.6962 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+19.6962 	EXP 	textCorr: text = 'Correct response!'
+19.6962 	EXP 	image_cont: image = 'different/209_224_R.jpg'
+19.6962 	EXP 	textCorr: autoDraw = True
+19.6962 	EXP 	same_text_cont: autoDraw = True
+19.6962 	EXP 	different_text_cont: autoDraw = True
+19.6962 	EXP 	image_cont: autoDraw = True
+19.6962 	EXP 	arrow_left_cont: autoDraw = True
+19.6962 	EXP 	arrow_right_cont: autoDraw = True
+19.8800 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'imageFile': 'different/254_287_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+19.8963 	INFO 	Keyboard events cleared
+19.8959 	EXP 	textCorr: autoDraw = False
+19.8959 	EXP 	same_text_cont: autoDraw = False
+19.8959 	EXP 	different_text_cont: autoDraw = False
+19.8959 	EXP 	image_cont: autoDraw = False
+19.8959 	EXP 	arrow_left_cont: autoDraw = False
+19.8959 	EXP 	arrow_right_cont: autoDraw = False
+19.8959 	EXP 	textCorr: autoDraw = False
+19.8959 	EXP 	same_text_cont: autoDraw = False
+19.8959 	EXP 	different_text_cont: autoDraw = False
+19.8959 	EXP 	image_cont: autoDraw = False
+19.8959 	EXP 	arrow_left_cont: autoDraw = False
+19.8959 	EXP 	arrow_right_cont: autoDraw = False
+19.8959 	EXP 	image: image = 'different/254_287_L.jpg'
+19.8959 	EXP 	same_text: autoDraw = True
+19.8959 	EXP 	different_text: autoDraw = True
+19.8959 	EXP 	image: autoDraw = True
+19.8959 	EXP 	arrow_left: autoDraw = True
+19.8959 	EXP 	arrow_right: autoDraw = True
+19.9303 	DATA 	Keypress: right
+19.9464 	EXP 	same_text: autoDraw = False
+19.9464 	EXP 	different_text: autoDraw = False
+19.9464 	EXP 	image: autoDraw = False
+19.9464 	EXP 	arrow_left: autoDraw = False
+19.9464 	EXP 	arrow_right: autoDraw = False
+19.9464 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+19.9464 	EXP 	textCorr: text = 'Correct response!'
+19.9464 	EXP 	image_cont: image = 'different/254_287_L.jpg'
+19.9464 	EXP 	textCorr: autoDraw = True
+19.9464 	EXP 	same_text_cont: autoDraw = True
+19.9464 	EXP 	different_text_cont: autoDraw = True
+19.9464 	EXP 	image_cont: autoDraw = True
+19.9464 	EXP 	arrow_left_cont: autoDraw = True
+19.9464 	EXP 	arrow_right_cont: autoDraw = True
+20.1297 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'imageFile': 'different/261_254_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+20.1465 	INFO 	Keyboard events cleared
+20.1461 	EXP 	textCorr: autoDraw = False
+20.1461 	EXP 	same_text_cont: autoDraw = False
+20.1461 	EXP 	different_text_cont: autoDraw = False
+20.1461 	EXP 	image_cont: autoDraw = False
+20.1461 	EXP 	arrow_left_cont: autoDraw = False
+20.1461 	EXP 	arrow_right_cont: autoDraw = False
+20.1461 	EXP 	textCorr: autoDraw = False
+20.1461 	EXP 	same_text_cont: autoDraw = False
+20.1461 	EXP 	different_text_cont: autoDraw = False
+20.1461 	EXP 	image_cont: autoDraw = False
+20.1461 	EXP 	arrow_left_cont: autoDraw = False
+20.1461 	EXP 	arrow_right_cont: autoDraw = False
+20.1461 	EXP 	image: image = 'different/261_254_L.jpg'
+20.1461 	EXP 	same_text: autoDraw = True
+20.1461 	EXP 	different_text: autoDraw = True
+20.1461 	EXP 	image: autoDraw = True
+20.1461 	EXP 	arrow_left: autoDraw = True
+20.1461 	EXP 	arrow_right: autoDraw = True
+20.1807 	DATA 	Keypress: right
+20.2126 	EXP 	same_text: autoDraw = False
+20.2126 	EXP 	different_text: autoDraw = False
+20.2126 	EXP 	image: autoDraw = False
+20.2126 	EXP 	arrow_left: autoDraw = False
+20.2126 	EXP 	arrow_right: autoDraw = False
+20.2126 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+20.2126 	EXP 	textCorr: text = 'Correct response!'
+20.2126 	EXP 	image_cont: image = 'different/261_254_L.jpg'
+20.2126 	EXP 	textCorr: autoDraw = True
+20.2126 	EXP 	same_text_cont: autoDraw = True
+20.2126 	EXP 	different_text_cont: autoDraw = True
+20.2126 	EXP 	image_cont: autoDraw = True
+20.2126 	EXP 	arrow_left_cont: autoDraw = True
+20.2126 	EXP 	arrow_right_cont: autoDraw = True
+20.3965 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'imageFile': 'different/282_108_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+20.4130 	INFO 	Keyboard events cleared
+20.4126 	EXP 	textCorr: autoDraw = False
+20.4126 	EXP 	same_text_cont: autoDraw = False
+20.4126 	EXP 	different_text_cont: autoDraw = False
+20.4126 	EXP 	image_cont: autoDraw = False
+20.4126 	EXP 	arrow_left_cont: autoDraw = False
+20.4126 	EXP 	arrow_right_cont: autoDraw = False
+20.4126 	EXP 	textCorr: autoDraw = False
+20.4126 	EXP 	same_text_cont: autoDraw = False
+20.4126 	EXP 	different_text_cont: autoDraw = False
+20.4126 	EXP 	image_cont: autoDraw = False
+20.4126 	EXP 	arrow_left_cont: autoDraw = False
+20.4126 	EXP 	arrow_right_cont: autoDraw = False
+20.4126 	EXP 	image: image = 'different/282_108_R.jpg'
+20.4126 	EXP 	same_text: autoDraw = True
+20.4126 	EXP 	different_text: autoDraw = True
+20.4126 	EXP 	image: autoDraw = True
+20.4126 	EXP 	arrow_left: autoDraw = True
+20.4126 	EXP 	arrow_right: autoDraw = True
+20.4308 	DATA 	Keypress: right
+20.4459 	EXP 	same_text: autoDraw = False
+20.4459 	EXP 	different_text: autoDraw = False
+20.4459 	EXP 	image: autoDraw = False
+20.4459 	EXP 	arrow_left: autoDraw = False
+20.4459 	EXP 	arrow_right: autoDraw = False
+20.4459 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+20.4459 	EXP 	textCorr: text = 'Correct response!'
+20.4459 	EXP 	image_cont: image = 'different/282_108_R.jpg'
+20.4459 	EXP 	textCorr: autoDraw = True
+20.4459 	EXP 	same_text_cont: autoDraw = True
+20.4459 	EXP 	different_text_cont: autoDraw = True
+20.4459 	EXP 	image_cont: autoDraw = True
+20.4459 	EXP 	arrow_left_cont: autoDraw = True
+20.4459 	EXP 	arrow_right_cont: autoDraw = True
+20.6295 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'imageFile': 'different/296_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+20.6461 	INFO 	Keyboard events cleared
+20.6457 	EXP 	textCorr: autoDraw = False
+20.6457 	EXP 	same_text_cont: autoDraw = False
+20.6457 	EXP 	different_text_cont: autoDraw = False
+20.6457 	EXP 	image_cont: autoDraw = False
+20.6457 	EXP 	arrow_left_cont: autoDraw = False
+20.6457 	EXP 	arrow_right_cont: autoDraw = False
+20.6457 	EXP 	textCorr: autoDraw = False
+20.6457 	EXP 	same_text_cont: autoDraw = False
+20.6457 	EXP 	different_text_cont: autoDraw = False
+20.6457 	EXP 	image_cont: autoDraw = False
+20.6457 	EXP 	arrow_left_cont: autoDraw = False
+20.6457 	EXP 	arrow_right_cont: autoDraw = False
+20.6457 	EXP 	image: image = 'different/296_235_L.jpg'
+20.6457 	EXP 	same_text: autoDraw = True
+20.6457 	EXP 	different_text: autoDraw = True
+20.6457 	EXP 	image: autoDraw = True
+20.6457 	EXP 	arrow_left: autoDraw = True
+20.6457 	EXP 	arrow_right: autoDraw = True
+20.8469 	DATA 	Keypress: left
+20.8660 	EXP 	same_text: autoDraw = False
+20.8660 	EXP 	different_text: autoDraw = False
+20.8660 	EXP 	image: autoDraw = False
+20.8660 	EXP 	arrow_left: autoDraw = False
+20.8660 	EXP 	arrow_right: autoDraw = False
+20.8660 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+20.8660 	EXP 	textCorr: height = 0.05
+20.8660 	EXP 	textCorr: height = 0.05
+20.8660 	EXP 	textCorr: height = 0.05
+20.8660 	EXP 	textCorr: text = ' Wrong response. Try again!'
+20.8660 	EXP 	image_cont: image = 'different/296_235_L.jpg'
+20.8660 	EXP 	textCorr: autoDraw = True
+20.8660 	EXP 	same_text_cont: autoDraw = True
+20.8660 	EXP 	different_text_cont: autoDraw = True
+20.8660 	EXP 	image_cont: autoDraw = True
+20.8660 	EXP 	arrow_left_cont: autoDraw = True
+20.8660 	EXP 	arrow_right_cont: autoDraw = True
+21.0626 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'imageFile': 'different/303_037_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+21.0794 	INFO 	Keyboard events cleared
+21.0790 	EXP 	textCorr: autoDraw = False
+21.0790 	EXP 	same_text_cont: autoDraw = False
+21.0790 	EXP 	different_text_cont: autoDraw = False
+21.0790 	EXP 	image_cont: autoDraw = False
+21.0790 	EXP 	arrow_left_cont: autoDraw = False
+21.0790 	EXP 	arrow_right_cont: autoDraw = False
+21.0790 	EXP 	image: image = 'different/303_037_R.jpg'
+21.0790 	EXP 	same_text: autoDraw = True
+21.0790 	EXP 	different_text: autoDraw = True
+21.0790 	EXP 	image: autoDraw = True
+21.0790 	EXP 	arrow_left: autoDraw = True
+21.0790 	EXP 	arrow_right: autoDraw = True
+21.1298 	DATA 	Keypress: left
+21.1457 	EXP 	same_text: autoDraw = False
+21.1457 	EXP 	different_text: autoDraw = False
+21.1457 	EXP 	image: autoDraw = False
+21.1457 	EXP 	arrow_left: autoDraw = False
+21.1457 	EXP 	arrow_right: autoDraw = False
+21.1457 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+21.1457 	EXP 	textCorr: text = ' Wrong response. Try again!'
+21.1457 	EXP 	image_cont: image = 'different/303_037_R.jpg'
+21.1457 	EXP 	textCorr: autoDraw = True
+21.1457 	EXP 	same_text_cont: autoDraw = True
+21.1457 	EXP 	different_text_cont: autoDraw = True
+21.1457 	EXP 	image_cont: autoDraw = True
+21.1457 	EXP 	arrow_left_cont: autoDraw = True
+21.1457 	EXP 	arrow_right_cont: autoDraw = True
+21.3297 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'imageFile': 'same/020_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+21.3500 	INFO 	Keyboard events cleared
+21.3496 	EXP 	textCorr: autoDraw = False
+21.3496 	EXP 	same_text_cont: autoDraw = False
+21.3496 	EXP 	different_text_cont: autoDraw = False
+21.3496 	EXP 	image_cont: autoDraw = False
+21.3496 	EXP 	arrow_left_cont: autoDraw = False
+21.3496 	EXP 	arrow_right_cont: autoDraw = False
+21.3496 	EXP 	textCorr: autoDraw = False
+21.3496 	EXP 	same_text_cont: autoDraw = False
+21.3496 	EXP 	different_text_cont: autoDraw = False
+21.3496 	EXP 	image_cont: autoDraw = False
+21.3496 	EXP 	arrow_left_cont: autoDraw = False
+21.3496 	EXP 	arrow_right_cont: autoDraw = False
+21.3496 	EXP 	image: image = 'same/020_C2_DV.jpg'
+21.3496 	EXP 	same_text: autoDraw = True
+21.3496 	EXP 	different_text: autoDraw = True
+21.3496 	EXP 	image: autoDraw = True
+21.3496 	EXP 	arrow_left: autoDraw = True
+21.3496 	EXP 	arrow_right: autoDraw = True
+21.3806 	DATA 	Keypress: left
+21.4015 	EXP 	same_text: autoDraw = False
+21.4015 	EXP 	different_text: autoDraw = False
+21.4015 	EXP 	image: autoDraw = False
+21.4015 	EXP 	arrow_left: autoDraw = False
+21.4015 	EXP 	arrow_right: autoDraw = False
+21.4015 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+21.4015 	EXP 	textCorr: height = 0.05
+21.4015 	EXP 	textCorr: height = 0.05
+21.4015 	EXP 	textCorr: height = 0.05
+21.4015 	EXP 	textCorr: text = 'Correct response!'
+21.4015 	EXP 	image_cont: image = 'same/020_C2_DV.jpg'
+21.4015 	EXP 	textCorr: autoDraw = True
+21.4015 	EXP 	same_text_cont: autoDraw = True
+21.4015 	EXP 	different_text_cont: autoDraw = True
+21.4015 	EXP 	image_cont: autoDraw = True
+21.4015 	EXP 	arrow_left_cont: autoDraw = True
+21.4015 	EXP 	arrow_right_cont: autoDraw = True
+21.5817 	DATA 	Keypress: left
+21.5962 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'imageFile': 'same/025_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+21.6152 	INFO 	Keyboard events cleared
+21.6149 	EXP 	textCorr: autoDraw = False
+21.6149 	EXP 	same_text_cont: autoDraw = False
+21.6149 	EXP 	different_text_cont: autoDraw = False
+21.6149 	EXP 	image_cont: autoDraw = False
+21.6149 	EXP 	arrow_left_cont: autoDraw = False
+21.6149 	EXP 	arrow_right_cont: autoDraw = False
+21.6149 	EXP 	image: image = 'same/025_C2_DV.jpg'
+21.6149 	EXP 	same_text: autoDraw = True
+21.6149 	EXP 	different_text: autoDraw = True
+21.6149 	EXP 	image: autoDraw = True
+21.6149 	EXP 	arrow_left: autoDraw = True
+21.6149 	EXP 	arrow_right: autoDraw = True
+21.8137 	DATA 	Keypress: right
+21.8319 	EXP 	same_text: autoDraw = False
+21.8319 	EXP 	different_text: autoDraw = False
+21.8319 	EXP 	image: autoDraw = False
+21.8319 	EXP 	arrow_left: autoDraw = False
+21.8319 	EXP 	arrow_right: autoDraw = False
+21.8319 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+21.8319 	EXP 	textCorr: text = 'Correct response!'
+21.8319 	EXP 	image_cont: image = 'same/025_C2_DV.jpg'
+21.8319 	EXP 	textCorr: autoDraw = True
+21.8319 	EXP 	same_text_cont: autoDraw = True
+21.8319 	EXP 	different_text_cont: autoDraw = True
+21.8319 	EXP 	image_cont: autoDraw = True
+21.8319 	EXP 	arrow_left_cont: autoDraw = True
+21.8319 	EXP 	arrow_right_cont: autoDraw = True
+22.0298 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'imageFile': 'same/068_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+22.0485 	INFO 	Keyboard events cleared
+22.0481 	EXP 	textCorr: autoDraw = False
+22.0481 	EXP 	same_text_cont: autoDraw = False
+22.0481 	EXP 	different_text_cont: autoDraw = False
+22.0481 	EXP 	image_cont: autoDraw = False
+22.0481 	EXP 	arrow_left_cont: autoDraw = False
+22.0481 	EXP 	arrow_right_cont: autoDraw = False
+22.0481 	EXP 	image: image = 'same/068_C2_DV.jpg'
+22.0481 	EXP 	same_text: autoDraw = True
+22.0481 	EXP 	different_text: autoDraw = True
+22.0481 	EXP 	image: autoDraw = True
+22.0481 	EXP 	arrow_left: autoDraw = True
+22.0481 	EXP 	arrow_right: autoDraw = True
+22.0805 	DATA 	Keypress: right
+22.0995 	EXP 	same_text: autoDraw = False
+22.0995 	EXP 	different_text: autoDraw = False
+22.0995 	EXP 	image: autoDraw = False
+22.0995 	EXP 	arrow_left: autoDraw = False
+22.0995 	EXP 	arrow_right: autoDraw = False
+22.0995 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+22.0995 	EXP 	textCorr: height = 0.05
+22.0995 	EXP 	textCorr: height = 0.05
+22.0995 	EXP 	textCorr: height = 0.05
+22.0995 	EXP 	textCorr: text = ' Wrong response. Try again!'
+22.0995 	EXP 	image_cont: image = 'same/068_C2_DV.jpg'
+22.0995 	EXP 	textCorr: autoDraw = True
+22.0995 	EXP 	same_text_cont: autoDraw = True
+22.0995 	EXP 	different_text_cont: autoDraw = True
+22.0995 	EXP 	image_cont: autoDraw = True
+22.0995 	EXP 	arrow_left_cont: autoDraw = True
+22.0995 	EXP 	arrow_right_cont: autoDraw = True
+22.2964 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'imageFile': 'same/069_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+22.3153 	INFO 	Keyboard events cleared
+22.3149 	EXP 	textCorr: autoDraw = False
+22.3149 	EXP 	same_text_cont: autoDraw = False
+22.3149 	EXP 	different_text_cont: autoDraw = False
+22.3149 	EXP 	image_cont: autoDraw = False
+22.3149 	EXP 	arrow_left_cont: autoDraw = False
+22.3149 	EXP 	arrow_right_cont: autoDraw = False
+22.3149 	EXP 	image: image = 'same/069_C2_DV.jpg'
+22.3149 	EXP 	same_text: autoDraw = True
+22.3149 	EXP 	different_text: autoDraw = True
+22.3149 	EXP 	image: autoDraw = True
+22.3149 	EXP 	arrow_left: autoDraw = True
+22.3149 	EXP 	arrow_right: autoDraw = True
+22.3823 	DATA 	Keypress: left
+22.4110 	EXP 	same_text: autoDraw = False
+22.4110 	EXP 	different_text: autoDraw = False
+22.4110 	EXP 	image: autoDraw = False
+22.4110 	EXP 	arrow_left: autoDraw = False
+22.4110 	EXP 	arrow_right: autoDraw = False
+22.4110 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+22.4110 	EXP 	textCorr: height = 0.05
+22.4110 	EXP 	textCorr: height = 0.05
+22.4110 	EXP 	textCorr: height = 0.05
+22.4110 	EXP 	textCorr: text = 'Correct response!'
+22.4110 	EXP 	image_cont: image = 'same/069_C2_DV.jpg'
+22.4110 	EXP 	textCorr: autoDraw = True
+22.4110 	EXP 	same_text_cont: autoDraw = True
+22.4110 	EXP 	different_text_cont: autoDraw = True
+22.4110 	EXP 	image_cont: autoDraw = True
+22.4110 	EXP 	arrow_left_cont: autoDraw = True
+22.4110 	EXP 	arrow_right_cont: autoDraw = True
+22.5962 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'imageFile': 'same/074_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+22.6151 	INFO 	Keyboard events cleared
+22.6147 	EXP 	textCorr: autoDraw = False
+22.6147 	EXP 	same_text_cont: autoDraw = False
+22.6147 	EXP 	different_text_cont: autoDraw = False
+22.6147 	EXP 	image_cont: autoDraw = False
+22.6147 	EXP 	arrow_left_cont: autoDraw = False
+22.6147 	EXP 	arrow_right_cont: autoDraw = False
+22.6147 	EXP 	image: image = 'same/074_C2_DV.jpg'
+22.6147 	EXP 	same_text: autoDraw = True
+22.6147 	EXP 	different_text: autoDraw = True
+22.6147 	EXP 	image: autoDraw = True
+22.6147 	EXP 	arrow_left: autoDraw = True
+22.6147 	EXP 	arrow_right: autoDraw = True
+22.8802 	DATA 	Keypress: left
+22.9016 	EXP 	same_text: autoDraw = False
+22.9016 	EXP 	different_text: autoDraw = False
+22.9016 	EXP 	image: autoDraw = False
+22.9016 	EXP 	arrow_left: autoDraw = False
+22.9016 	EXP 	arrow_right: autoDraw = False
+22.9016 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+22.9016 	EXP 	textCorr: text = 'Correct response!'
+22.9016 	EXP 	image_cont: image = 'same/074_C2_DV.jpg'
+22.9016 	EXP 	textCorr: autoDraw = True
+22.9016 	EXP 	same_text_cont: autoDraw = True
+22.9016 	EXP 	different_text_cont: autoDraw = True
+22.9016 	EXP 	image_cont: autoDraw = True
+22.9016 	EXP 	arrow_left_cont: autoDraw = True
+22.9016 	EXP 	arrow_right_cont: autoDraw = True
+23.0962 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'imageFile': 'same/075_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+23.1073 	DATA 	Keypress: left
+23.1149 	INFO 	Keyboard events cleared
+23.1145 	EXP 	textCorr: autoDraw = False
+23.1145 	EXP 	same_text_cont: autoDraw = False
+23.1145 	EXP 	different_text_cont: autoDraw = False
+23.1145 	EXP 	image_cont: autoDraw = False
+23.1145 	EXP 	arrow_left_cont: autoDraw = False
+23.1145 	EXP 	arrow_right_cont: autoDraw = False
+23.1145 	EXP 	image: image = 'same/075_DV_C2.jpg'
+23.1145 	EXP 	same_text: autoDraw = True
+23.1145 	EXP 	different_text: autoDraw = True
+23.1145 	EXP 	image: autoDraw = True
+23.1145 	EXP 	arrow_left: autoDraw = True
+23.1145 	EXP 	arrow_right: autoDraw = True
+23.2637 	DATA 	Keypress: left
+23.2818 	EXP 	same_text: autoDraw = False
+23.2818 	EXP 	different_text: autoDraw = False
+23.2818 	EXP 	image: autoDraw = False
+23.2818 	EXP 	arrow_left: autoDraw = False
+23.2818 	EXP 	arrow_right: autoDraw = False
+23.2818 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+23.2818 	EXP 	textCorr: text = 'Correct response!'
+23.2818 	EXP 	image_cont: image = 'same/075_DV_C2.jpg'
+23.2818 	EXP 	textCorr: autoDraw = True
+23.2818 	EXP 	same_text_cont: autoDraw = True
+23.2818 	EXP 	different_text_cont: autoDraw = True
+23.2818 	EXP 	image_cont: autoDraw = True
+23.2818 	EXP 	arrow_left_cont: autoDraw = True
+23.2818 	EXP 	arrow_right_cont: autoDraw = True
+23.4476 	DATA 	Keypress: left
+23.4797 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'imageFile': 'same/081_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+23.4982 	INFO 	Keyboard events cleared
+23.4978 	EXP 	textCorr: autoDraw = False
+23.4978 	EXP 	same_text_cont: autoDraw = False
+23.4978 	EXP 	different_text_cont: autoDraw = False
+23.4978 	EXP 	image_cont: autoDraw = False
+23.4978 	EXP 	arrow_left_cont: autoDraw = False
+23.4978 	EXP 	arrow_right_cont: autoDraw = False
+23.4978 	EXP 	image: image = 'same/081_C2_DV.jpg'
+23.4978 	EXP 	same_text: autoDraw = True
+23.4978 	EXP 	different_text: autoDraw = True
+23.4978 	EXP 	image: autoDraw = True
+23.4978 	EXP 	arrow_left: autoDraw = True
+23.4978 	EXP 	arrow_right: autoDraw = True
+23.8303 	DATA 	Keypress: right
+23.8485 	EXP 	same_text: autoDraw = False
+23.8485 	EXP 	different_text: autoDraw = False
+23.8485 	EXP 	image: autoDraw = False
+23.8485 	EXP 	arrow_left: autoDraw = False
+23.8485 	EXP 	arrow_right: autoDraw = False
+23.8485 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+23.8485 	EXP 	textCorr: text = 'Correct response!'
+23.8485 	EXP 	image_cont: image = 'same/081_C2_DV.jpg'
+23.8485 	EXP 	textCorr: autoDraw = True
+23.8485 	EXP 	same_text_cont: autoDraw = True
+23.8485 	EXP 	different_text_cont: autoDraw = True
+23.8485 	EXP 	image_cont: autoDraw = True
+23.8485 	EXP 	arrow_left_cont: autoDraw = True
+23.8485 	EXP 	arrow_right_cont: autoDraw = True
+24.0463 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'imageFile': 'same/085_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+24.0651 	INFO 	Keyboard events cleared
+24.0646 	EXP 	textCorr: autoDraw = False
+24.0646 	EXP 	same_text_cont: autoDraw = False
+24.0646 	EXP 	different_text_cont: autoDraw = False
+24.0646 	EXP 	image_cont: autoDraw = False
+24.0646 	EXP 	arrow_left_cont: autoDraw = False
+24.0646 	EXP 	arrow_right_cont: autoDraw = False
+24.0646 	EXP 	image: image = 'same/085_C2_DV.jpg'
+24.0646 	EXP 	same_text: autoDraw = True
+24.0646 	EXP 	different_text: autoDraw = True
+24.0646 	EXP 	image: autoDraw = True
+24.0646 	EXP 	arrow_left: autoDraw = True
+24.0646 	EXP 	arrow_right: autoDraw = True
+24.0668 	DATA 	Keypress: right
+24.1828 	EXP 	same_text: autoDraw = False
+24.1828 	EXP 	different_text: autoDraw = False
+24.1828 	EXP 	image: autoDraw = False
+24.1828 	EXP 	arrow_left: autoDraw = False
+24.1828 	EXP 	arrow_right: autoDraw = False
+24.1828 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+24.1828 	EXP 	textCorr: height = 0.05
+24.1828 	EXP 	textCorr: height = 0.05
+24.1828 	EXP 	textCorr: height = 0.05
+24.1828 	EXP 	textCorr: text = ' Wrong response. Try again!'
+24.1828 	EXP 	image_cont: image = 'same/085_C2_DV.jpg'
+24.1828 	EXP 	textCorr: autoDraw = True
+24.1828 	EXP 	same_text_cont: autoDraw = True
+24.1828 	EXP 	different_text_cont: autoDraw = True
+24.1828 	EXP 	image_cont: autoDraw = True
+24.1828 	EXP 	arrow_left_cont: autoDraw = True
+24.1828 	EXP 	arrow_right_cont: autoDraw = True
+24.2475 	DATA 	Keypress: right
+24.3795 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'imageFile': 'same/092_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+24.3982 	INFO 	Keyboard events cleared
+24.3978 	EXP 	textCorr: autoDraw = False
+24.3978 	EXP 	same_text_cont: autoDraw = False
+24.3978 	EXP 	different_text_cont: autoDraw = False
+24.3978 	EXP 	image_cont: autoDraw = False
+24.3978 	EXP 	arrow_left_cont: autoDraw = False
+24.3978 	EXP 	arrow_right_cont: autoDraw = False
+24.3978 	EXP 	image: image = 'same/092_C2_DV.jpg'
+24.3978 	EXP 	same_text: autoDraw = True
+24.3978 	EXP 	different_text: autoDraw = True
+24.3978 	EXP 	image: autoDraw = True
+24.3978 	EXP 	arrow_left: autoDraw = True
+24.3978 	EXP 	arrow_right: autoDraw = True
+24.4469 	DATA 	Keypress: right
+24.4647 	EXP 	same_text: autoDraw = False
+24.4647 	EXP 	different_text: autoDraw = False
+24.4647 	EXP 	image: autoDraw = False
+24.4647 	EXP 	arrow_left: autoDraw = False
+24.4647 	EXP 	arrow_right: autoDraw = False
+24.4647 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+24.4647 	EXP 	textCorr: text = ' Wrong response. Try again!'
+24.4647 	EXP 	image_cont: image = 'same/092_C2_DV.jpg'
+24.4647 	EXP 	textCorr: autoDraw = True
+24.4647 	EXP 	same_text_cont: autoDraw = True
+24.4647 	EXP 	different_text_cont: autoDraw = True
+24.4647 	EXP 	image_cont: autoDraw = True
+24.4647 	EXP 	arrow_left_cont: autoDraw = True
+24.4647 	EXP 	arrow_right_cont: autoDraw = True
+24.6474 	DATA 	Keypress: right
+24.6626 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'imageFile': 'same/102_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+24.6815 	INFO 	Keyboard events cleared
+24.6812 	EXP 	textCorr: autoDraw = False
+24.6812 	EXP 	same_text_cont: autoDraw = False
+24.6812 	EXP 	different_text_cont: autoDraw = False
+24.6812 	EXP 	image_cont: autoDraw = False
+24.6812 	EXP 	arrow_left_cont: autoDraw = False
+24.6812 	EXP 	arrow_right_cont: autoDraw = False
+24.6812 	EXP 	image: image = 'same/102_C2_DV.jpg'
+24.6812 	EXP 	same_text: autoDraw = True
+24.6812 	EXP 	different_text: autoDraw = True
+24.6812 	EXP 	image: autoDraw = True
+24.6812 	EXP 	arrow_left: autoDraw = True
+24.6812 	EXP 	arrow_right: autoDraw = True
+25.5303 	DATA 	Keypress: right
+25.5482 	EXP 	same_text: autoDraw = False
+25.5482 	EXP 	different_text: autoDraw = False
+25.5482 	EXP 	image: autoDraw = False
+25.5482 	EXP 	arrow_left: autoDraw = False
+25.5482 	EXP 	arrow_right: autoDraw = False
+25.5482 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+25.5482 	EXP 	textCorr: text = ' Wrong response. Try again!'
+25.5482 	EXP 	image_cont: image = 'same/102_C2_DV.jpg'
+25.5482 	EXP 	textCorr: autoDraw = True
+25.5482 	EXP 	same_text_cont: autoDraw = True
+25.5482 	EXP 	different_text_cont: autoDraw = True
+25.5482 	EXP 	image_cont: autoDraw = True
+25.5482 	EXP 	arrow_left_cont: autoDraw = True
+25.5482 	EXP 	arrow_right_cont: autoDraw = True
+25.7459 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'imageFile': 'same/108_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+25.7649 	INFO 	Keyboard events cleared
+25.7646 	EXP 	textCorr: autoDraw = False
+25.7646 	EXP 	same_text_cont: autoDraw = False
+25.7646 	EXP 	different_text_cont: autoDraw = False
+25.7646 	EXP 	image_cont: autoDraw = False
+25.7646 	EXP 	arrow_left_cont: autoDraw = False
+25.7646 	EXP 	arrow_right_cont: autoDraw = False
+25.7646 	EXP 	image: image = 'same/108_DV_C2.jpg'
+25.7646 	EXP 	same_text: autoDraw = True
+25.7646 	EXP 	different_text: autoDraw = True
+25.7646 	EXP 	image: autoDraw = True
+25.7646 	EXP 	arrow_left: autoDraw = True
+25.7646 	EXP 	arrow_right: autoDraw = True
+26.0468 	DATA 	Keypress: right
+26.0645 	EXP 	same_text: autoDraw = False
+26.0645 	EXP 	different_text: autoDraw = False
+26.0645 	EXP 	image: autoDraw = False
+26.0645 	EXP 	arrow_left: autoDraw = False
+26.0645 	EXP 	arrow_right: autoDraw = False
+26.0645 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+26.0645 	EXP 	textCorr: text = ' Wrong response. Try again!'
+26.0645 	EXP 	image_cont: image = 'same/108_DV_C2.jpg'
+26.0645 	EXP 	textCorr: autoDraw = True
+26.0645 	EXP 	same_text_cont: autoDraw = True
+26.0645 	EXP 	different_text_cont: autoDraw = True
+26.0645 	EXP 	image_cont: autoDraw = True
+26.0645 	EXP 	arrow_left_cont: autoDraw = True
+26.0645 	EXP 	arrow_right_cont: autoDraw = True
+26.2624 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'imageFile': 'same/115_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+26.2813 	INFO 	Keyboard events cleared
+26.2809 	EXP 	textCorr: autoDraw = False
+26.2809 	EXP 	same_text_cont: autoDraw = False
+26.2809 	EXP 	different_text_cont: autoDraw = False
+26.2809 	EXP 	image_cont: autoDraw = False
+26.2809 	EXP 	arrow_left_cont: autoDraw = False
+26.2809 	EXP 	arrow_right_cont: autoDraw = False
+26.2809 	EXP 	image: image = 'same/115_C2_DV.jpg'
+26.2809 	EXP 	same_text: autoDraw = True
+26.2809 	EXP 	different_text: autoDraw = True
+26.2809 	EXP 	image: autoDraw = True
+26.2809 	EXP 	arrow_left: autoDraw = True
+26.2809 	EXP 	arrow_right: autoDraw = True
+26.5800 	DATA 	Keypress: left
+26.5993 	EXP 	same_text: autoDraw = False
+26.5993 	EXP 	different_text: autoDraw = False
+26.5993 	EXP 	image: autoDraw = False
+26.5993 	EXP 	arrow_left: autoDraw = False
+26.5993 	EXP 	arrow_right: autoDraw = False
+26.5993 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+26.5993 	EXP 	textCorr: height = 0.05
+26.5993 	EXP 	textCorr: height = 0.05
+26.5993 	EXP 	textCorr: height = 0.05
+26.5993 	EXP 	textCorr: text = 'Correct response!'
+26.5993 	EXP 	image_cont: image = 'same/115_C2_DV.jpg'
+26.5993 	EXP 	textCorr: autoDraw = True
+26.5993 	EXP 	same_text_cont: autoDraw = True
+26.5993 	EXP 	different_text_cont: autoDraw = True
+26.5993 	EXP 	image_cont: autoDraw = True
+26.5993 	EXP 	arrow_left_cont: autoDraw = True
+26.5993 	EXP 	arrow_right_cont: autoDraw = True
+26.7958 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'imageFile': 'same/120_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+26.8148 	INFO 	Keyboard events cleared
+26.8145 	EXP 	textCorr: autoDraw = False
+26.8145 	EXP 	same_text_cont: autoDraw = False
+26.8145 	EXP 	different_text_cont: autoDraw = False
+26.8145 	EXP 	image_cont: autoDraw = False
+26.8145 	EXP 	arrow_left_cont: autoDraw = False
+26.8145 	EXP 	arrow_right_cont: autoDraw = False
+26.8145 	EXP 	image: image = 'same/120_DV_C2.jpg'
+26.8145 	EXP 	same_text: autoDraw = True
+26.8145 	EXP 	different_text: autoDraw = True
+26.8145 	EXP 	image: autoDraw = True
+26.8145 	EXP 	arrow_left: autoDraw = True
+26.8145 	EXP 	arrow_right: autoDraw = True
+26.8963 	DATA 	Keypress: left
+26.9146 	EXP 	same_text: autoDraw = False
+26.9146 	EXP 	different_text: autoDraw = False
+26.9146 	EXP 	image: autoDraw = False
+26.9146 	EXP 	arrow_left: autoDraw = False
+26.9146 	EXP 	arrow_right: autoDraw = False
+26.9146 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+26.9146 	EXP 	textCorr: text = 'Correct response!'
+26.9146 	EXP 	image_cont: image = 'same/120_DV_C2.jpg'
+26.9146 	EXP 	textCorr: autoDraw = True
+26.9146 	EXP 	same_text_cont: autoDraw = True
+26.9146 	EXP 	different_text_cont: autoDraw = True
+26.9146 	EXP 	image_cont: autoDraw = True
+26.9146 	EXP 	arrow_left_cont: autoDraw = True
+26.9146 	EXP 	arrow_right_cont: autoDraw = True
+27.1123 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'imageFile': 'same/129_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+27.1311 	INFO 	Keyboard events cleared
+27.1307 	EXP 	textCorr: autoDraw = False
+27.1307 	EXP 	same_text_cont: autoDraw = False
+27.1307 	EXP 	different_text_cont: autoDraw = False
+27.1307 	EXP 	image_cont: autoDraw = False
+27.1307 	EXP 	arrow_left_cont: autoDraw = False
+27.1307 	EXP 	arrow_right_cont: autoDraw = False
+27.1307 	EXP 	image: image = 'same/129_C2_DV.jpg'
+27.1307 	EXP 	same_text: autoDraw = True
+27.1307 	EXP 	different_text: autoDraw = True
+27.1307 	EXP 	image: autoDraw = True
+27.1307 	EXP 	arrow_left: autoDraw = True
+27.1307 	EXP 	arrow_right: autoDraw = True
+27.2133 	DATA 	Keypress: left
+27.2311 	EXP 	same_text: autoDraw = False
+27.2311 	EXP 	different_text: autoDraw = False
+27.2311 	EXP 	image: autoDraw = False
+27.2311 	EXP 	arrow_left: autoDraw = False
+27.2311 	EXP 	arrow_right: autoDraw = False
+27.2311 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+27.2311 	EXP 	textCorr: text = 'Correct response!'
+27.2311 	EXP 	image_cont: image = 'same/129_C2_DV.jpg'
+27.2311 	EXP 	textCorr: autoDraw = True
+27.2311 	EXP 	same_text_cont: autoDraw = True
+27.2311 	EXP 	different_text_cont: autoDraw = True
+27.2311 	EXP 	image_cont: autoDraw = True
+27.2311 	EXP 	arrow_left_cont: autoDraw = True
+27.2311 	EXP 	arrow_right_cont: autoDraw = True
+27.4289 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'imageFile': 'same/136_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+27.4478 	INFO 	Keyboard events cleared
+27.4475 	EXP 	textCorr: autoDraw = False
+27.4475 	EXP 	same_text_cont: autoDraw = False
+27.4475 	EXP 	different_text_cont: autoDraw = False
+27.4475 	EXP 	image_cont: autoDraw = False
+27.4475 	EXP 	arrow_left_cont: autoDraw = False
+27.4475 	EXP 	arrow_right_cont: autoDraw = False
+27.4475 	EXP 	image: image = 'same/136_C2_DV.jpg'
+27.4475 	EXP 	same_text: autoDraw = True
+27.4475 	EXP 	different_text: autoDraw = True
+27.4475 	EXP 	image: autoDraw = True
+27.4475 	EXP 	arrow_left: autoDraw = True
+27.4475 	EXP 	arrow_right: autoDraw = True
+27.5631 	DATA 	Keypress: left
+27.5815 	EXP 	same_text: autoDraw = False
+27.5815 	EXP 	different_text: autoDraw = False
+27.5815 	EXP 	image: autoDraw = False
+27.5815 	EXP 	arrow_left: autoDraw = False
+27.5815 	EXP 	arrow_right: autoDraw = False
+27.5815 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+27.5815 	EXP 	textCorr: text = 'Correct response!'
+27.5815 	EXP 	image_cont: image = 'same/136_C2_DV.jpg'
+27.5815 	EXP 	textCorr: autoDraw = True
+27.5815 	EXP 	same_text_cont: autoDraw = True
+27.5815 	EXP 	different_text_cont: autoDraw = True
+27.5815 	EXP 	image_cont: autoDraw = True
+27.5815 	EXP 	arrow_left_cont: autoDraw = True
+27.5815 	EXP 	arrow_right_cont: autoDraw = True
+27.7788 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'imageFile': 'same/139_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+27.7979 	INFO 	Keyboard events cleared
+27.7976 	EXP 	textCorr: autoDraw = False
+27.7976 	EXP 	same_text_cont: autoDraw = False
+27.7976 	EXP 	different_text_cont: autoDraw = False
+27.7976 	EXP 	image_cont: autoDraw = False
+27.7976 	EXP 	arrow_left_cont: autoDraw = False
+27.7976 	EXP 	arrow_right_cont: autoDraw = False
+27.7976 	EXP 	image: image = 'same/139_DV_C2.jpg'
+27.7976 	EXP 	same_text: autoDraw = True
+27.7976 	EXP 	different_text: autoDraw = True
+27.7976 	EXP 	image: autoDraw = True
+27.7976 	EXP 	arrow_left: autoDraw = True
+27.7976 	EXP 	arrow_right: autoDraw = True
+27.8143 	DATA 	Keypress: left
+27.8484 	EXP 	same_text: autoDraw = False
+27.8484 	EXP 	different_text: autoDraw = False
+27.8484 	EXP 	image: autoDraw = False
+27.8484 	EXP 	arrow_left: autoDraw = False
+27.8484 	EXP 	arrow_right: autoDraw = False
+27.8484 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+27.8484 	EXP 	textCorr: text = 'Correct response!'
+27.8484 	EXP 	image_cont: image = 'same/139_DV_C2.jpg'
+27.8484 	EXP 	textCorr: autoDraw = True
+27.8484 	EXP 	same_text_cont: autoDraw = True
+27.8484 	EXP 	different_text_cont: autoDraw = True
+27.8484 	EXP 	image_cont: autoDraw = True
+27.8484 	EXP 	arrow_left_cont: autoDraw = True
+27.8484 	EXP 	arrow_right_cont: autoDraw = True
+28.0457 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'imageFile': 'same/168_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+28.0647 	INFO 	Keyboard events cleared
+28.0643 	EXP 	textCorr: autoDraw = False
+28.0643 	EXP 	same_text_cont: autoDraw = False
+28.0643 	EXP 	different_text_cont: autoDraw = False
+28.0643 	EXP 	image_cont: autoDraw = False
+28.0643 	EXP 	arrow_left_cont: autoDraw = False
+28.0643 	EXP 	arrow_right_cont: autoDraw = False
+28.0643 	EXP 	image: image = 'same/168_C2_DV.jpg'
+28.0643 	EXP 	same_text: autoDraw = True
+28.0643 	EXP 	different_text: autoDraw = True
+28.0643 	EXP 	image: autoDraw = True
+28.0643 	EXP 	arrow_left: autoDraw = True
+28.0643 	EXP 	arrow_right: autoDraw = True
+28.1130 	DATA 	Keypress: left
+28.1312 	EXP 	same_text: autoDraw = False
+28.1312 	EXP 	different_text: autoDraw = False
+28.1312 	EXP 	image: autoDraw = False
+28.1312 	EXP 	arrow_left: autoDraw = False
+28.1312 	EXP 	arrow_right: autoDraw = False
+28.1312 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+28.1312 	EXP 	textCorr: text = 'Correct response!'
+28.1312 	EXP 	image_cont: image = 'same/168_C2_DV.jpg'
+28.1312 	EXP 	textCorr: autoDraw = True
+28.1312 	EXP 	same_text_cont: autoDraw = True
+28.1312 	EXP 	different_text_cont: autoDraw = True
+28.1312 	EXP 	image_cont: autoDraw = True
+28.1312 	EXP 	arrow_left_cont: autoDraw = True
+28.1312 	EXP 	arrow_right_cont: autoDraw = True
+28.3292 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'imageFile': 'same/170_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+28.3477 	INFO 	Keyboard events cleared
+28.3473 	EXP 	textCorr: autoDraw = False
+28.3473 	EXP 	same_text_cont: autoDraw = False
+28.3473 	EXP 	different_text_cont: autoDraw = False
+28.3473 	EXP 	image_cont: autoDraw = False
+28.3473 	EXP 	arrow_left_cont: autoDraw = False
+28.3473 	EXP 	arrow_right_cont: autoDraw = False
+28.3473 	EXP 	image: image = 'same/170_DV_C2.jpg'
+28.3473 	EXP 	same_text: autoDraw = True
+28.3473 	EXP 	different_text: autoDraw = True
+28.3473 	EXP 	image: autoDraw = True
+28.3473 	EXP 	arrow_left: autoDraw = True
+28.3473 	EXP 	arrow_right: autoDraw = True
+28.4130 	DATA 	Keypress: right
+28.4323 	EXP 	same_text: autoDraw = False
+28.4323 	EXP 	different_text: autoDraw = False
+28.4323 	EXP 	image: autoDraw = False
+28.4323 	EXP 	arrow_left: autoDraw = False
+28.4323 	EXP 	arrow_right: autoDraw = False
+28.4323 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+28.4323 	EXP 	textCorr: height = 0.05
+28.4323 	EXP 	textCorr: height = 0.05
+28.4323 	EXP 	textCorr: height = 0.05
+28.4323 	EXP 	textCorr: text = ' Wrong response. Try again!'
+28.4323 	EXP 	image_cont: image = 'same/170_DV_C2.jpg'
+28.4323 	EXP 	textCorr: autoDraw = True
+28.4323 	EXP 	same_text_cont: autoDraw = True
+28.4323 	EXP 	different_text_cont: autoDraw = True
+28.4323 	EXP 	image_cont: autoDraw = True
+28.4323 	EXP 	arrow_left_cont: autoDraw = True
+28.4323 	EXP 	arrow_right_cont: autoDraw = True
+28.6288 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'imageFile': 'same/235_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+28.6480 	INFO 	Keyboard events cleared
+28.6476 	EXP 	textCorr: autoDraw = False
+28.6476 	EXP 	same_text_cont: autoDraw = False
+28.6476 	EXP 	different_text_cont: autoDraw = False
+28.6476 	EXP 	image_cont: autoDraw = False
+28.6476 	EXP 	arrow_left_cont: autoDraw = False
+28.6476 	EXP 	arrow_right_cont: autoDraw = False
+28.6476 	EXP 	image: image = 'same/235_C2_DV.jpg'
+28.6476 	EXP 	same_text: autoDraw = True
+28.6476 	EXP 	different_text: autoDraw = True
+28.6476 	EXP 	image: autoDraw = True
+28.6476 	EXP 	arrow_left: autoDraw = True
+28.6476 	EXP 	arrow_right: autoDraw = True
+28.8299 	DATA 	Keypress: right
+28.8479 	EXP 	same_text: autoDraw = False
+28.8479 	EXP 	different_text: autoDraw = False
+28.8479 	EXP 	image: autoDraw = False
+28.8479 	EXP 	arrow_left: autoDraw = False
+28.8479 	EXP 	arrow_right: autoDraw = False
+28.8479 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+28.8479 	EXP 	textCorr: text = ' Wrong response. Try again!'
+28.8479 	EXP 	image_cont: image = 'same/235_C2_DV.jpg'
+28.8479 	EXP 	textCorr: autoDraw = True
+28.8479 	EXP 	same_text_cont: autoDraw = True
+28.8479 	EXP 	different_text_cont: autoDraw = True
+28.8479 	EXP 	image_cont: autoDraw = True
+28.8479 	EXP 	arrow_left_cont: autoDraw = True
+28.8479 	EXP 	arrow_right_cont: autoDraw = True
+29.0454 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'imageFile': 'same/303_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+29.0643 	INFO 	Keyboard events cleared
+29.0640 	EXP 	textCorr: autoDraw = False
+29.0640 	EXP 	same_text_cont: autoDraw = False
+29.0640 	EXP 	different_text_cont: autoDraw = False
+29.0640 	EXP 	image_cont: autoDraw = False
+29.0640 	EXP 	arrow_left_cont: autoDraw = False
+29.0640 	EXP 	arrow_right_cont: autoDraw = False
+29.0640 	EXP 	image: image = 'same/303_DV_C2.jpg'
+29.0640 	EXP 	same_text: autoDraw = True
+29.0640 	EXP 	different_text: autoDraw = True
+29.0640 	EXP 	image: autoDraw = True
+29.0640 	EXP 	arrow_left: autoDraw = True
+29.0640 	EXP 	arrow_right: autoDraw = True
+29.1461 	DATA 	Keypress: right
+29.1644 	EXP 	same_text: autoDraw = False
+29.1644 	EXP 	different_text: autoDraw = False
+29.1644 	EXP 	image: autoDraw = False
+29.1644 	EXP 	arrow_left: autoDraw = False
+29.1644 	EXP 	arrow_right: autoDraw = False
+29.1644 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+29.1644 	EXP 	textCorr: text = ' Wrong response. Try again!'
+29.1644 	EXP 	image_cont: image = 'same/303_DV_C2.jpg'
+29.1644 	EXP 	textCorr: autoDraw = True
+29.1644 	EXP 	same_text_cont: autoDraw = True
+29.1644 	EXP 	different_text_cont: autoDraw = True
+29.1644 	EXP 	image_cont: autoDraw = True
+29.1644 	EXP 	arrow_left_cont: autoDraw = True
+29.1644 	EXP 	arrow_right_cont: autoDraw = True
+29.3631 	EXP 	New trial (rep=0, index=60): <Trial 60 (60 in rep 0) data={'imageFile': 'different/013_235_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 60, 'thisTrialN': 60, 'thisRepN': 0}>
+29.3849 	INFO 	Keyboard events cleared
+29.3845 	EXP 	textCorr: autoDraw = False
+29.3845 	EXP 	same_text_cont: autoDraw = False
+29.3845 	EXP 	different_text_cont: autoDraw = False
+29.3845 	EXP 	image_cont: autoDraw = False
+29.3845 	EXP 	arrow_left_cont: autoDraw = False
+29.3845 	EXP 	arrow_right_cont: autoDraw = False
+29.3845 	EXP 	image: image = 'different/013_235_R.jpg'
+29.3845 	EXP 	same_text: autoDraw = True
+29.3845 	EXP 	different_text: autoDraw = True
+29.3845 	EXP 	image: autoDraw = True
+29.3845 	EXP 	arrow_left: autoDraw = True
+29.3845 	EXP 	arrow_right: autoDraw = True
+29.4456 	DATA 	Keypress: left
+29.4640 	EXP 	same_text: autoDraw = False
+29.4640 	EXP 	different_text: autoDraw = False
+29.4640 	EXP 	image: autoDraw = False
+29.4640 	EXP 	arrow_left: autoDraw = False
+29.4640 	EXP 	arrow_right: autoDraw = False
+29.4640 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+29.4640 	EXP 	textCorr: text = ' Wrong response. Try again!'
+29.4640 	EXP 	image_cont: image = 'different/013_235_R.jpg'
+29.4640 	EXP 	textCorr: autoDraw = True
+29.4640 	EXP 	same_text_cont: autoDraw = True
+29.4640 	EXP 	different_text_cont: autoDraw = True
+29.4640 	EXP 	image_cont: autoDraw = True
+29.4640 	EXP 	arrow_left_cont: autoDraw = True
+29.4640 	EXP 	arrow_right_cont: autoDraw = True
+29.6613 	EXP 	New trial (rep=0, index=61): <Trial 61 (61 in rep 0) data={'imageFile': 'different/019_074_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 61, 'thisTrialN': 61, 'thisRepN': 0}>
+29.6718 	DATA 	Keypress: left
+29.6783 	INFO 	Keyboard events cleared
+29.6779 	EXP 	textCorr: autoDraw = False
+29.6779 	EXP 	same_text_cont: autoDraw = False
+29.6779 	EXP 	different_text_cont: autoDraw = False
+29.6779 	EXP 	image_cont: autoDraw = False
+29.6779 	EXP 	arrow_left_cont: autoDraw = False
+29.6779 	EXP 	arrow_right_cont: autoDraw = False
+29.6779 	EXP 	image: image = 'different/019_074_L.jpg'
+29.6779 	EXP 	same_text: autoDraw = True
+29.6779 	EXP 	different_text: autoDraw = True
+29.6779 	EXP 	image: autoDraw = True
+29.6779 	EXP 	arrow_left: autoDraw = True
+29.6779 	EXP 	arrow_right: autoDraw = True
+29.9288 	DATA 	Keypress: left
+29.9446 	EXP 	same_text: autoDraw = False
+29.9446 	EXP 	different_text: autoDraw = False
+29.9446 	EXP 	image: autoDraw = False
+29.9446 	EXP 	arrow_left: autoDraw = False
+29.9446 	EXP 	arrow_right: autoDraw = False
+29.9446 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+29.9446 	EXP 	textCorr: text = ' Wrong response. Try again!'
+29.9446 	EXP 	image_cont: image = 'different/019_074_L.jpg'
+29.9446 	EXP 	textCorr: autoDraw = True
+29.9446 	EXP 	same_text_cont: autoDraw = True
+29.9446 	EXP 	different_text_cont: autoDraw = True
+29.9446 	EXP 	image_cont: autoDraw = True
+29.9446 	EXP 	arrow_left_cont: autoDraw = True
+29.9446 	EXP 	arrow_right_cont: autoDraw = True
+30.1285 	EXP 	New trial (rep=0, index=62): <Trial 62 (62 in rep 0) data={'imageFile': 'different/025_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 62, 'thisTrialN': 62, 'thisRepN': 0}>
+30.1451 	INFO 	Keyboard events cleared
+30.1447 	EXP 	textCorr: autoDraw = False
+30.1447 	EXP 	same_text_cont: autoDraw = False
+30.1447 	EXP 	different_text_cont: autoDraw = False
+30.1447 	EXP 	image_cont: autoDraw = False
+30.1447 	EXP 	arrow_left_cont: autoDraw = False
+30.1447 	EXP 	arrow_right_cont: autoDraw = False
+30.1447 	EXP 	textCorr: autoDraw = False
+30.1447 	EXP 	same_text_cont: autoDraw = False
+30.1447 	EXP 	different_text_cont: autoDraw = False
+30.1447 	EXP 	image_cont: autoDraw = False
+30.1447 	EXP 	arrow_left_cont: autoDraw = False
+30.1447 	EXP 	arrow_right_cont: autoDraw = False
+30.1447 	EXP 	image: image = 'different/025_235_L.jpg'
+30.1447 	EXP 	same_text: autoDraw = True
+30.1447 	EXP 	different_text: autoDraw = True
+30.1447 	EXP 	image: autoDraw = True
+30.1447 	EXP 	arrow_left: autoDraw = True
+30.1447 	EXP 	arrow_right: autoDraw = True
+30.1958 	DATA 	Keypress: left
+30.2113 	EXP 	same_text: autoDraw = False
+30.2113 	EXP 	different_text: autoDraw = False
+30.2113 	EXP 	image: autoDraw = False
+30.2113 	EXP 	arrow_left: autoDraw = False
+30.2113 	EXP 	arrow_right: autoDraw = False
+30.2113 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+30.2113 	EXP 	textCorr: text = ' Wrong response. Try again!'
+30.2113 	EXP 	image_cont: image = 'different/025_235_L.jpg'
+30.2113 	EXP 	textCorr: autoDraw = True
+30.2113 	EXP 	same_text_cont: autoDraw = True
+30.2113 	EXP 	different_text_cont: autoDraw = True
+30.2113 	EXP 	image_cont: autoDraw = True
+30.2113 	EXP 	arrow_left_cont: autoDraw = True
+30.2113 	EXP 	arrow_right_cont: autoDraw = True
+30.3951 	EXP 	New trial (rep=0, index=63): <Trial 63 (63 in rep 0) data={'imageFile': 'different/049_218_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 63, 'thisTrialN': 63, 'thisRepN': 0}>
+30.4117 	INFO 	Keyboard events cleared
+30.4114 	EXP 	textCorr: autoDraw = False
+30.4114 	EXP 	same_text_cont: autoDraw = False
+30.4114 	EXP 	different_text_cont: autoDraw = False
+30.4114 	EXP 	image_cont: autoDraw = False
+30.4114 	EXP 	arrow_left_cont: autoDraw = False
+30.4114 	EXP 	arrow_right_cont: autoDraw = False
+30.4114 	EXP 	textCorr: autoDraw = False
+30.4114 	EXP 	same_text_cont: autoDraw = False
+30.4114 	EXP 	different_text_cont: autoDraw = False
+30.4114 	EXP 	image_cont: autoDraw = False
+30.4114 	EXP 	arrow_left_cont: autoDraw = False
+30.4114 	EXP 	arrow_right_cont: autoDraw = False
+30.4114 	EXP 	image: image = 'different/049_218_L.jpg'
+30.4114 	EXP 	same_text: autoDraw = True
+30.4114 	EXP 	different_text: autoDraw = True
+30.4114 	EXP 	image: autoDraw = True
+30.4114 	EXP 	arrow_left: autoDraw = True
+30.4114 	EXP 	arrow_right: autoDraw = True
+30.4290 	DATA 	Keypress: left
+30.4446 	EXP 	same_text: autoDraw = False
+30.4446 	EXP 	different_text: autoDraw = False
+30.4446 	EXP 	image: autoDraw = False
+30.4446 	EXP 	arrow_left: autoDraw = False
+30.4446 	EXP 	arrow_right: autoDraw = False
+30.4446 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+30.4446 	EXP 	textCorr: text = ' Wrong response. Try again!'
+30.4446 	EXP 	image_cont: image = 'different/049_218_L.jpg'
+30.4446 	EXP 	textCorr: autoDraw = True
+30.4446 	EXP 	same_text_cont: autoDraw = True
+30.4446 	EXP 	different_text_cont: autoDraw = True
+30.4446 	EXP 	image_cont: autoDraw = True
+30.4446 	EXP 	arrow_left_cont: autoDraw = True
+30.4446 	EXP 	arrow_right_cont: autoDraw = True
+30.6286 	EXP 	New trial (rep=0, index=64): <Trial 64 (64 in rep 0) data={'imageFile': 'different/076_109_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 64, 'thisTrialN': 64, 'thisRepN': 0}>
+30.6450 	INFO 	Keyboard events cleared
+30.6447 	EXP 	textCorr: autoDraw = False
+30.6447 	EXP 	same_text_cont: autoDraw = False
+30.6447 	EXP 	different_text_cont: autoDraw = False
+30.6447 	EXP 	image_cont: autoDraw = False
+30.6447 	EXP 	arrow_left_cont: autoDraw = False
+30.6447 	EXP 	arrow_right_cont: autoDraw = False
+30.6447 	EXP 	textCorr: autoDraw = False
+30.6447 	EXP 	same_text_cont: autoDraw = False
+30.6447 	EXP 	different_text_cont: autoDraw = False
+30.6447 	EXP 	image_cont: autoDraw = False
+30.6447 	EXP 	arrow_left_cont: autoDraw = False
+30.6447 	EXP 	arrow_right_cont: autoDraw = False
+30.6447 	EXP 	image: image = 'different/076_109_R.jpg'
+30.6447 	EXP 	same_text: autoDraw = True
+30.6447 	EXP 	different_text: autoDraw = True
+30.6447 	EXP 	image: autoDraw = True
+30.6447 	EXP 	arrow_left: autoDraw = True
+30.6447 	EXP 	arrow_right: autoDraw = True
+30.7122 	DATA 	Keypress: left
+30.7279 	EXP 	same_text: autoDraw = False
+30.7279 	EXP 	different_text: autoDraw = False
+30.7279 	EXP 	image: autoDraw = False
+30.7279 	EXP 	arrow_left: autoDraw = False
+30.7279 	EXP 	arrow_right: autoDraw = False
+30.7279 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+30.7279 	EXP 	textCorr: text = ' Wrong response. Try again!'
+30.7279 	EXP 	image_cont: image = 'different/076_109_R.jpg'
+30.7279 	EXP 	textCorr: autoDraw = True
+30.7279 	EXP 	same_text_cont: autoDraw = True
+30.7279 	EXP 	different_text_cont: autoDraw = True
+30.7279 	EXP 	image_cont: autoDraw = True
+30.7279 	EXP 	arrow_left_cont: autoDraw = True
+30.7279 	EXP 	arrow_right_cont: autoDraw = True
+30.9118 	EXP 	New trial (rep=0, index=65): <Trial 65 (65 in rep 0) data={'imageFile': 'different/077_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 65, 'thisTrialN': 65, 'thisRepN': 0}>
+30.9283 	INFO 	Keyboard events cleared
+30.9280 	EXP 	textCorr: autoDraw = False
+30.9280 	EXP 	same_text_cont: autoDraw = False
+30.9280 	EXP 	different_text_cont: autoDraw = False
+30.9280 	EXP 	image_cont: autoDraw = False
+30.9280 	EXP 	arrow_left_cont: autoDraw = False
+30.9280 	EXP 	arrow_right_cont: autoDraw = False
+30.9280 	EXP 	textCorr: autoDraw = False
+30.9280 	EXP 	same_text_cont: autoDraw = False
+30.9280 	EXP 	different_text_cont: autoDraw = False
+30.9280 	EXP 	image_cont: autoDraw = False
+30.9280 	EXP 	arrow_left_cont: autoDraw = False
+30.9280 	EXP 	arrow_right_cont: autoDraw = False
+30.9280 	EXP 	image: image = 'different/077_133_R.jpg'
+30.9280 	EXP 	same_text: autoDraw = True
+30.9280 	EXP 	different_text: autoDraw = True
+30.9280 	EXP 	image: autoDraw = True
+30.9280 	EXP 	arrow_left: autoDraw = True
+30.9280 	EXP 	arrow_right: autoDraw = True
+31.0122 	DATA 	Keypress: right
+31.0280 	EXP 	same_text: autoDraw = False
+31.0280 	EXP 	different_text: autoDraw = False
+31.0280 	EXP 	image: autoDraw = False
+31.0280 	EXP 	arrow_left: autoDraw = False
+31.0280 	EXP 	arrow_right: autoDraw = False
+31.0280 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+31.0280 	EXP 	textCorr: height = 0.05
+31.0280 	EXP 	textCorr: height = 0.05
+31.0280 	EXP 	textCorr: height = 0.05
+31.0280 	EXP 	textCorr: text = 'Correct response!'
+31.0280 	EXP 	image_cont: image = 'different/077_133_R.jpg'
+31.0280 	EXP 	textCorr: autoDraw = True
+31.0280 	EXP 	same_text_cont: autoDraw = True
+31.0280 	EXP 	different_text_cont: autoDraw = True
+31.0280 	EXP 	image_cont: autoDraw = True
+31.0280 	EXP 	arrow_left_cont: autoDraw = True
+31.0280 	EXP 	arrow_right_cont: autoDraw = True
+31.2117 	EXP 	New trial (rep=0, index=66): <Trial 66 (66 in rep 0) data={'imageFile': 'different/091_283_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 66, 'thisTrialN': 66, 'thisRepN': 0}>
+31.2284 	INFO 	Keyboard events cleared
+31.2280 	EXP 	textCorr: autoDraw = False
+31.2280 	EXP 	same_text_cont: autoDraw = False
+31.2280 	EXP 	different_text_cont: autoDraw = False
+31.2280 	EXP 	image_cont: autoDraw = False
+31.2280 	EXP 	arrow_left_cont: autoDraw = False
+31.2280 	EXP 	arrow_right_cont: autoDraw = False
+31.2280 	EXP 	textCorr: autoDraw = False
+31.2280 	EXP 	same_text_cont: autoDraw = False
+31.2280 	EXP 	different_text_cont: autoDraw = False
+31.2280 	EXP 	image_cont: autoDraw = False
+31.2280 	EXP 	arrow_left_cont: autoDraw = False
+31.2280 	EXP 	arrow_right_cont: autoDraw = False
+31.2280 	EXP 	image: image = 'different/091_283_R.jpg'
+31.2280 	EXP 	same_text: autoDraw = True
+31.2280 	EXP 	different_text: autoDraw = True
+31.2280 	EXP 	image: autoDraw = True
+31.2280 	EXP 	arrow_left: autoDraw = True
+31.2280 	EXP 	arrow_right: autoDraw = True
+31.2300 	DATA 	Keypress: right
+31.2611 	EXP 	same_text: autoDraw = False
+31.2611 	EXP 	different_text: autoDraw = False
+31.2611 	EXP 	image: autoDraw = False
+31.2611 	EXP 	arrow_left: autoDraw = False
+31.2611 	EXP 	arrow_right: autoDraw = False
+31.2611 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+31.2611 	EXP 	textCorr: text = 'Correct response!'
+31.2611 	EXP 	image_cont: image = 'different/091_283_R.jpg'
+31.2611 	EXP 	textCorr: autoDraw = True
+31.2611 	EXP 	same_text_cont: autoDraw = True
+31.2611 	EXP 	different_text_cont: autoDraw = True
+31.2611 	EXP 	image_cont: autoDraw = True
+31.2611 	EXP 	arrow_left_cont: autoDraw = True
+31.2611 	EXP 	arrow_right_cont: autoDraw = True
+31.4452 	EXP 	New trial (rep=0, index=67): <Trial 67 (67 in rep 0) data={'imageFile': 'different/092_283_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 67, 'thisTrialN': 67, 'thisRepN': 0}>
+31.4617 	INFO 	Keyboard events cleared
+31.4613 	EXP 	textCorr: autoDraw = False
+31.4613 	EXP 	same_text_cont: autoDraw = False
+31.4613 	EXP 	different_text_cont: autoDraw = False
+31.4613 	EXP 	image_cont: autoDraw = False
+31.4613 	EXP 	arrow_left_cont: autoDraw = False
+31.4613 	EXP 	arrow_right_cont: autoDraw = False
+31.4613 	EXP 	textCorr: autoDraw = False
+31.4613 	EXP 	same_text_cont: autoDraw = False
+31.4613 	EXP 	different_text_cont: autoDraw = False
+31.4613 	EXP 	image_cont: autoDraw = False
+31.4613 	EXP 	arrow_left_cont: autoDraw = False
+31.4613 	EXP 	arrow_right_cont: autoDraw = False
+31.4613 	EXP 	image: image = 'different/092_283_L.jpg'
+31.4613 	EXP 	same_text: autoDraw = True
+31.4613 	EXP 	different_text: autoDraw = True
+31.4613 	EXP 	image: autoDraw = True
+31.4613 	EXP 	arrow_left: autoDraw = True
+31.4613 	EXP 	arrow_right: autoDraw = True
+31.4790 	DATA 	Keypress: right
+31.4946 	EXP 	same_text: autoDraw = False
+31.4946 	EXP 	different_text: autoDraw = False
+31.4946 	EXP 	image: autoDraw = False
+31.4946 	EXP 	arrow_left: autoDraw = False
+31.4946 	EXP 	arrow_right: autoDraw = False
+31.4946 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+31.4946 	EXP 	textCorr: text = 'Correct response!'
+31.4946 	EXP 	image_cont: image = 'different/092_283_L.jpg'
+31.4946 	EXP 	textCorr: autoDraw = True
+31.4946 	EXP 	same_text_cont: autoDraw = True
+31.4946 	EXP 	different_text_cont: autoDraw = True
+31.4946 	EXP 	image_cont: autoDraw = True
+31.4946 	EXP 	arrow_left_cont: autoDraw = True
+31.4946 	EXP 	arrow_right_cont: autoDraw = True
+31.6782 	EXP 	New trial (rep=0, index=68): <Trial 68 (68 in rep 0) data={'imageFile': 'different/102_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 68, 'thisTrialN': 68, 'thisRepN': 0}>
+31.6950 	INFO 	Keyboard events cleared
+31.6946 	EXP 	textCorr: autoDraw = False
+31.6946 	EXP 	same_text_cont: autoDraw = False
+31.6946 	EXP 	different_text_cont: autoDraw = False
+31.6946 	EXP 	image_cont: autoDraw = False
+31.6946 	EXP 	arrow_left_cont: autoDraw = False
+31.6946 	EXP 	arrow_right_cont: autoDraw = False
+31.6946 	EXP 	textCorr: autoDraw = False
+31.6946 	EXP 	same_text_cont: autoDraw = False
+31.6946 	EXP 	different_text_cont: autoDraw = False
+31.6946 	EXP 	image_cont: autoDraw = False
+31.6946 	EXP 	arrow_left_cont: autoDraw = False
+31.6946 	EXP 	arrow_right_cont: autoDraw = False
+31.6946 	EXP 	image: image = 'different/102_224_R.jpg'
+31.6946 	EXP 	same_text: autoDraw = True
+31.6946 	EXP 	different_text: autoDraw = True
+31.6946 	EXP 	image: autoDraw = True
+31.6946 	EXP 	arrow_left: autoDraw = True
+31.6946 	EXP 	arrow_right: autoDraw = True
+31.7452 	DATA 	Keypress: left
+31.7614 	EXP 	same_text: autoDraw = False
+31.7614 	EXP 	different_text: autoDraw = False
+31.7614 	EXP 	image: autoDraw = False
+31.7614 	EXP 	arrow_left: autoDraw = False
+31.7614 	EXP 	arrow_right: autoDraw = False
+31.7614 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+31.7614 	EXP 	textCorr: height = 0.05
+31.7614 	EXP 	textCorr: height = 0.05
+31.7614 	EXP 	textCorr: height = 0.05
+31.7614 	EXP 	textCorr: text = ' Wrong response. Try again!'
+31.7614 	EXP 	image_cont: image = 'different/102_224_R.jpg'
+31.7614 	EXP 	textCorr: autoDraw = True
+31.7614 	EXP 	same_text_cont: autoDraw = True
+31.7614 	EXP 	different_text_cont: autoDraw = True
+31.7614 	EXP 	image_cont: autoDraw = True
+31.7614 	EXP 	arrow_left_cont: autoDraw = True
+31.7614 	EXP 	arrow_right_cont: autoDraw = True
+31.9450 	EXP 	New trial (rep=0, index=69): <Trial 69 (69 in rep 0) data={'imageFile': 'different/106_224_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 69, 'thisTrialN': 69, 'thisRepN': 0}>
+31.9614 	INFO 	Keyboard events cleared
+31.9611 	EXP 	textCorr: autoDraw = False
+31.9611 	EXP 	same_text_cont: autoDraw = False
+31.9611 	EXP 	different_text_cont: autoDraw = False
+31.9611 	EXP 	image_cont: autoDraw = False
+31.9611 	EXP 	arrow_left_cont: autoDraw = False
+31.9611 	EXP 	arrow_right_cont: autoDraw = False
+31.9611 	EXP 	textCorr: autoDraw = False
+31.9611 	EXP 	same_text_cont: autoDraw = False
+31.9611 	EXP 	different_text_cont: autoDraw = False
+31.9611 	EXP 	image_cont: autoDraw = False
+31.9611 	EXP 	arrow_left_cont: autoDraw = False
+31.9611 	EXP 	arrow_right_cont: autoDraw = False
+31.9611 	EXP 	image: image = 'different/106_224_L.jpg'
+31.9611 	EXP 	same_text: autoDraw = True
+31.9611 	EXP 	different_text: autoDraw = True
+31.9611 	EXP 	image: autoDraw = True
+31.9611 	EXP 	arrow_left: autoDraw = True
+31.9611 	EXP 	arrow_right: autoDraw = True
+31.9954 	DATA 	Keypress: left
+32.0115 	EXP 	same_text: autoDraw = False
+32.0115 	EXP 	different_text: autoDraw = False
+32.0115 	EXP 	image: autoDraw = False
+32.0115 	EXP 	arrow_left: autoDraw = False
+32.0115 	EXP 	arrow_right: autoDraw = False
+32.0115 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+32.0115 	EXP 	textCorr: text = ' Wrong response. Try again!'
+32.0115 	EXP 	image_cont: image = 'different/106_224_L.jpg'
+32.0115 	EXP 	textCorr: autoDraw = True
+32.0115 	EXP 	same_text_cont: autoDraw = True
+32.0115 	EXP 	different_text_cont: autoDraw = True
+32.0115 	EXP 	image_cont: autoDraw = True
+32.0115 	EXP 	arrow_left_cont: autoDraw = True
+32.0115 	EXP 	arrow_right_cont: autoDraw = True
+32.1950 	EXP 	New trial (rep=0, index=70): <Trial 70 (70 in rep 0) data={'imageFile': 'different/116_067_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 70, 'thisTrialN': 70, 'thisRepN': 0}>
+32.2117 	INFO 	Keyboard events cleared
+32.2113 	EXP 	textCorr: autoDraw = False
+32.2113 	EXP 	same_text_cont: autoDraw = False
+32.2113 	EXP 	different_text_cont: autoDraw = False
+32.2113 	EXP 	image_cont: autoDraw = False
+32.2113 	EXP 	arrow_left_cont: autoDraw = False
+32.2113 	EXP 	arrow_right_cont: autoDraw = False
+32.2113 	EXP 	textCorr: autoDraw = False
+32.2113 	EXP 	same_text_cont: autoDraw = False
+32.2113 	EXP 	different_text_cont: autoDraw = False
+32.2113 	EXP 	image_cont: autoDraw = False
+32.2113 	EXP 	arrow_left_cont: autoDraw = False
+32.2113 	EXP 	arrow_right_cont: autoDraw = False
+32.2113 	EXP 	image: image = 'different/116_067_R.jpg'
+32.2113 	EXP 	same_text: autoDraw = True
+32.2113 	EXP 	different_text: autoDraw = True
+32.2113 	EXP 	image: autoDraw = True
+32.2113 	EXP 	arrow_left: autoDraw = True
+32.2113 	EXP 	arrow_right: autoDraw = True
+32.2298 	DATA 	Keypress: left
+32.2612 	EXP 	same_text: autoDraw = False
+32.2612 	EXP 	different_text: autoDraw = False
+32.2612 	EXP 	image: autoDraw = False
+32.2612 	EXP 	arrow_left: autoDraw = False
+32.2612 	EXP 	arrow_right: autoDraw = False
+32.2612 	EXP 	textCorr: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+32.2612 	EXP 	textCorr: text = ' Wrong response. Try again!'
+32.2612 	EXP 	image_cont: image = 'different/116_067_R.jpg'
+32.2612 	EXP 	textCorr: autoDraw = True
+32.2612 	EXP 	same_text_cont: autoDraw = True
+32.2612 	EXP 	different_text_cont: autoDraw = True
+32.2612 	EXP 	image_cont: autoDraw = True
+32.2612 	EXP 	arrow_left_cont: autoDraw = True
+32.2612 	EXP 	arrow_right_cont: autoDraw = True
+32.4449 	EXP 	New trial (rep=0, index=71): <Trial 71 (71 in rep 0) data={'imageFile': 'different/120_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 71, 'thisTrialN': 71, 'thisRepN': 0}>
+32.4617 	INFO 	Keyboard events cleared
+32.4613 	EXP 	textCorr: autoDraw = False
+32.4613 	EXP 	same_text_cont: autoDraw = False
+32.4613 	EXP 	different_text_cont: autoDraw = False
+32.4613 	EXP 	image_cont: autoDraw = False
+32.4613 	EXP 	arrow_left_cont: autoDraw = False
+32.4613 	EXP 	arrow_right_cont: autoDraw = False
+32.4613 	EXP 	textCorr: autoDraw = False
+32.4613 	EXP 	same_text_cont: autoDraw = False
+32.4613 	EXP 	different_text_cont: autoDraw = False
+32.4613 	EXP 	image_cont: autoDraw = False
+32.4613 	EXP 	arrow_left_cont: autoDraw = False
+32.4613 	EXP 	arrow_right_cont: autoDraw = False
+32.4613 	EXP 	image: image = 'different/120_133_R.jpg'
+32.4613 	EXP 	same_text: autoDraw = True
+32.4613 	EXP 	different_text: autoDraw = True
+32.4613 	EXP 	image: autoDraw = True
+32.4613 	EXP 	arrow_left: autoDraw = True
+32.4613 	EXP 	arrow_right: autoDraw = True
+32.5118 	DATA 	Keypress: right
+32.5286 	EXP 	same_text: autoDraw = False
+32.5286 	EXP 	different_text: autoDraw = False
+32.5286 	EXP 	image: autoDraw = False
+32.5286 	EXP 	arrow_left: autoDraw = False
+32.5286 	EXP 	arrow_right: autoDraw = False
+32.5286 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+32.5286 	EXP 	textCorr: height = 0.05
+32.5286 	EXP 	textCorr: height = 0.05
+32.5286 	EXP 	textCorr: height = 0.05
+32.5286 	EXP 	textCorr: text = 'Correct response!'
+32.5286 	EXP 	image_cont: image = 'different/120_133_R.jpg'
+32.5286 	EXP 	textCorr: autoDraw = True
+32.5286 	EXP 	same_text_cont: autoDraw = True
+32.5286 	EXP 	different_text_cont: autoDraw = True
+32.5286 	EXP 	image_cont: autoDraw = True
+32.5286 	EXP 	arrow_left_cont: autoDraw = True
+32.5286 	EXP 	arrow_right_cont: autoDraw = True
+32.6958 	DATA 	Keypress: right
+32.7116 	EXP 	New trial (rep=0, index=72): <Trial 72 (72 in rep 0) data={'imageFile': 'different/132_210_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 72, 'thisTrialN': 72, 'thisRepN': 0}>
+32.7279 	INFO 	Keyboard events cleared
+32.7275 	EXP 	textCorr: autoDraw = False
+32.7275 	EXP 	same_text_cont: autoDraw = False
+32.7275 	EXP 	different_text_cont: autoDraw = False
+32.7275 	EXP 	image_cont: autoDraw = False
+32.7275 	EXP 	arrow_left_cont: autoDraw = False
+32.7275 	EXP 	arrow_right_cont: autoDraw = False
+32.7275 	EXP 	textCorr: autoDraw = False
+32.7275 	EXP 	same_text_cont: autoDraw = False
+32.7275 	EXP 	different_text_cont: autoDraw = False
+32.7275 	EXP 	image_cont: autoDraw = False
+32.7275 	EXP 	arrow_left_cont: autoDraw = False
+32.7275 	EXP 	arrow_right_cont: autoDraw = False
+32.7275 	EXP 	image: image = 'different/132_210_R.jpg'
+32.7275 	EXP 	same_text: autoDraw = True
+32.7275 	EXP 	different_text: autoDraw = True
+32.7275 	EXP 	image: autoDraw = True
+32.7275 	EXP 	arrow_left: autoDraw = True
+32.7275 	EXP 	arrow_right: autoDraw = True
+32.9117 	DATA 	Keypress: right
+32.9275 	EXP 	same_text: autoDraw = False
+32.9275 	EXP 	different_text: autoDraw = False
+32.9275 	EXP 	image: autoDraw = False
+32.9275 	EXP 	arrow_left: autoDraw = False
+32.9275 	EXP 	arrow_right: autoDraw = False
+32.9275 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+32.9275 	EXP 	textCorr: text = 'Correct response!'
+32.9275 	EXP 	image_cont: image = 'different/132_210_R.jpg'
+32.9275 	EXP 	textCorr: autoDraw = True
+32.9275 	EXP 	same_text_cont: autoDraw = True
+32.9275 	EXP 	different_text_cont: autoDraw = True
+32.9275 	EXP 	image_cont: autoDraw = True
+32.9275 	EXP 	arrow_left_cont: autoDraw = True
+32.9275 	EXP 	arrow_right_cont: autoDraw = True
+33.0789 	DATA 	Keypress: right
+33.1115 	EXP 	New trial (rep=0, index=73): <Trial 73 (73 in rep 0) data={'imageFile': 'different/143_254_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 73, 'thisTrialN': 73, 'thisRepN': 0}>
+33.1278 	INFO 	Keyboard events cleared
+33.1274 	EXP 	textCorr: autoDraw = False
+33.1274 	EXP 	same_text_cont: autoDraw = False
+33.1274 	EXP 	different_text_cont: autoDraw = False
+33.1274 	EXP 	image_cont: autoDraw = False
+33.1274 	EXP 	arrow_left_cont: autoDraw = False
+33.1274 	EXP 	arrow_right_cont: autoDraw = False
+33.1274 	EXP 	textCorr: autoDraw = False
+33.1274 	EXP 	same_text_cont: autoDraw = False
+33.1274 	EXP 	different_text_cont: autoDraw = False
+33.1274 	EXP 	image_cont: autoDraw = False
+33.1274 	EXP 	arrow_left_cont: autoDraw = False
+33.1274 	EXP 	arrow_right_cont: autoDraw = False
+33.1274 	EXP 	image: image = 'different/143_254_R.jpg'
+33.1274 	EXP 	same_text: autoDraw = True
+33.1274 	EXP 	different_text: autoDraw = True
+33.1274 	EXP 	image: autoDraw = True
+33.1274 	EXP 	arrow_left: autoDraw = True
+33.1274 	EXP 	arrow_right: autoDraw = True
+33.2784 	DATA 	Keypress: right
+33.2941 	EXP 	same_text: autoDraw = False
+33.2941 	EXP 	different_text: autoDraw = False
+33.2941 	EXP 	image: autoDraw = False
+33.2941 	EXP 	arrow_left: autoDraw = False
+33.2941 	EXP 	arrow_right: autoDraw = False
+33.2941 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+33.2941 	EXP 	textCorr: text = 'Correct response!'
+33.2941 	EXP 	image_cont: image = 'different/143_254_R.jpg'
+33.2941 	EXP 	textCorr: autoDraw = True
+33.2941 	EXP 	same_text_cont: autoDraw = True
+33.2941 	EXP 	different_text_cont: autoDraw = True
+33.2941 	EXP 	image_cont: autoDraw = True
+33.2941 	EXP 	arrow_left_cont: autoDraw = True
+33.2941 	EXP 	arrow_right_cont: autoDraw = True
+33.4786 	EXP 	New trial (rep=0, index=74): <Trial 74 (74 in rep 0) data={'imageFile': 'different/209_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 74, 'thisTrialN': 74, 'thisRepN': 0}>
+33.4895 	DATA 	Keypress: right
+33.4946 	INFO 	Keyboard events cleared
+33.4943 	EXP 	textCorr: autoDraw = False
+33.4943 	EXP 	same_text_cont: autoDraw = False
+33.4943 	EXP 	different_text_cont: autoDraw = False
+33.4943 	EXP 	image_cont: autoDraw = False
+33.4943 	EXP 	arrow_left_cont: autoDraw = False
+33.4943 	EXP 	arrow_right_cont: autoDraw = False
+33.4943 	EXP 	textCorr: autoDraw = False
+33.4943 	EXP 	same_text_cont: autoDraw = False
+33.4943 	EXP 	different_text_cont: autoDraw = False
+33.4943 	EXP 	image_cont: autoDraw = False
+33.4943 	EXP 	arrow_left_cont: autoDraw = False
+33.4943 	EXP 	arrow_right_cont: autoDraw = False
+33.4943 	EXP 	image: image = 'different/209_224_R.jpg'
+33.4943 	EXP 	same_text: autoDraw = True
+33.4943 	EXP 	different_text: autoDraw = True
+33.4943 	EXP 	image: autoDraw = True
+33.4943 	EXP 	arrow_left: autoDraw = True
+33.4943 	EXP 	arrow_right: autoDraw = True
+33.6618 	DATA 	Keypress: right
+33.6777 	EXP 	same_text: autoDraw = False
+33.6777 	EXP 	different_text: autoDraw = False
+33.6777 	EXP 	image: autoDraw = False
+33.6777 	EXP 	arrow_left: autoDraw = False
+33.6777 	EXP 	arrow_right: autoDraw = False
+33.6777 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+33.6777 	EXP 	textCorr: text = 'Correct response!'
+33.6777 	EXP 	image_cont: image = 'different/209_224_R.jpg'
+33.6777 	EXP 	textCorr: autoDraw = True
+33.6777 	EXP 	same_text_cont: autoDraw = True
+33.6777 	EXP 	different_text_cont: autoDraw = True
+33.6777 	EXP 	image_cont: autoDraw = True
+33.6777 	EXP 	arrow_left_cont: autoDraw = True
+33.6777 	EXP 	arrow_right_cont: autoDraw = True
+33.8613 	EXP 	New trial (rep=0, index=75): <Trial 75 (75 in rep 0) data={'imageFile': 'different/254_287_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 75, 'thisTrialN': 75, 'thisRepN': 0}>
+33.8716 	DATA 	Keypress: right
+33.8781 	INFO 	Keyboard events cleared
+33.8777 	EXP 	textCorr: autoDraw = False
+33.8777 	EXP 	same_text_cont: autoDraw = False
+33.8777 	EXP 	different_text_cont: autoDraw = False
+33.8777 	EXP 	image_cont: autoDraw = False
+33.8777 	EXP 	arrow_left_cont: autoDraw = False
+33.8777 	EXP 	arrow_right_cont: autoDraw = False
+33.8777 	EXP 	textCorr: autoDraw = False
+33.8777 	EXP 	same_text_cont: autoDraw = False
+33.8777 	EXP 	different_text_cont: autoDraw = False
+33.8777 	EXP 	image_cont: autoDraw = False
+33.8777 	EXP 	arrow_left_cont: autoDraw = False
+33.8777 	EXP 	arrow_right_cont: autoDraw = False
+33.8777 	EXP 	image: image = 'different/254_287_L.jpg'
+33.8777 	EXP 	same_text: autoDraw = True
+33.8777 	EXP 	different_text: autoDraw = True
+33.8777 	EXP 	image: autoDraw = True
+33.8777 	EXP 	arrow_left: autoDraw = True
+33.8777 	EXP 	arrow_right: autoDraw = True
+34.2115 	DATA 	Keypress: right
+34.2275 	EXP 	same_text: autoDraw = False
+34.2275 	EXP 	different_text: autoDraw = False
+34.2275 	EXP 	image: autoDraw = False
+34.2275 	EXP 	arrow_left: autoDraw = False
+34.2275 	EXP 	arrow_right: autoDraw = False
+34.2275 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+34.2275 	EXP 	textCorr: text = 'Correct response!'
+34.2275 	EXP 	image_cont: image = 'different/254_287_L.jpg'
+34.2275 	EXP 	textCorr: autoDraw = True
+34.2275 	EXP 	same_text_cont: autoDraw = True
+34.2275 	EXP 	different_text_cont: autoDraw = True
+34.2275 	EXP 	image_cont: autoDraw = True
+34.2275 	EXP 	arrow_left_cont: autoDraw = True
+34.2275 	EXP 	arrow_right_cont: autoDraw = True
+34.4113 	EXP 	New trial (rep=0, index=76): <Trial 76 (76 in rep 0) data={'imageFile': 'different/261_254_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 76, 'thisTrialN': 76, 'thisRepN': 0}>
+34.4280 	INFO 	Keyboard events cleared
+34.4277 	EXP 	textCorr: autoDraw = False
+34.4277 	EXP 	same_text_cont: autoDraw = False
+34.4277 	EXP 	different_text_cont: autoDraw = False
+34.4277 	EXP 	image_cont: autoDraw = False
+34.4277 	EXP 	arrow_left_cont: autoDraw = False
+34.4277 	EXP 	arrow_right_cont: autoDraw = False
+34.4277 	EXP 	textCorr: autoDraw = False
+34.4277 	EXP 	same_text_cont: autoDraw = False
+34.4277 	EXP 	different_text_cont: autoDraw = False
+34.4277 	EXP 	image_cont: autoDraw = False
+34.4277 	EXP 	arrow_left_cont: autoDraw = False
+34.4277 	EXP 	arrow_right_cont: autoDraw = False
+34.4277 	EXP 	image: image = 'different/261_254_L.jpg'
+34.4277 	EXP 	same_text: autoDraw = True
+34.4277 	EXP 	different_text: autoDraw = True
+34.4277 	EXP 	image: autoDraw = True
+34.4277 	EXP 	arrow_left: autoDraw = True
+34.4277 	EXP 	arrow_right: autoDraw = True
+34.6117 	DATA 	Keypress: right
+34.6273 	EXP 	same_text: autoDraw = False
+34.6273 	EXP 	different_text: autoDraw = False
+34.6273 	EXP 	image: autoDraw = False
+34.6273 	EXP 	arrow_left: autoDraw = False
+34.6273 	EXP 	arrow_right: autoDraw = False
+34.6273 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+34.6273 	EXP 	textCorr: text = 'Correct response!'
+34.6273 	EXP 	image_cont: image = 'different/261_254_L.jpg'
+34.6273 	EXP 	textCorr: autoDraw = True
+34.6273 	EXP 	same_text_cont: autoDraw = True
+34.6273 	EXP 	different_text_cont: autoDraw = True
+34.6273 	EXP 	image_cont: autoDraw = True
+34.6273 	EXP 	arrow_left_cont: autoDraw = True
+34.6273 	EXP 	arrow_right_cont: autoDraw = True
+34.8110 	EXP 	New trial (rep=0, index=77): <Trial 77 (77 in rep 0) data={'imageFile': 'different/282_108_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 77, 'thisTrialN': 77, 'thisRepN': 0}>
+34.8276 	INFO 	Keyboard events cleared
+34.8272 	EXP 	textCorr: autoDraw = False
+34.8272 	EXP 	same_text_cont: autoDraw = False
+34.8272 	EXP 	different_text_cont: autoDraw = False
+34.8272 	EXP 	image_cont: autoDraw = False
+34.8272 	EXP 	arrow_left_cont: autoDraw = False
+34.8272 	EXP 	arrow_right_cont: autoDraw = False
+34.8272 	EXP 	textCorr: autoDraw = False
+34.8272 	EXP 	same_text_cont: autoDraw = False
+34.8272 	EXP 	different_text_cont: autoDraw = False
+34.8272 	EXP 	image_cont: autoDraw = False
+34.8272 	EXP 	arrow_left_cont: autoDraw = False
+34.8272 	EXP 	arrow_right_cont: autoDraw = False
+34.8272 	EXP 	image: image = 'different/282_108_R.jpg'
+34.8272 	EXP 	same_text: autoDraw = True
+34.8272 	EXP 	different_text: autoDraw = True
+34.8272 	EXP 	image: autoDraw = True
+34.8272 	EXP 	arrow_left: autoDraw = True
+34.8272 	EXP 	arrow_right: autoDraw = True
+34.9947 	DATA 	Keypress: right
+35.0106 	EXP 	same_text: autoDraw = False
+35.0106 	EXP 	different_text: autoDraw = False
+35.0106 	EXP 	image: autoDraw = False
+35.0106 	EXP 	arrow_left: autoDraw = False
+35.0106 	EXP 	arrow_right: autoDraw = False
+35.0106 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+35.0106 	EXP 	textCorr: text = 'Correct response!'
+35.0106 	EXP 	image_cont: image = 'different/282_108_R.jpg'
+35.0106 	EXP 	textCorr: autoDraw = True
+35.0106 	EXP 	same_text_cont: autoDraw = True
+35.0106 	EXP 	different_text_cont: autoDraw = True
+35.0106 	EXP 	image_cont: autoDraw = True
+35.0106 	EXP 	arrow_left_cont: autoDraw = True
+35.0106 	EXP 	arrow_right_cont: autoDraw = True
+35.1946 	EXP 	New trial (rep=0, index=78): <Trial 78 (78 in rep 0) data={'imageFile': 'different/296_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 78, 'thisTrialN': 78, 'thisRepN': 0}>
+35.2109 	INFO 	Keyboard events cleared
+35.2106 	EXP 	textCorr: autoDraw = False
+35.2106 	EXP 	same_text_cont: autoDraw = False
+35.2106 	EXP 	different_text_cont: autoDraw = False
+35.2106 	EXP 	image_cont: autoDraw = False
+35.2106 	EXP 	arrow_left_cont: autoDraw = False
+35.2106 	EXP 	arrow_right_cont: autoDraw = False
+35.2106 	EXP 	textCorr: autoDraw = False
+35.2106 	EXP 	same_text_cont: autoDraw = False
+35.2106 	EXP 	different_text_cont: autoDraw = False
+35.2106 	EXP 	image_cont: autoDraw = False
+35.2106 	EXP 	arrow_left_cont: autoDraw = False
+35.2106 	EXP 	arrow_right_cont: autoDraw = False
+35.2106 	EXP 	image: image = 'different/296_235_L.jpg'
+35.2106 	EXP 	same_text: autoDraw = True
+35.2106 	EXP 	different_text: autoDraw = True
+35.2106 	EXP 	image: autoDraw = True
+35.2106 	EXP 	arrow_left: autoDraw = True
+35.2106 	EXP 	arrow_right: autoDraw = True
+35.3950 	DATA 	Keypress: right
+35.4107 	EXP 	same_text: autoDraw = False
+35.4107 	EXP 	different_text: autoDraw = False
+35.4107 	EXP 	image: autoDraw = False
+35.4107 	EXP 	arrow_left: autoDraw = False
+35.4107 	EXP 	arrow_right: autoDraw = False
+35.4107 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+35.4107 	EXP 	textCorr: text = 'Correct response!'
+35.4107 	EXP 	image_cont: image = 'different/296_235_L.jpg'
+35.4107 	EXP 	textCorr: autoDraw = True
+35.4107 	EXP 	same_text_cont: autoDraw = True
+35.4107 	EXP 	different_text_cont: autoDraw = True
+35.4107 	EXP 	image_cont: autoDraw = True
+35.4107 	EXP 	arrow_left_cont: autoDraw = True
+35.4107 	EXP 	arrow_right_cont: autoDraw = True
+35.5944 	EXP 	New trial (rep=0, index=79): <Trial 79 (79 in rep 0) data={'imageFile': 'different/303_037_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 79, 'thisTrialN': 79, 'thisRepN': 0}>
+35.6112 	INFO 	Keyboard events cleared
+35.6108 	EXP 	textCorr: autoDraw = False
+35.6108 	EXP 	same_text_cont: autoDraw = False
+35.6108 	EXP 	different_text_cont: autoDraw = False
+35.6108 	EXP 	image_cont: autoDraw = False
+35.6108 	EXP 	arrow_left_cont: autoDraw = False
+35.6108 	EXP 	arrow_right_cont: autoDraw = False
+35.6108 	EXP 	textCorr: autoDraw = False
+35.6108 	EXP 	same_text_cont: autoDraw = False
+35.6108 	EXP 	different_text_cont: autoDraw = False
+35.6108 	EXP 	image_cont: autoDraw = False
+35.6108 	EXP 	arrow_left_cont: autoDraw = False
+35.6108 	EXP 	arrow_right_cont: autoDraw = False
+35.6108 	EXP 	image: image = 'different/303_037_R.jpg'
+35.6108 	EXP 	same_text: autoDraw = True
+35.6108 	EXP 	different_text: autoDraw = True
+35.6108 	EXP 	image: autoDraw = True
+35.6108 	EXP 	arrow_left: autoDraw = True
+35.6108 	EXP 	arrow_right: autoDraw = True
+35.7950 	DATA 	Keypress: right
+35.8108 	EXP 	same_text: autoDraw = False
+35.8108 	EXP 	different_text: autoDraw = False
+35.8108 	EXP 	image: autoDraw = False
+35.8108 	EXP 	arrow_left: autoDraw = False
+35.8108 	EXP 	arrow_right: autoDraw = False
+35.8108 	EXP 	textCorr: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+35.8108 	EXP 	textCorr: text = 'Correct response!'
+35.8108 	EXP 	image_cont: image = 'different/303_037_R.jpg'
+35.8108 	EXP 	textCorr: autoDraw = True
+35.8108 	EXP 	same_text_cont: autoDraw = True
+35.8108 	EXP 	different_text_cont: autoDraw = True
+35.8108 	EXP 	image_cont: autoDraw = True
+35.8108 	EXP 	arrow_left_cont: autoDraw = True
+35.8108 	EXP 	arrow_right_cont: autoDraw = True
+36.0100 	EXP 	textCorr: autoDraw = False
+36.0100 	EXP 	same_text_cont: autoDraw = False
+36.0100 	EXP 	different_text_cont: autoDraw = False
+36.0100 	EXP 	image_cont: autoDraw = False
+36.0100 	EXP 	arrow_left_cont: autoDraw = False
+36.0100 	EXP 	arrow_right_cont: autoDraw = False
+36.0100 	EXP 	textCorr: autoDraw = False
+36.0100 	EXP 	same_text_cont: autoDraw = False
+36.0100 	EXP 	different_text_cont: autoDraw = False
+36.0100 	EXP 	image_cont: autoDraw = False
+36.0100 	EXP 	arrow_left_cont: autoDraw = False
+36.0100 	EXP 	arrow_right_cont: autoDraw = False
+36.0100 	EXP 	thank_you_message: autoDraw = True
+36.2118 	DATA 	Keypress: right
+41.0095 	EXP 	thank_you_message: autoDraw = False
+41.0095 	EXP 	thank_you_message: autoDraw = False
+41.0098 	EXP 	glasgowFaceRecognition-Yagmur: status = STOPPED
+41.1278 	INFO 	saved data to 'C:\\Users\\duruk\\Desktop\\Odev\\StroopOdev\\glasgowFaceRecognition\\glasgowFaceRecognition-Yagmur\\data/342704___glasgowFaceRecognition-Yagmur_2024-12-27_00h04.32.695.csv'
+41.1290 	INFO 	saved data to C:\Users\duruk\Desktop\Odev\StroopOdev\glasgowFaceRecognition\glasgowFaceRecognition-Yagmur\data/342704___glasgowFaceRecognition-Yagmur_2024-12-27_00h04.32.695.psydat

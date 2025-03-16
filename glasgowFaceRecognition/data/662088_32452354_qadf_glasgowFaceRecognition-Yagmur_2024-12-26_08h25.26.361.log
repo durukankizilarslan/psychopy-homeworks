@@ -1,0 +1,15 @@
+17.6207 	INFO 	Loaded monitor calibration from ['2024_12_12 23:48']
+19.3409 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001199AA5A8B0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001199AA5A850>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001199AB57FD0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.3410 	EXP 	window1: backgroundImage = ''
+19.3410 	EXP 	window1: backgroundFit = 'none'
+19.4690 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+19.4690 	EXP 	window1: recordFrameIntervals = False
+19.4813 	DATA 	Keypress: a
+19.6461 	EXP 	window1: recordFrameIntervals = True
+19.8293 	EXP 	Screen (0) actual frame rate measured at 60.02Hz
+19.8293 	EXP 	window1: recordFrameIntervals = False
+23.0661 	INFO 	keyboard.Keyboard is using iohub backend.
+23.0661 	EXP 	glasgowFaceRecognition-Yagmur: status = STARTED
+0.0035 	EXP 	glasgowFaceRecognition-Yagmur: status = STOPPED
+0.0045 	INFO 	saved data to 'C:\\Users\\duruk\\Desktop\\Odev\\StroopOdev\\glasgowFaceRecognition\\glasgowFaceRecognition-Yagmur\\data/662088_32452354_qadf_glasgowFaceRecognition-Yagmur_2024-12-26_08h25.26.361.csv'
+0.0050 	INFO 	saved data to C:\Users\duruk\Desktop\Odev\StroopOdev\glasgowFaceRecognition\glasgowFaceRecognition-Yagmur\data/662088_32452354_qadf_glasgowFaceRecognition-Yagmur_2024-12-26_08h25.26.361.psydat
