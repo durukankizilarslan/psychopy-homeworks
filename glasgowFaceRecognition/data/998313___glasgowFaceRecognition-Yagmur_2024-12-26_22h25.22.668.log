@@ -1,0 +1,834 @@
+18.6900 	INFO 	Loaded monitor calibration from ['2024_12_12 23:48']
+19.5748 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001771490B910>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001771490B8B0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000017714A08FA0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.5749 	EXP 	window1: backgroundImage = ''
+19.5749 	EXP 	window1: backgroundFit = 'none'
+19.6700 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+19.6700 	EXP 	window1: recordFrameIntervals = False
+19.8369 	EXP 	window1: recordFrameIntervals = True
+20.0205 	EXP 	Screen (0) actual frame rate measured at 60.04Hz
+20.0206 	EXP 	window1: recordFrameIntervals = False
+22.1298 	INFO 	keyboard.Keyboard is using iohub backend.
+22.1299 	INFO 	keyboard.Keyboard is using iohub backend.
+22.1299 	INFO 	keyboard.Keyboard is using iohub backend.
+22.1299 	EXP 	glasgowFaceRecognition-Yagmur: status = STARTED
+22.2014 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2050 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+22.4055 	EXP 	Created same_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='same_text', opacity=1, ori=0.0, pos=array([-1., -1.]), rgb=UNKNOWN, text='SAME', units='height', win=Window(...), wrapWidth=1)
+22.4629 	EXP 	Created different_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='different_text', opacity=1, ori=0.0, pos=array([ 0.2, -0.8]), rgb=UNKNOWN, text='DIFFERENT', units='height', win=Window(...), wrapWidth=1)
+22.4707 	EXP 	Created thank_you_message = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thank_you_message', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0049 	INFO 	Keyboard events cleared
+0.0047 	EXP 	text: autoDraw = True
+1.6309 	EXP 	Imported conditions.xlsx as conditions, 80 conditions, 4 params
+1.6316 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'imageFile': 'same/020_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.6839 	DATA 	Keypress: space
+1.6911 	INFO 	Keyboard events cleared
+1.6907 	EXP 	text: autoDraw = False
+1.6907 	EXP 	image: image = 'same/020_C2_DV.jpg'
+1.6907 	EXP 	image: autoDraw = True
+1.6907 	EXP 	same_text: autoDraw = True
+1.6907 	EXP 	different_text: autoDraw = True
+2.8333 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'imageFile': 'same/025_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+2.8470 	DATA 	Keypress: left
+2.8526 	INFO 	Keyboard events cleared
+2.8522 	EXP 	image: autoDraw = False
+2.8522 	EXP 	same_text: autoDraw = False
+2.8522 	EXP 	different_text: autoDraw = False
+2.8522 	EXP 	image: image = 'same/025_C2_DV.jpg'
+2.8522 	EXP 	image: autoDraw = True
+2.8522 	EXP 	same_text: autoDraw = True
+2.8522 	EXP 	different_text: autoDraw = True
+3.2337 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'imageFile': 'same/068_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+3.2477 	DATA 	Keypress: right
+3.2532 	INFO 	Keyboard events cleared
+3.2529 	EXP 	image: autoDraw = False
+3.2529 	EXP 	same_text: autoDraw = False
+3.2529 	EXP 	different_text: autoDraw = False
+3.2529 	EXP 	image: image = 'same/068_C2_DV.jpg'
+3.2529 	EXP 	image: autoDraw = True
+3.2529 	EXP 	same_text: autoDraw = True
+3.2529 	EXP 	different_text: autoDraw = True
+3.5503 	DATA 	Keypress: up
+3.9665 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'imageFile': 'same/069_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+3.9792 	DATA 	Keypress: left
+3.9849 	INFO 	Keyboard events cleared
+3.9846 	EXP 	image: autoDraw = False
+3.9846 	EXP 	same_text: autoDraw = False
+3.9846 	EXP 	different_text: autoDraw = False
+3.9846 	EXP 	image: image = 'same/069_C2_DV.jpg'
+3.9846 	EXP 	image: autoDraw = True
+3.9846 	EXP 	same_text: autoDraw = True
+3.9846 	EXP 	different_text: autoDraw = True
+4.2167 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'imageFile': 'same/074_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+4.2292 	DATA 	Keypress: right
+4.2351 	INFO 	Keyboard events cleared
+4.2347 	EXP 	image: autoDraw = False
+4.2347 	EXP 	same_text: autoDraw = False
+4.2347 	EXP 	different_text: autoDraw = False
+4.2347 	EXP 	image: image = 'same/074_C2_DV.jpg'
+4.2347 	EXP 	image: autoDraw = True
+4.2347 	EXP 	same_text: autoDraw = True
+4.2347 	EXP 	different_text: autoDraw = True
+4.3833 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'imageFile': 'same/075_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+4.3964 	DATA 	Keypress: right
+4.3966 	DATA 	Keypress: left
+4.4019 	INFO 	Keyboard events cleared
+4.4015 	EXP 	image: autoDraw = False
+4.4015 	EXP 	same_text: autoDraw = False
+4.4015 	EXP 	different_text: autoDraw = False
+4.4015 	EXP 	image: image = 'same/075_DV_C2.jpg'
+4.4015 	EXP 	image: autoDraw = True
+4.4015 	EXP 	same_text: autoDraw = True
+4.4015 	EXP 	different_text: autoDraw = True
+4.4999 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'imageFile': 'same/081_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+4.5194 	INFO 	Keyboard events cleared
+4.5190 	EXP 	image: autoDraw = False
+4.5190 	EXP 	same_text: autoDraw = False
+4.5190 	EXP 	different_text: autoDraw = False
+4.5190 	EXP 	image: image = 'same/081_C2_DV.jpg'
+4.5190 	EXP 	image: autoDraw = True
+4.5190 	EXP 	same_text: autoDraw = True
+4.5190 	EXP 	different_text: autoDraw = True
+4.5498 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'imageFile': 'same/085_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+4.5613 	DATA 	Keypress: right
+4.5679 	INFO 	Keyboard events cleared
+4.5675 	EXP 	image: autoDraw = False
+4.5675 	EXP 	same_text: autoDraw = False
+4.5675 	EXP 	different_text: autoDraw = False
+4.5675 	EXP 	image: image = 'same/085_C2_DV.jpg'
+4.5675 	EXP 	image: autoDraw = True
+4.5675 	EXP 	same_text: autoDraw = True
+4.5675 	EXP 	different_text: autoDraw = True
+4.6328 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'imageFile': 'same/092_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+4.6442 	DATA 	Keypress: left
+4.6510 	INFO 	Keyboard events cleared
+4.6506 	EXP 	image: autoDraw = False
+4.6506 	EXP 	same_text: autoDraw = False
+4.6506 	EXP 	different_text: autoDraw = False
+4.6506 	EXP 	image: image = 'same/092_C2_DV.jpg'
+4.6506 	EXP 	image: autoDraw = True
+4.6506 	EXP 	same_text: autoDraw = True
+4.6506 	EXP 	different_text: autoDraw = True
+4.7828 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'imageFile': 'same/102_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+4.7943 	DATA 	Keypress: right
+4.8012 	INFO 	Keyboard events cleared
+4.8008 	EXP 	image: autoDraw = False
+4.8008 	EXP 	same_text: autoDraw = False
+4.8008 	EXP 	different_text: autoDraw = False
+4.8008 	EXP 	image: image = 'same/102_C2_DV.jpg'
+4.8008 	EXP 	image: autoDraw = True
+4.8008 	EXP 	same_text: autoDraw = True
+4.8008 	EXP 	different_text: autoDraw = True
+4.9328 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'imageFile': 'same/108_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+4.9450 	DATA 	Keypress: left
+4.9510 	INFO 	Keyboard events cleared
+4.9506 	EXP 	image: autoDraw = False
+4.9506 	EXP 	same_text: autoDraw = False
+4.9506 	EXP 	different_text: autoDraw = False
+4.9506 	EXP 	image: image = 'same/108_DV_C2.jpg'
+4.9506 	EXP 	image: autoDraw = True
+4.9506 	EXP 	same_text: autoDraw = True
+4.9506 	EXP 	different_text: autoDraw = True
+4.9994 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'imageFile': 'same/115_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+5.0110 	DATA 	Keypress: right
+5.0179 	INFO 	Keyboard events cleared
+5.0175 	EXP 	image: autoDraw = False
+5.0175 	EXP 	same_text: autoDraw = False
+5.0175 	EXP 	different_text: autoDraw = False
+5.0175 	EXP 	image: image = 'same/115_C2_DV.jpg'
+5.0175 	EXP 	image: autoDraw = True
+5.0175 	EXP 	same_text: autoDraw = True
+5.0175 	EXP 	different_text: autoDraw = True
+5.1500 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'imageFile': 'same/120_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+5.1653 	DATA 	Keypress: left
+5.1708 	INFO 	Keyboard events cleared
+5.1704 	EXP 	image: autoDraw = False
+5.1704 	EXP 	same_text: autoDraw = False
+5.1704 	EXP 	different_text: autoDraw = False
+5.1704 	EXP 	image: image = 'same/120_DV_C2.jpg'
+5.1704 	EXP 	image: autoDraw = True
+5.1704 	EXP 	same_text: autoDraw = True
+5.1704 	EXP 	different_text: autoDraw = True
+5.2329 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'imageFile': 'same/129_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+5.2441 	DATA 	Keypress: right
+5.2509 	INFO 	Keyboard events cleared
+5.2505 	EXP 	image: autoDraw = False
+5.2505 	EXP 	same_text: autoDraw = False
+5.2505 	EXP 	different_text: autoDraw = False
+5.2505 	EXP 	image: image = 'same/129_C2_DV.jpg'
+5.2505 	EXP 	image: autoDraw = True
+5.2505 	EXP 	same_text: autoDraw = True
+5.2505 	EXP 	different_text: autoDraw = True
+5.3497 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'imageFile': 'same/136_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+5.3628 	DATA 	Keypress: left
+5.3681 	INFO 	Keyboard events cleared
+5.3677 	EXP 	image: autoDraw = False
+5.3677 	EXP 	same_text: autoDraw = False
+5.3677 	EXP 	different_text: autoDraw = False
+5.3677 	EXP 	image: image = 'same/136_C2_DV.jpg'
+5.3677 	EXP 	image: autoDraw = True
+5.3677 	EXP 	same_text: autoDraw = True
+5.3677 	EXP 	different_text: autoDraw = True
+5.5331 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'imageFile': 'same/139_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+5.5463 	DATA 	Keypress: right
+5.5516 	INFO 	Keyboard events cleared
+5.5513 	EXP 	image: autoDraw = False
+5.5513 	EXP 	same_text: autoDraw = False
+5.5513 	EXP 	different_text: autoDraw = False
+5.5513 	EXP 	image: image = 'same/139_DV_C2.jpg'
+5.5513 	EXP 	image: autoDraw = True
+5.5513 	EXP 	same_text: autoDraw = True
+5.5513 	EXP 	different_text: autoDraw = True
+5.5827 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'imageFile': 'same/168_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+5.5943 	DATA 	Keypress: left
+5.6017 	INFO 	Keyboard events cleared
+5.6013 	EXP 	image: autoDraw = False
+5.6013 	EXP 	same_text: autoDraw = False
+5.6013 	EXP 	different_text: autoDraw = False
+5.6013 	EXP 	image: image = 'same/168_C2_DV.jpg'
+5.6013 	EXP 	image: autoDraw = True
+5.6013 	EXP 	same_text: autoDraw = True
+5.6013 	EXP 	different_text: autoDraw = True
+5.7497 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'imageFile': 'same/170_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+5.7619 	DATA 	Keypress: right
+5.7676 	INFO 	Keyboard events cleared
+5.7672 	EXP 	image: autoDraw = False
+5.7672 	EXP 	same_text: autoDraw = False
+5.7672 	EXP 	different_text: autoDraw = False
+5.7672 	EXP 	image: image = 'same/170_DV_C2.jpg'
+5.7672 	EXP 	image: autoDraw = True
+5.7672 	EXP 	same_text: autoDraw = True
+5.7672 	EXP 	different_text: autoDraw = True
+5.8329 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'imageFile': 'same/235_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+5.8444 	DATA 	Keypress: left
+5.8508 	INFO 	Keyboard events cleared
+5.8505 	EXP 	image: autoDraw = False
+5.8505 	EXP 	same_text: autoDraw = False
+5.8505 	EXP 	different_text: autoDraw = False
+5.8505 	EXP 	image: image = 'same/235_C2_DV.jpg'
+5.8505 	EXP 	image: autoDraw = True
+5.8505 	EXP 	same_text: autoDraw = True
+5.8505 	EXP 	different_text: autoDraw = True
+5.9663 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'imageFile': 'same/303_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0, 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+5.9780 	DATA 	Keypress: right
+5.9843 	INFO 	Keyboard events cleared
+5.9839 	EXP 	image: autoDraw = False
+5.9839 	EXP 	same_text: autoDraw = False
+5.9839 	EXP 	different_text: autoDraw = False
+5.9839 	EXP 	image: image = 'same/303_DV_C2.jpg'
+5.9839 	EXP 	image: autoDraw = True
+5.9839 	EXP 	same_text: autoDraw = True
+5.9839 	EXP 	different_text: autoDraw = True
+6.0660 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'imageFile': 'different/013_235_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+6.0792 	DATA 	Keypress: left
+6.0841 	INFO 	Keyboard events cleared
+6.0838 	EXP 	image: autoDraw = False
+6.0838 	EXP 	same_text: autoDraw = False
+6.0838 	EXP 	different_text: autoDraw = False
+6.0838 	EXP 	image: image = 'different/013_235_R.jpg'
+6.0838 	EXP 	image: autoDraw = True
+6.0838 	EXP 	same_text: autoDraw = True
+6.0838 	EXP 	different_text: autoDraw = True
+6.1989 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'imageFile': 'different/019_074_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+6.2098 	DATA 	Keypress: right
+6.2150 	INFO 	Keyboard events cleared
+6.2146 	EXP 	image: autoDraw = False
+6.2146 	EXP 	same_text: autoDraw = False
+6.2146 	EXP 	different_text: autoDraw = False
+6.2146 	EXP 	image: image = 'different/019_074_L.jpg'
+6.2146 	EXP 	image: autoDraw = True
+6.2146 	EXP 	same_text: autoDraw = True
+6.2146 	EXP 	different_text: autoDraw = True
+6.2822 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'imageFile': 'different/025_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+6.2931 	DATA 	Keypress: left
+6.2980 	INFO 	Keyboard events cleared
+6.2976 	EXP 	image: autoDraw = False
+6.2976 	EXP 	same_text: autoDraw = False
+6.2976 	EXP 	different_text: autoDraw = False
+6.2976 	EXP 	image: image = 'different/025_235_L.jpg'
+6.2976 	EXP 	image: autoDraw = True
+6.2976 	EXP 	same_text: autoDraw = True
+6.2976 	EXP 	different_text: autoDraw = True
+6.4155 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'imageFile': 'different/049_218_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+6.4254 	DATA 	Keypress: right
+6.4315 	INFO 	Keyboard events cleared
+6.4312 	EXP 	image: autoDraw = False
+6.4312 	EXP 	same_text: autoDraw = False
+6.4312 	EXP 	different_text: autoDraw = False
+6.4312 	EXP 	image: image = 'different/049_218_L.jpg'
+6.4312 	EXP 	image: autoDraw = True
+6.4312 	EXP 	same_text: autoDraw = True
+6.4312 	EXP 	different_text: autoDraw = True
+6.4820 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'imageFile': 'different/076_109_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+6.4920 	DATA 	Keypress: left
+6.4981 	INFO 	Keyboard events cleared
+6.4977 	EXP 	image: autoDraw = False
+6.4977 	EXP 	same_text: autoDraw = False
+6.4977 	EXP 	different_text: autoDraw = False
+6.4977 	EXP 	image: image = 'different/076_109_R.jpg'
+6.4977 	EXP 	image: autoDraw = True
+6.4977 	EXP 	same_text: autoDraw = True
+6.4977 	EXP 	different_text: autoDraw = True
+6.6152 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'imageFile': 'different/077_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+6.6240 	DATA 	Keypress: right
+6.6315 	INFO 	Keyboard events cleared
+6.6311 	EXP 	image: autoDraw = False
+6.6311 	EXP 	same_text: autoDraw = False
+6.6311 	EXP 	different_text: autoDraw = False
+6.6311 	EXP 	image: image = 'different/077_133_R.jpg'
+6.6311 	EXP 	image: autoDraw = True
+6.6311 	EXP 	same_text: autoDraw = True
+6.6311 	EXP 	different_text: autoDraw = True
+6.8326 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'imageFile': 'different/091_283_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+6.8443 	DATA 	Keypress: left
+6.8481 	INFO 	Keyboard events cleared
+6.8478 	EXP 	image: autoDraw = False
+6.8478 	EXP 	same_text: autoDraw = False
+6.8478 	EXP 	different_text: autoDraw = False
+6.8478 	EXP 	image: image = 'different/091_283_R.jpg'
+6.8478 	EXP 	image: autoDraw = True
+6.8478 	EXP 	same_text: autoDraw = True
+6.8478 	EXP 	different_text: autoDraw = True
+7.0163 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'imageFile': 'different/092_283_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+7.0327 	DATA 	Keypress: right
+7.0352 	INFO 	Keyboard events cleared
+7.0348 	EXP 	image: autoDraw = False
+7.0348 	EXP 	same_text: autoDraw = False
+7.0348 	EXP 	different_text: autoDraw = False
+7.0348 	EXP 	image: image = 'different/092_283_L.jpg'
+7.0348 	EXP 	image: autoDraw = True
+7.0348 	EXP 	same_text: autoDraw = True
+7.0348 	EXP 	different_text: autoDraw = True
+7.1820 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'imageFile': 'different/102_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+7.1914 	DATA 	Keypress: left
+7.1980 	INFO 	Keyboard events cleared
+7.1976 	EXP 	image: autoDraw = False
+7.1976 	EXP 	same_text: autoDraw = False
+7.1976 	EXP 	different_text: autoDraw = False
+7.1976 	EXP 	image: image = 'different/102_224_R.jpg'
+7.1976 	EXP 	image: autoDraw = True
+7.1976 	EXP 	same_text: autoDraw = True
+7.1976 	EXP 	different_text: autoDraw = True
+7.4827 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'imageFile': 'different/106_224_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+7.4944 	DATA 	Keypress: right
+7.4979 	INFO 	Keyboard events cleared
+7.4976 	EXP 	image: autoDraw = False
+7.4976 	EXP 	same_text: autoDraw = False
+7.4976 	EXP 	different_text: autoDraw = False
+7.4976 	EXP 	image: image = 'different/106_224_L.jpg'
+7.4976 	EXP 	image: autoDraw = True
+7.4976 	EXP 	same_text: autoDraw = True
+7.4976 	EXP 	different_text: autoDraw = True
+7.8488 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'imageFile': 'different/116_067_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+7.8593 	DATA 	Keypress: left
+7.8646 	INFO 	Keyboard events cleared
+7.8642 	EXP 	image: autoDraw = False
+7.8642 	EXP 	same_text: autoDraw = False
+7.8642 	EXP 	different_text: autoDraw = False
+7.8642 	EXP 	image: image = 'different/116_067_R.jpg'
+7.8642 	EXP 	image: autoDraw = True
+7.8642 	EXP 	same_text: autoDraw = True
+7.8642 	EXP 	different_text: autoDraw = True
+8.0155 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'imageFile': 'different/120_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+8.0263 	DATA 	Keypress: right
+8.0315 	INFO 	Keyboard events cleared
+8.0311 	EXP 	image: autoDraw = False
+8.0311 	EXP 	same_text: autoDraw = False
+8.0311 	EXP 	different_text: autoDraw = False
+8.0311 	EXP 	image: image = 'different/120_133_R.jpg'
+8.0311 	EXP 	image: autoDraw = True
+8.0311 	EXP 	same_text: autoDraw = True
+8.0311 	EXP 	different_text: autoDraw = True
+8.1322 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'imageFile': 'different/132_210_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+8.1440 	DATA 	Keypress: left
+8.1483 	INFO 	Keyboard events cleared
+8.1479 	EXP 	image: autoDraw = False
+8.1479 	EXP 	same_text: autoDraw = False
+8.1479 	EXP 	different_text: autoDraw = False
+8.1479 	EXP 	image: image = 'different/132_210_R.jpg'
+8.1479 	EXP 	image: autoDraw = True
+8.1479 	EXP 	same_text: autoDraw = True
+8.1479 	EXP 	different_text: autoDraw = True
+8.3318 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'imageFile': 'different/143_254_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+8.3426 	DATA 	Keypress: right
+8.3478 	INFO 	Keyboard events cleared
+8.3474 	EXP 	image: autoDraw = False
+8.3474 	EXP 	same_text: autoDraw = False
+8.3474 	EXP 	different_text: autoDraw = False
+8.3474 	EXP 	image: image = 'different/143_254_R.jpg'
+8.3474 	EXP 	image: autoDraw = True
+8.3474 	EXP 	same_text: autoDraw = True
+8.3474 	EXP 	different_text: autoDraw = True
+8.4990 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'imageFile': 'different/209_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+8.5105 	DATA 	Keypress: left
+8.5146 	INFO 	Keyboard events cleared
+8.5142 	EXP 	image: autoDraw = False
+8.5142 	EXP 	same_text: autoDraw = False
+8.5142 	EXP 	different_text: autoDraw = False
+8.5142 	EXP 	image: image = 'different/209_224_R.jpg'
+8.5142 	EXP 	image: autoDraw = True
+8.5142 	EXP 	same_text: autoDraw = True
+8.5142 	EXP 	different_text: autoDraw = True
+8.7989 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'imageFile': 'different/254_287_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+8.8115 	DATA 	Keypress: right
+8.8144 	INFO 	Keyboard events cleared
+8.8140 	EXP 	image: autoDraw = False
+8.8140 	EXP 	same_text: autoDraw = False
+8.8140 	EXP 	different_text: autoDraw = False
+8.8140 	EXP 	image: image = 'different/254_287_L.jpg'
+8.8140 	EXP 	image: autoDraw = True
+8.8140 	EXP 	same_text: autoDraw = True
+8.8140 	EXP 	different_text: autoDraw = True
+9.0152 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'imageFile': 'different/261_254_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+9.0276 	DATA 	Keypress: left
+9.0312 	INFO 	Keyboard events cleared
+9.0308 	EXP 	image: autoDraw = False
+9.0308 	EXP 	same_text: autoDraw = False
+9.0308 	EXP 	different_text: autoDraw = False
+9.0308 	EXP 	image: image = 'different/261_254_L.jpg'
+9.0308 	EXP 	image: autoDraw = True
+9.0308 	EXP 	same_text: autoDraw = True
+9.0308 	EXP 	different_text: autoDraw = True
+9.1667 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'imageFile': 'different/282_108_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+9.1791 	DATA 	Keypress: right
+9.1816 	INFO 	Keyboard events cleared
+9.1813 	EXP 	image: autoDraw = False
+9.1813 	EXP 	same_text: autoDraw = False
+9.1813 	EXP 	different_text: autoDraw = False
+9.1813 	EXP 	image: image = 'different/282_108_R.jpg'
+9.1813 	EXP 	image: autoDraw = True
+9.1813 	EXP 	same_text: autoDraw = True
+9.1813 	EXP 	different_text: autoDraw = True
+9.2986 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'imageFile': 'different/296_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+9.3092 	DATA 	Keypress: left
+9.3143 	INFO 	Keyboard events cleared
+9.3139 	EXP 	image: autoDraw = False
+9.3139 	EXP 	same_text: autoDraw = False
+9.3139 	EXP 	different_text: autoDraw = False
+9.3139 	EXP 	image: image = 'different/296_235_L.jpg'
+9.3139 	EXP 	image: autoDraw = True
+9.3139 	EXP 	same_text: autoDraw = True
+9.3139 	EXP 	different_text: autoDraw = True
+9.5154 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'imageFile': 'different/303_037_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0, 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+9.5267 	DATA 	Keypress: right
+9.5311 	INFO 	Keyboard events cleared
+9.5308 	EXP 	image: autoDraw = False
+9.5308 	EXP 	same_text: autoDraw = False
+9.5308 	EXP 	different_text: autoDraw = False
+9.5308 	EXP 	image: image = 'different/303_037_R.jpg'
+9.5308 	EXP 	image: autoDraw = True
+9.5308 	EXP 	same_text: autoDraw = True
+9.5308 	EXP 	different_text: autoDraw = True
+9.6658 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'imageFile': 'same/020_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+9.6825 	DATA 	Keypress: left
+9.6889 	INFO 	Keyboard events cleared
+9.6886 	EXP 	image: autoDraw = False
+9.6886 	EXP 	same_text: autoDraw = False
+9.6886 	EXP 	different_text: autoDraw = False
+9.6886 	EXP 	image: image = 'same/020_C2_DV.jpg'
+9.6886 	EXP 	image: autoDraw = True
+9.6886 	EXP 	same_text: autoDraw = True
+9.6886 	EXP 	different_text: autoDraw = True
+9.8490 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'imageFile': 'same/025_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+9.8611 	DATA 	Keypress: right
+9.8671 	INFO 	Keyboard events cleared
+9.8668 	EXP 	image: autoDraw = False
+9.8668 	EXP 	same_text: autoDraw = False
+9.8668 	EXP 	different_text: autoDraw = False
+9.8668 	EXP 	image: image = 'same/025_C2_DV.jpg'
+9.8668 	EXP 	image: autoDraw = True
+9.8668 	EXP 	same_text: autoDraw = True
+9.8668 	EXP 	different_text: autoDraw = True
+10.1156 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'imageFile': 'same/068_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+10.1287 	DATA 	Keypress: left
+10.1340 	INFO 	Keyboard events cleared
+10.1336 	EXP 	image: autoDraw = False
+10.1336 	EXP 	same_text: autoDraw = False
+10.1336 	EXP 	different_text: autoDraw = False
+10.1336 	EXP 	image: image = 'same/068_C2_DV.jpg'
+10.1336 	EXP 	image: autoDraw = True
+10.1336 	EXP 	same_text: autoDraw = True
+10.1336 	EXP 	different_text: autoDraw = True
+10.4493 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'imageFile': 'same/069_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+10.4626 	DATA 	Keypress: right
+10.4681 	INFO 	Keyboard events cleared
+10.4678 	EXP 	image: autoDraw = False
+10.4678 	EXP 	same_text: autoDraw = False
+10.4678 	EXP 	different_text: autoDraw = False
+10.4678 	EXP 	image: image = 'same/069_C2_DV.jpg'
+10.4678 	EXP 	image: autoDraw = True
+10.4678 	EXP 	same_text: autoDraw = True
+10.4678 	EXP 	different_text: autoDraw = True
+10.5153 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'imageFile': 'same/074_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+10.5259 	DATA 	Keypress: left
+10.5338 	INFO 	Keyboard events cleared
+10.5334 	EXP 	image: autoDraw = False
+10.5334 	EXP 	same_text: autoDraw = False
+10.5334 	EXP 	different_text: autoDraw = False
+10.5334 	EXP 	image: image = 'same/074_C2_DV.jpg'
+10.5334 	EXP 	image: autoDraw = True
+10.5334 	EXP 	same_text: autoDraw = True
+10.5334 	EXP 	different_text: autoDraw = True
+10.6487 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'imageFile': 'same/075_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+10.6600 	DATA 	Keypress: right
+10.6670 	INFO 	Keyboard events cleared
+10.6667 	EXP 	image: autoDraw = False
+10.6667 	EXP 	same_text: autoDraw = False
+10.6667 	EXP 	different_text: autoDraw = False
+10.6667 	EXP 	image: image = 'same/075_DV_C2.jpg'
+10.6667 	EXP 	image: autoDraw = True
+10.6667 	EXP 	same_text: autoDraw = True
+10.6667 	EXP 	different_text: autoDraw = True
+10.6988 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'imageFile': 'same/081_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+10.7105 	DATA 	Keypress: left
+10.7169 	INFO 	Keyboard events cleared
+10.7165 	EXP 	image: autoDraw = False
+10.7165 	EXP 	same_text: autoDraw = False
+10.7165 	EXP 	different_text: autoDraw = False
+10.7165 	EXP 	image: image = 'same/081_C2_DV.jpg'
+10.7165 	EXP 	image: autoDraw = True
+10.7165 	EXP 	same_text: autoDraw = True
+10.7165 	EXP 	different_text: autoDraw = True
+10.8319 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'imageFile': 'same/085_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+10.8434 	DATA 	Keypress: right
+10.8507 	INFO 	Keyboard events cleared
+10.8503 	EXP 	image: autoDraw = False
+10.8503 	EXP 	same_text: autoDraw = False
+10.8503 	EXP 	different_text: autoDraw = False
+10.8503 	EXP 	image: image = 'same/085_C2_DV.jpg'
+10.8503 	EXP 	image: autoDraw = True
+10.8503 	EXP 	same_text: autoDraw = True
+10.8503 	EXP 	different_text: autoDraw = True
+11.0160 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'imageFile': 'same/092_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+11.0320 	DATA 	Keypress: left
+11.0377 	INFO 	Keyboard events cleared
+11.0373 	EXP 	image: autoDraw = False
+11.0373 	EXP 	same_text: autoDraw = False
+11.0373 	EXP 	different_text: autoDraw = False
+11.0373 	EXP 	image: image = 'same/092_C2_DV.jpg'
+11.0373 	EXP 	image: autoDraw = True
+11.0373 	EXP 	same_text: autoDraw = True
+11.0373 	EXP 	different_text: autoDraw = True
+11.1489 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'imageFile': 'same/102_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+11.1608 	DATA 	Keypress: right
+11.1670 	INFO 	Keyboard events cleared
+11.1667 	EXP 	image: autoDraw = False
+11.1667 	EXP 	same_text: autoDraw = False
+11.1667 	EXP 	different_text: autoDraw = False
+11.1667 	EXP 	image: image = 'same/102_C2_DV.jpg'
+11.1667 	EXP 	image: autoDraw = True
+11.1667 	EXP 	same_text: autoDraw = True
+11.1667 	EXP 	different_text: autoDraw = True
+11.2988 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'imageFile': 'same/108_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+11.3100 	DATA 	Keypress: left
+11.3172 	INFO 	Keyboard events cleared
+11.3169 	EXP 	image: autoDraw = False
+11.3169 	EXP 	same_text: autoDraw = False
+11.3169 	EXP 	different_text: autoDraw = False
+11.3169 	EXP 	image: image = 'same/108_DV_C2.jpg'
+11.3169 	EXP 	image: autoDraw = True
+11.3169 	EXP 	same_text: autoDraw = True
+11.3169 	EXP 	different_text: autoDraw = True
+11.4653 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'imageFile': 'same/115_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+11.4775 	DATA 	Keypress: right
+11.4837 	INFO 	Keyboard events cleared
+11.4833 	EXP 	image: autoDraw = False
+11.4833 	EXP 	same_text: autoDraw = False
+11.4833 	EXP 	different_text: autoDraw = False
+11.4833 	EXP 	image: image = 'same/115_C2_DV.jpg'
+11.4833 	EXP 	image: autoDraw = True
+11.4833 	EXP 	same_text: autoDraw = True
+11.4833 	EXP 	different_text: autoDraw = True
+11.6157 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'imageFile': 'same/120_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+11.6268 	DATA 	Keypress: left
+11.6334 	INFO 	Keyboard events cleared
+11.6331 	EXP 	image: autoDraw = False
+11.6331 	EXP 	same_text: autoDraw = False
+11.6331 	EXP 	different_text: autoDraw = False
+11.6331 	EXP 	image: image = 'same/120_DV_C2.jpg'
+11.6331 	EXP 	image: autoDraw = True
+11.6331 	EXP 	same_text: autoDraw = True
+11.6331 	EXP 	different_text: autoDraw = True
+11.7654 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'imageFile': 'same/129_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+11.7774 	DATA 	Keypress: right
+11.7837 	INFO 	Keyboard events cleared
+11.7834 	EXP 	image: autoDraw = False
+11.7834 	EXP 	same_text: autoDraw = False
+11.7834 	EXP 	different_text: autoDraw = False
+11.7834 	EXP 	image: image = 'same/129_C2_DV.jpg'
+11.7834 	EXP 	image: autoDraw = True
+11.7834 	EXP 	same_text: autoDraw = True
+11.7834 	EXP 	different_text: autoDraw = True
+11.8991 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'imageFile': 'same/136_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+11.9149 	DATA 	Keypress: left
+11.9203 	INFO 	Keyboard events cleared
+11.9199 	EXP 	image: autoDraw = False
+11.9199 	EXP 	same_text: autoDraw = False
+11.9199 	EXP 	different_text: autoDraw = False
+11.9199 	EXP 	image: image = 'same/136_C2_DV.jpg'
+11.9199 	EXP 	image: autoDraw = True
+11.9199 	EXP 	same_text: autoDraw = True
+11.9199 	EXP 	different_text: autoDraw = True
+12.0324 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'imageFile': 'same/139_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+12.0459 	DATA 	Keypress: right
+12.0515 	INFO 	Keyboard events cleared
+12.0511 	EXP 	image: autoDraw = False
+12.0511 	EXP 	same_text: autoDraw = False
+12.0511 	EXP 	different_text: autoDraw = False
+12.0511 	EXP 	image: image = 'same/139_DV_C2.jpg'
+12.0511 	EXP 	image: autoDraw = True
+12.0511 	EXP 	same_text: autoDraw = True
+12.0511 	EXP 	different_text: autoDraw = True
+12.1320 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'imageFile': 'same/168_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+12.1435 	DATA 	Keypress: left
+12.1503 	INFO 	Keyboard events cleared
+12.1499 	EXP 	image: autoDraw = False
+12.1499 	EXP 	same_text: autoDraw = False
+12.1499 	EXP 	different_text: autoDraw = False
+12.1499 	EXP 	image: image = 'same/168_C2_DV.jpg'
+12.1499 	EXP 	image: autoDraw = True
+12.1499 	EXP 	same_text: autoDraw = True
+12.1499 	EXP 	different_text: autoDraw = True
+12.2654 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'imageFile': 'same/170_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+12.2777 	DATA 	Keypress: right
+12.2839 	INFO 	Keyboard events cleared
+12.2835 	EXP 	image: autoDraw = False
+12.2835 	EXP 	same_text: autoDraw = False
+12.2835 	EXP 	different_text: autoDraw = False
+12.2835 	EXP 	image: image = 'same/170_DV_C2.jpg'
+12.2835 	EXP 	image: autoDraw = True
+12.2835 	EXP 	same_text: autoDraw = True
+12.2835 	EXP 	different_text: autoDraw = True
+12.3486 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'imageFile': 'same/235_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+12.3598 	DATA 	Keypress: left
+12.3668 	INFO 	Keyboard events cleared
+12.3664 	EXP 	image: autoDraw = False
+12.3664 	EXP 	same_text: autoDraw = False
+12.3664 	EXP 	different_text: autoDraw = False
+12.3664 	EXP 	image: image = 'same/235_C2_DV.jpg'
+12.3664 	EXP 	image: autoDraw = True
+12.3664 	EXP 	same_text: autoDraw = True
+12.3664 	EXP 	different_text: autoDraw = True
+12.4828 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'imageFile': 'same/303_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180, 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+12.4996 	DATA 	Keypress: right
+12.5050 	INFO 	Keyboard events cleared
+12.5046 	EXP 	image: autoDraw = False
+12.5046 	EXP 	same_text: autoDraw = False
+12.5046 	EXP 	different_text: autoDraw = False
+12.5046 	EXP 	image: image = 'same/303_DV_C2.jpg'
+12.5046 	EXP 	image: autoDraw = True
+12.5046 	EXP 	same_text: autoDraw = True
+12.5046 	EXP 	different_text: autoDraw = True
+12.5654 	EXP 	New trial (rep=0, index=60): <Trial 60 (60 in rep 0) data={'imageFile': 'different/013_235_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 60, 'thisTrialN': 60, 'thisRepN': 0}>
+12.5774 	DATA 	Keypress: left
+12.5830 	INFO 	Keyboard events cleared
+12.5826 	EXP 	image: autoDraw = False
+12.5826 	EXP 	same_text: autoDraw = False
+12.5826 	EXP 	different_text: autoDraw = False
+12.5826 	EXP 	image: image = 'different/013_235_R.jpg'
+12.5826 	EXP 	image: autoDraw = True
+12.5826 	EXP 	same_text: autoDraw = True
+12.5826 	EXP 	different_text: autoDraw = True
+12.7147 	EXP 	New trial (rep=0, index=61): <Trial 61 (61 in rep 0) data={'imageFile': 'different/019_074_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 61, 'thisTrialN': 61, 'thisRepN': 0}>
+12.7256 	DATA 	Keypress: right
+12.7308 	INFO 	Keyboard events cleared
+12.7303 	EXP 	image: autoDraw = False
+12.7303 	EXP 	same_text: autoDraw = False
+12.7303 	EXP 	different_text: autoDraw = False
+12.7303 	EXP 	image: image = 'different/019_074_L.jpg'
+12.7303 	EXP 	image: autoDraw = True
+12.7303 	EXP 	same_text: autoDraw = True
+12.7303 	EXP 	different_text: autoDraw = True
+12.7815 	EXP 	New trial (rep=0, index=62): <Trial 62 (62 in rep 0) data={'imageFile': 'different/025_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 62, 'thisTrialN': 62, 'thisRepN': 0}>
+12.7931 	DATA 	Keypress: left
+12.7971 	INFO 	Keyboard events cleared
+12.7968 	EXP 	image: autoDraw = False
+12.7968 	EXP 	same_text: autoDraw = False
+12.7968 	EXP 	different_text: autoDraw = False
+12.7968 	EXP 	image: image = 'different/025_235_L.jpg'
+12.7968 	EXP 	image: autoDraw = True
+12.7968 	EXP 	same_text: autoDraw = True
+12.7968 	EXP 	different_text: autoDraw = True
+12.9982 	EXP 	New trial (rep=0, index=63): <Trial 63 (63 in rep 0) data={'imageFile': 'different/049_218_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 63, 'thisTrialN': 63, 'thisRepN': 0}>
+13.0083 	DATA 	Keypress: left
+13.0141 	INFO 	Keyboard events cleared
+13.0138 	EXP 	image: autoDraw = False
+13.0138 	EXP 	same_text: autoDraw = False
+13.0138 	EXP 	different_text: autoDraw = False
+13.0138 	EXP 	image: image = 'different/049_218_L.jpg'
+13.0138 	EXP 	image: autoDraw = True
+13.0138 	EXP 	same_text: autoDraw = True
+13.0138 	EXP 	different_text: autoDraw = True
+13.1356 	DATA 	Keypress: left
+13.1505 	EXP 	New trial (rep=0, index=64): <Trial 64 (64 in rep 0) data={'imageFile': 'different/076_109_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 64, 'thisTrialN': 64, 'thisRepN': 0}>
+13.1758 	INFO 	Keyboard events cleared
+13.1754 	EXP 	image: autoDraw = False
+13.1754 	EXP 	same_text: autoDraw = False
+13.1754 	EXP 	different_text: autoDraw = False
+13.1754 	EXP 	image: image = 'different/076_109_R.jpg'
+13.1754 	EXP 	image: autoDraw = True
+13.1754 	EXP 	same_text: autoDraw = True
+13.1754 	EXP 	different_text: autoDraw = True
+13.3314 	EXP 	New trial (rep=0, index=65): <Trial 65 (65 in rep 0) data={'imageFile': 'different/077_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 65, 'thisTrialN': 65, 'thisRepN': 0}>
+13.3415 	DATA 	Keypress: left
+13.3471 	INFO 	Keyboard events cleared
+13.3467 	EXP 	image: autoDraw = False
+13.3467 	EXP 	same_text: autoDraw = False
+13.3467 	EXP 	different_text: autoDraw = False
+13.3467 	EXP 	image: image = 'different/077_133_R.jpg'
+13.3467 	EXP 	image: autoDraw = True
+13.3467 	EXP 	same_text: autoDraw = True
+13.3467 	EXP 	different_text: autoDraw = True
+13.4479 	EXP 	New trial (rep=0, index=66): <Trial 66 (66 in rep 0) data={'imageFile': 'different/091_283_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 66, 'thisTrialN': 66, 'thisRepN': 0}>
+13.4588 	DATA 	Keypress: right
+13.4640 	INFO 	Keyboard events cleared
+13.4636 	EXP 	image: autoDraw = False
+13.4636 	EXP 	same_text: autoDraw = False
+13.4636 	EXP 	different_text: autoDraw = False
+13.4636 	EXP 	image: image = 'different/091_283_R.jpg'
+13.4636 	EXP 	image: autoDraw = True
+13.4636 	EXP 	same_text: autoDraw = True
+13.4636 	EXP 	different_text: autoDraw = True
+13.5315 	EXP 	New trial (rep=0, index=67): <Trial 67 (67 in rep 0) data={'imageFile': 'different/092_283_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 67, 'thisTrialN': 67, 'thisRepN': 0}>
+13.5419 	DATA 	Keypress: left
+13.5470 	INFO 	Keyboard events cleared
+13.5467 	EXP 	image: autoDraw = False
+13.5467 	EXP 	same_text: autoDraw = False
+13.5467 	EXP 	different_text: autoDraw = False
+13.5467 	EXP 	image: image = 'different/092_283_L.jpg'
+13.5467 	EXP 	image: autoDraw = True
+13.5467 	EXP 	same_text: autoDraw = True
+13.5467 	EXP 	different_text: autoDraw = True
+13.6646 	EXP 	New trial (rep=0, index=68): <Trial 68 (68 in rep 0) data={'imageFile': 'different/102_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 68, 'thisTrialN': 68, 'thisRepN': 0}>
+13.6749 	DATA 	Keypress: right
+13.6806 	INFO 	Keyboard events cleared
+13.6803 	EXP 	image: autoDraw = False
+13.6803 	EXP 	same_text: autoDraw = False
+13.6803 	EXP 	different_text: autoDraw = False
+13.6803 	EXP 	image: image = 'different/102_224_R.jpg'
+13.6803 	EXP 	image: autoDraw = True
+13.6803 	EXP 	same_text: autoDraw = True
+13.6803 	EXP 	different_text: autoDraw = True
+13.7325 	DATA 	Keypress: left
+13.7477 	EXP 	New trial (rep=0, index=69): <Trial 69 (69 in rep 0) data={'imageFile': 'different/106_224_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 69, 'thisTrialN': 69, 'thisRepN': 0}>
+13.7637 	INFO 	Keyboard events cleared
+13.7633 	EXP 	image: autoDraw = False
+13.7633 	EXP 	same_text: autoDraw = False
+13.7633 	EXP 	different_text: autoDraw = False
+13.7633 	EXP 	image: image = 'different/106_224_L.jpg'
+13.7633 	EXP 	image: autoDraw = True
+13.7633 	EXP 	same_text: autoDraw = True
+13.7633 	EXP 	different_text: autoDraw = True
+13.8812 	EXP 	New trial (rep=0, index=70): <Trial 70 (70 in rep 0) data={'imageFile': 'different/116_067_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 70, 'thisTrialN': 70, 'thisRepN': 0}>
+13.8914 	DATA 	Keypress: right
+13.8973 	INFO 	Keyboard events cleared
+13.8969 	EXP 	image: autoDraw = False
+13.8969 	EXP 	same_text: autoDraw = False
+13.8969 	EXP 	different_text: autoDraw = False
+13.8969 	EXP 	image: image = 'different/116_067_R.jpg'
+13.8969 	EXP 	image: autoDraw = True
+13.8969 	EXP 	same_text: autoDraw = True
+13.8969 	EXP 	different_text: autoDraw = True
+14.0147 	EXP 	New trial (rep=0, index=71): <Trial 71 (71 in rep 0) data={'imageFile': 'different/120_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 71, 'thisTrialN': 71, 'thisRepN': 0}>
+14.0271 	DATA 	Keypress: left
+14.0304 	INFO 	Keyboard events cleared
+14.0300 	EXP 	image: autoDraw = False
+14.0300 	EXP 	same_text: autoDraw = False
+14.0300 	EXP 	different_text: autoDraw = False
+14.0300 	EXP 	image: image = 'different/120_133_R.jpg'
+14.0300 	EXP 	image: autoDraw = True
+14.0300 	EXP 	same_text: autoDraw = True
+14.0300 	EXP 	different_text: autoDraw = True
+14.1323 	DATA 	Keypress: right
+14.1479 	EXP 	New trial (rep=0, index=72): <Trial 72 (72 in rep 0) data={'imageFile': 'different/132_210_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 72, 'thisTrialN': 72, 'thisRepN': 0}>
+14.1637 	INFO 	Keyboard events cleared
+14.1634 	EXP 	image: autoDraw = False
+14.1634 	EXP 	same_text: autoDraw = False
+14.1634 	EXP 	different_text: autoDraw = False
+14.1634 	EXP 	image: image = 'different/132_210_R.jpg'
+14.1634 	EXP 	image: autoDraw = True
+14.1634 	EXP 	same_text: autoDraw = True
+14.1634 	EXP 	different_text: autoDraw = True
+14.2476 	EXP 	New trial (rep=0, index=73): <Trial 73 (73 in rep 0) data={'imageFile': 'different/143_254_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 73, 'thisTrialN': 73, 'thisRepN': 0}>
+14.2577 	DATA 	Keypress: left
+14.2636 	INFO 	Keyboard events cleared
+14.2633 	EXP 	image: autoDraw = False
+14.2633 	EXP 	same_text: autoDraw = False
+14.2633 	EXP 	different_text: autoDraw = False
+14.2633 	EXP 	image: image = 'different/143_254_R.jpg'
+14.2633 	EXP 	image: autoDraw = True
+14.2633 	EXP 	same_text: autoDraw = True
+14.2633 	EXP 	different_text: autoDraw = True
+14.3979 	EXP 	New trial (rep=0, index=74): <Trial 74 (74 in rep 0) data={'imageFile': 'different/209_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 74, 'thisTrialN': 74, 'thisRepN': 0}>
+14.4080 	DATA 	Keypress: right
+14.4138 	INFO 	Keyboard events cleared
+14.4134 	EXP 	image: autoDraw = False
+14.4134 	EXP 	same_text: autoDraw = False
+14.4134 	EXP 	different_text: autoDraw = False
+14.4134 	EXP 	image: image = 'different/209_224_R.jpg'
+14.4134 	EXP 	image: autoDraw = True
+14.4134 	EXP 	same_text: autoDraw = True
+14.4134 	EXP 	different_text: autoDraw = True
+14.4810 	EXP 	New trial (rep=0, index=75): <Trial 75 (75 in rep 0) data={'imageFile': 'different/254_287_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 75, 'thisTrialN': 75, 'thisRepN': 0}>
+14.4910 	DATA 	Keypress: left
+14.4971 	INFO 	Keyboard events cleared
+14.4968 	EXP 	image: autoDraw = False
+14.4968 	EXP 	same_text: autoDraw = False
+14.4968 	EXP 	different_text: autoDraw = False
+14.4968 	EXP 	image: image = 'different/254_287_L.jpg'
+14.4968 	EXP 	image: autoDraw = True
+14.4968 	EXP 	same_text: autoDraw = True
+14.4968 	EXP 	different_text: autoDraw = True
+14.6146 	EXP 	New trial (rep=0, index=76): <Trial 76 (76 in rep 0) data={'imageFile': 'different/261_254_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 76, 'thisTrialN': 76, 'thisRepN': 0}>
+14.6233 	DATA 	Keypress: right
+14.6303 	INFO 	Keyboard events cleared
+14.6300 	EXP 	image: autoDraw = False
+14.6300 	EXP 	same_text: autoDraw = False
+14.6300 	EXP 	different_text: autoDraw = False
+14.6300 	EXP 	image: image = 'different/261_254_L.jpg'
+14.6300 	EXP 	image: autoDraw = True
+14.6300 	EXP 	same_text: autoDraw = True
+14.6300 	EXP 	different_text: autoDraw = True
+14.6981 	EXP 	New trial (rep=0, index=77): <Trial 77 (77 in rep 0) data={'imageFile': 'different/282_108_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 77, 'thisTrialN': 77, 'thisRepN': 0}>
+14.7081 	DATA 	Keypress: left
+14.7136 	INFO 	Keyboard events cleared
+14.7132 	EXP 	image: autoDraw = False
+14.7132 	EXP 	same_text: autoDraw = False
+14.7132 	EXP 	different_text: autoDraw = False
+14.7132 	EXP 	image: image = 'different/282_108_R.jpg'
+14.7132 	EXP 	image: autoDraw = True
+14.7132 	EXP 	same_text: autoDraw = True
+14.7132 	EXP 	different_text: autoDraw = True
+14.8310 	EXP 	New trial (rep=0, index=78): <Trial 78 (78 in rep 0) data={'imageFile': 'different/296_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 78, 'thisTrialN': 78, 'thisRepN': 0}>
+14.8412 	DATA 	Keypress: right
+14.8471 	INFO 	Keyboard events cleared
+14.8467 	EXP 	image: autoDraw = False
+14.8467 	EXP 	same_text: autoDraw = False
+14.8467 	EXP 	different_text: autoDraw = False
+14.8467 	EXP 	image: image = 'different/296_235_L.jpg'
+14.8467 	EXP 	image: autoDraw = True
+14.8467 	EXP 	same_text: autoDraw = True
+14.8467 	EXP 	different_text: autoDraw = True
+14.9143 	EXP 	New trial (rep=0, index=79): <Trial 79 (79 in rep 0) data={'imageFile': 'different/303_037_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180, 'thisN': 79, 'thisTrialN': 79, 'thisRepN': 0}>
+14.9244 	DATA 	Keypress: left
+14.9302 	INFO 	Keyboard events cleared
+14.9299 	EXP 	image: autoDraw = False
+14.9299 	EXP 	same_text: autoDraw = False
+14.9299 	EXP 	different_text: autoDraw = False
+14.9299 	EXP 	image: image = 'different/303_037_R.jpg'
+14.9299 	EXP 	image: autoDraw = True
+14.9299 	EXP 	same_text: autoDraw = True
+14.9299 	EXP 	different_text: autoDraw = True
+15.0332 	DATA 	Keypress: right
+15.0462 	EXP 	image: autoDraw = False
+15.0462 	EXP 	same_text: autoDraw = False
+15.0462 	EXP 	different_text: autoDraw = False
+15.0462 	EXP 	thank_you_message: autoDraw = True
+15.1310 	DATA 	Keypress: left
+15.2477 	DATA 	Keypress: right
+15.3311 	DATA 	Keypress: left
+16.0143 	DATA 	Keypress: space
+20.0456 	EXP 	thank_you_message: autoDraw = False
+20.0456 	EXP 	thank_you_message: autoDraw = False
+20.0457 	EXP 	glasgowFaceRecognition-Yagmur: status = STOPPED
+20.1501 	INFO 	saved data to 'C:\\Users\\duruk\\Desktop\\Odev\\StroopOdev\\glasgowFaceRecognition\\glasgowFaceRecognition-Yagmur\\data/998313___glasgowFaceRecognition-Yagmur_2024-12-26_22h25.22.668.csv'
+20.1515 	INFO 	saved data to C:\Users\duruk\Desktop\Odev\StroopOdev\glasgowFaceRecognition\glasgowFaceRecognition-Yagmur\data/998313___glasgowFaceRecognition-Yagmur_2024-12-26_22h25.22.668.psydat
